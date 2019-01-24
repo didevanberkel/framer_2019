@@ -1,5 +1,5 @@
 //
-//  PickDeviceCell.swift
+//  SelectDeviceCell.swift
 //  Framer
 //
 //  Created by Dide van Berkel on 23/01/2019.
@@ -8,8 +8,12 @@
 
 import UIKit
 
-class PickDeviceCell: UITableViewCell {
+class SelectDeviceCell: UITableViewCell {
 
+    @IBOutlet weak var selectDeviceImage: UIImageView!
+    @IBOutlet weak var selectDeviceTitle: UILabel!
+    @IBOutlet weak var selectDeviceSubtitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,6 +23,13 @@ class PickDeviceCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func setupCell(image: UIImage, title: String, subtitle: String) {
+        
+        selectDeviceImage.image = image
+        selectDeviceTitle.text = title
+        selectDeviceSubtitle.text = subtitle
     }
     
 }

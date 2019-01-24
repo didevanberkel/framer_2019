@@ -8,13 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AA42A6AD21F4EE0000F9BC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6AC21F4EE0000F9BC57 /* AppDelegate.swift */; };
-		AA42A6AF21F4EE0000F9BC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6AE21F4EE0000F9BC57 /* ViewController.swift */; };
+		AA42A6AF21F4EE0000F9BC57 /* SelectTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6AE21F4EE0000F9BC57 /* SelectTemplateViewController.swift */; };
 		AA42A6B221F4EE0000F9BC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6B021F4EE0000F9BC57 /* Main.storyboard */; };
 		AA42A6B521F4EE0000F9BC57 /* Framer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6B321F4EE0000F9BC57 /* Framer.xcdatamodeld */; };
 		AA42A6B721F4EE0200F9BC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6B621F4EE0200F9BC57 /* Assets.xcassets */; };
 		AA42A6BA21F4EE0200F9BC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6B821F4EE0200F9BC57 /* LaunchScreen.storyboard */; };
 		AA42A6C521F4EE0200F9BC57 /* FramerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6C421F4EE0200F9BC57 /* FramerTests.swift */; };
 		AA42A6D021F4EE0200F9BC57 /* FramerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6CF21F4EE0200F9BC57 /* FramerUITests.swift */; };
+		AA42A6E421F4F03500F9BC57 /* SelectTemplate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6E321F4F03500F9BC57 /* SelectTemplate.storyboard */; };
+		AA42A6E821F4F08600F9BC57 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6E721F4F08600F9BC57 /* Home.storyboard */; };
+		AA42A6EA21F4F0B800F9BC57 /* SelectText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6E921F4F0B800F9BC57 /* SelectText.storyboard */; };
+		AA42A6EC21F4F15E00F9BC57 /* SelectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6EB21F4F15E00F9BC57 /* SelectDeviceViewController.swift */; };
+		AA42A6EE21F4F18500F9BC57 /* SelectBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6ED21F4F18500F9BC57 /* SelectBackgroundViewController.swift */; };
+		AA42A6F021F4F19700F9BC57 /* SelectTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6EF21F4F19700F9BC57 /* SelectTextViewController.swift */; };
+		AA42A6F221F4F1D600F9BC57 /* SelectImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6F121F4F1D600F9BC57 /* SelectImage.storyboard */; };
+		AA42A6F421F4F1F200F9BC57 /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6F321F4F1F200F9BC57 /* SelectImageViewController.swift */; };
+		AACC28CA21F7A8E90093CCB1 /* iPhone65FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC28C921F7A8E90093CCB1 /* iPhone65FullView.swift */; };
+		AACC28CC21F7A9080093CCB1 /* iPhone65FullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACC28CB21F7A9080093CCB1 /* iPhone65FullView.xib */; };
+		AACC28CF21F7BCD60093CCB1 /* iPhone55FullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACC28CE21F7BCD60093CCB1 /* iPhone55FullView.xib */; };
+		AACC28D121F7BCE90093CCB1 /* iPhone55FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC28D021F7BCE90093CCB1 /* iPhone55FullView.swift */; };
+		AAD5D30321F8EE94008C88B1 /* secondGeniPad129FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D30221F8EE94008C88B1 /* secondGeniPad129FullView.swift */; };
+		AAD5D30521F8EEA4008C88B1 /* secondGeniPad129FullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD5D30421F8EEA4008C88B1 /* secondGeniPad129FullView.xib */; };
+		AAD5D30821F8EF02008C88B1 /* thirdGeniPad129FullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD5D30721F8EF02008C88B1 /* thirdGeniPad129FullView.xib */; };
+		AAD5D30A21F8EF11008C88B1 /* thirdGeniPad129FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D30921F8EF11008C88B1 /* thirdGeniPad129FullView.swift */; };
+		AAD5D30F21F8FD48008C88B1 /* SelectDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D30D21F8FD48008C88B1 /* SelectDeviceCell.swift */; };
+		AAD5D31021F8FD48008C88B1 /* SelectDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD5D30E21F8FD48008C88B1 /* SelectDeviceCell.xib */; };
+		AAD5D31221F9002F008C88B1 /* SelectDeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31121F9002F008C88B1 /* SelectDeviceHelper.swift */; };
+		AAD5D31421F90070008C88B1 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31321F90070008C88B1 /* DeviceModel.swift */; };
+		AAD5D31621FA427E008C88B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31521FA427E008C88B1 /* HomeViewController.swift */; };
+		AAD5D31821FA436E008C88B1 /* SelectBackground.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD5D31721FA436E008C88B1 /* SelectBackground.storyboard */; };
+		AAD5D31A21FA43FC008C88B1 /* UIStoryboardEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31921FA43FC008C88B1 /* UIStoryboardEx.swift */; };
+		AAD5D31C21FA444D008C88B1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31B21FA444D008C88B1 /* TabBarController.swift */; };
+		AAD5D31E21FA4B48008C88B1 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31D21FA4B48008C88B1 /* ApplicationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +62,7 @@
 /* Begin PBXFileReference section */
 		AA42A6A921F4EE0000F9BC57 /* Framer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Framer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA42A6AC21F4EE0000F9BC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA42A6AE21F4EE0000F9BC57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA42A6AE21F4EE0000F9BC57 /* SelectTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTemplateViewController.swift; sourceTree = "<group>"; };
 		AA42A6B121F4EE0000F9BC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA42A6B421F4EE0000F9BC57 /* Framer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Framer.xcdatamodel; sourceTree = "<group>"; };
 		AA42A6B621F4EE0200F9BC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +74,31 @@
 		AA42A6CB21F4EE0200F9BC57 /* FramerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FramerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA42A6CF21F4EE0200F9BC57 /* FramerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramerUITests.swift; sourceTree = "<group>"; };
 		AA42A6D121F4EE0200F9BC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA42A6E321F4F03500F9BC57 /* SelectTemplate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTemplate.storyboard; sourceTree = "<group>"; };
+		AA42A6E721F4F08600F9BC57 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		AA42A6E921F4F0B800F9BC57 /* SelectText.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectText.storyboard; sourceTree = "<group>"; };
+		AA42A6EB21F4F15E00F9BC57 /* SelectDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceViewController.swift; sourceTree = "<group>"; };
+		AA42A6ED21F4F18500F9BC57 /* SelectBackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBackgroundViewController.swift; sourceTree = "<group>"; };
+		AA42A6EF21F4F19700F9BC57 /* SelectTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextViewController.swift; sourceTree = "<group>"; };
+		AA42A6F121F4F1D600F9BC57 /* SelectImage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectImage.storyboard; sourceTree = "<group>"; };
+		AA42A6F321F4F1F200F9BC57 /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		AACC28C921F7A8E90093CCB1 /* iPhone65FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone65FullView.swift; sourceTree = "<group>"; };
+		AACC28CB21F7A9080093CCB1 /* iPhone65FullView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone65FullView.xib; sourceTree = "<group>"; };
+		AACC28CE21F7BCD60093CCB1 /* iPhone55FullView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone55FullView.xib; sourceTree = "<group>"; };
+		AACC28D021F7BCE90093CCB1 /* iPhone55FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone55FullView.swift; sourceTree = "<group>"; };
+		AAD5D30221F8EE94008C88B1 /* secondGeniPad129FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondGeniPad129FullView.swift; sourceTree = "<group>"; };
+		AAD5D30421F8EEA4008C88B1 /* secondGeniPad129FullView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondGeniPad129FullView.xib; sourceTree = "<group>"; };
+		AAD5D30721F8EF02008C88B1 /* thirdGeniPad129FullView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdGeniPad129FullView.xib; sourceTree = "<group>"; };
+		AAD5D30921F8EF11008C88B1 /* thirdGeniPad129FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129FullView.swift; sourceTree = "<group>"; };
+		AAD5D30D21F8FD48008C88B1 /* SelectDeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceCell.swift; sourceTree = "<group>"; };
+		AAD5D30E21F8FD48008C88B1 /* SelectDeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectDeviceCell.xib; sourceTree = "<group>"; };
+		AAD5D31121F9002F008C88B1 /* SelectDeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceHelper.swift; sourceTree = "<group>"; };
+		AAD5D31321F90070008C88B1 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		AAD5D31521FA427E008C88B1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AAD5D31721FA436E008C88B1 /* SelectBackground.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectBackground.storyboard; sourceTree = "<group>"; };
+		AAD5D31921FA43FC008C88B1 /* UIStoryboardEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardEx.swift; sourceTree = "<group>"; };
+		AAD5D31B21FA444D008C88B1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AAD5D31D21FA4B48008C88B1 /* ApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +150,13 @@
 			isa = PBXGroup;
 			children = (
 				AA42A6AC21F4EE0000F9BC57 /* AppDelegate.swift */,
-				AA42A6AE21F4EE0000F9BC57 /* ViewController.swift */,
-				AA42A6B021F4EE0000F9BC57 /* Main.storyboard */,
-				AA42A6B621F4EE0200F9BC57 /* Assets.xcassets */,
-				AA42A6B821F4EE0200F9BC57 /* LaunchScreen.storyboard */,
-				AA42A6BB21F4EE0200F9BC57 /* Info.plist */,
-				AA42A6B321F4EE0000F9BC57 /* Framer.xcdatamodeld */,
+				AAD5D31D21FA4B48008C88B1 /* ApplicationController.swift */,
+				AA42A6DF21F4EE1C00F9BC57 /* Model */,
+				AA42A6DE21F4EE1700F9BC57 /* View */,
+				AA42A6DD21F4EE1200F9BC57 /* Controller */,
+				AA42A6E121F4EE2500F9BC57 /* Helpers */,
+				AA42A6E021F4EE2100F9BC57 /* Extensions */,
+				AA42A6E221F4EE3300F9BC57 /* Resources */,
 			);
 			path = Framer;
 			sourceTree = "<group>";
@@ -126,6 +177,174 @@
 				AA42A6D121F4EE0200F9BC57 /* Info.plist */,
 			);
 			path = FramerUITests;
+			sourceTree = "<group>";
+		};
+		AA42A6DD21F4EE1200F9BC57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D31521FA427E008C88B1 /* HomeViewController.swift */,
+				AA42A6F521F4F43A00F9BC57 /* Template */,
+				AA42A6F921F4F45F00F9BC57 /* Device */,
+				AA42A6F821F4F45600F9BC57 /* Background */,
+				AA42A6F721F4F44D00F9BC57 /* Text */,
+				AA42A6F621F4F44300F9BC57 /* Image */,
+				AAD5D31B21FA444D008C88B1 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA42A6DE21F4EE1700F9BC57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D30C21F8FD22008C88B1 /* Devices */,
+				AAD5D30B21F8FD1C008C88B1 /* Cells */,
+				AA42A6B821F4EE0200F9BC57 /* LaunchScreen.storyboard */,
+				AA42A6B021F4EE0000F9BC57 /* Main.storyboard */,
+				AA42A6FA21F4F46E00F9BC57 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA42A6DF21F4EE1C00F9BC57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6B321F4EE0000F9BC57 /* Framer.xcdatamodeld */,
+				AAD5D31321F90070008C88B1 /* DeviceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA42A6E021F4EE2100F9BC57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D31921FA43FC008C88B1 /* UIStoryboardEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA42A6E121F4EE2500F9BC57 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D31121F9002F008C88B1 /* SelectDeviceHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AA42A6E221F4EE3300F9BC57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6B621F4EE0200F9BC57 /* Assets.xcassets */,
+				AA42A6BB21F4EE0200F9BC57 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA42A6F521F4F43A00F9BC57 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6AE21F4EE0000F9BC57 /* SelectTemplateViewController.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		AA42A6F621F4F44300F9BC57 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6F321F4F1F200F9BC57 /* SelectImageViewController.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		AA42A6F721F4F44D00F9BC57 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6EF21F4F19700F9BC57 /* SelectTextViewController.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		AA42A6F821F4F45600F9BC57 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6ED21F4F18500F9BC57 /* SelectBackgroundViewController.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		AA42A6F921F4F45F00F9BC57 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6EB21F4F15E00F9BC57 /* SelectDeviceViewController.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		AA42A6FA21F4F46E00F9BC57 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AA42A6E321F4F03500F9BC57 /* SelectTemplate.storyboard */,
+				AA42A6E721F4F08600F9BC57 /* Home.storyboard */,
+				AA42A6E921F4F0B800F9BC57 /* SelectText.storyboard */,
+				AA42A6F121F4F1D600F9BC57 /* SelectImage.storyboard */,
+				AAD5D31721FA436E008C88B1 /* SelectBackground.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AACC28C821F7A8B30093CCB1 /* iPhone-6.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACC28C921F7A8E90093CCB1 /* iPhone65FullView.swift */,
+				AACC28CB21F7A9080093CCB1 /* iPhone65FullView.xib */,
+			);
+			path = "iPhone-6.5-inch";
+			sourceTree = "<group>";
+		};
+		AACC28CD21F7BCA80093CCB1 /* iPhone-5.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACC28D021F7BCE90093CCB1 /* iPhone55FullView.swift */,
+				AACC28CE21F7BCD60093CCB1 /* iPhone55FullView.xib */,
+			);
+			path = "iPhone-5.5-inch";
+			sourceTree = "<group>";
+		};
+		AAD5D30121F8EE69008C88B1 /* iPad-12.9-inch-2ndGen */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D30221F8EE94008C88B1 /* secondGeniPad129FullView.swift */,
+				AAD5D30421F8EEA4008C88B1 /* secondGeniPad129FullView.xib */,
+			);
+			path = "iPad-12.9-inch-2ndGen";
+			sourceTree = "<group>";
+		};
+		AAD5D30621F8EED7008C88B1 /* iPad-12.9-inch-3rdGen */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D30921F8EF11008C88B1 /* thirdGeniPad129FullView.swift */,
+				AAD5D30721F8EF02008C88B1 /* thirdGeniPad129FullView.xib */,
+			);
+			path = "iPad-12.9-inch-3rdGen";
+			sourceTree = "<group>";
+		};
+		AAD5D30B21F8FD1C008C88B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5D30D21F8FD48008C88B1 /* SelectDeviceCell.swift */,
+				AAD5D30E21F8FD48008C88B1 /* SelectDeviceCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AAD5D30C21F8FD22008C88B1 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				AACC28C821F7A8B30093CCB1 /* iPhone-6.5-inch */,
+				AACC28CD21F7BCA80093CCB1 /* iPhone-5.5-inch */,
+				AAD5D30121F8EE69008C88B1 /* iPad-12.9-inch-2ndGen */,
+				AAD5D30621F8EED7008C88B1 /* iPad-12.9-inch-3rdGen */,
+			);
+			path = Devices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +451,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA42A6F221F4F1D600F9BC57 /* SelectImage.storyboard in Resources */,
+				AAD5D31021F8FD48008C88B1 /* SelectDeviceCell.xib in Resources */,
+				AAD5D30821F8EF02008C88B1 /* thirdGeniPad129FullView.xib in Resources */,
+				AAD5D30521F8EEA4008C88B1 /* secondGeniPad129FullView.xib in Resources */,
+				AA42A6EA21F4F0B800F9BC57 /* SelectText.storyboard in Resources */,
 				AA42A6BA21F4EE0200F9BC57 /* LaunchScreen.storyboard in Resources */,
+				AACC28CC21F7A9080093CCB1 /* iPhone65FullView.xib in Resources */,
+				AACC28CF21F7BCD60093CCB1 /* iPhone55FullView.xib in Resources */,
 				AA42A6B721F4EE0200F9BC57 /* Assets.xcassets in Resources */,
+				AA42A6E421F4F03500F9BC57 /* SelectTemplate.storyboard in Resources */,
 				AA42A6B221F4EE0000F9BC57 /* Main.storyboard in Resources */,
+				AA42A6E821F4F08600F9BC57 /* Home.storyboard in Resources */,
+				AAD5D31821FA436E008C88B1 /* SelectBackground.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +488,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA42A6AF21F4EE0000F9BC57 /* ViewController.swift in Sources */,
+				AAD5D31E21FA4B48008C88B1 /* ApplicationController.swift in Sources */,
+				AA42A6EE21F4F18500F9BC57 /* SelectBackgroundViewController.swift in Sources */,
+				AACC28CA21F7A8E90093CCB1 /* iPhone65FullView.swift in Sources */,
+				AAD5D30F21F8FD48008C88B1 /* SelectDeviceCell.swift in Sources */,
+				AAD5D31A21FA43FC008C88B1 /* UIStoryboardEx.swift in Sources */,
+				AA42A6F021F4F19700F9BC57 /* SelectTextViewController.swift in Sources */,
+				AA42A6EC21F4F15E00F9BC57 /* SelectDeviceViewController.swift in Sources */,
+				AAD5D31C21FA444D008C88B1 /* TabBarController.swift in Sources */,
+				AAD5D31621FA427E008C88B1 /* HomeViewController.swift in Sources */,
+				AAD5D30321F8EE94008C88B1 /* secondGeniPad129FullView.swift in Sources */,
+				AAD5D30A21F8EF11008C88B1 /* thirdGeniPad129FullView.swift in Sources */,
+				AACC28D121F7BCE90093CCB1 /* iPhone55FullView.swift in Sources */,
+				AA42A6F421F4F1F200F9BC57 /* SelectImageViewController.swift in Sources */,
+				AAD5D31421F90070008C88B1 /* DeviceModel.swift in Sources */,
+				AA42A6AF21F4EE0000F9BC57 /* SelectTemplateViewController.swift in Sources */,
 				AA42A6AD21F4EE0000F9BC57 /* AppDelegate.swift in Sources */,
 				AA42A6B521F4EE0000F9BC57 /* Framer.xcdatamodeld in Sources */,
+				AAD5D31221F9002F008C88B1 /* SelectDeviceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +682,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M7C6U48HK;
-				INFOPLIST_FILE = Framer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Framer/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.didevanberkel.Framer;
+				PRODUCT_BUNDLE_IDENTIFIER = io.didevanberkel.framer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,12 +700,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M7C6U48HK;
-				INFOPLIST_FILE = Framer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Framer/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.didevanberkel.Framer;
+				PRODUCT_BUNDLE_IDENTIFIER = io.didevanberkel.framer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

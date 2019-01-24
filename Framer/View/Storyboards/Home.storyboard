@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="slu-GW-ey2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,51 +10,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Select Background View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="pgM-gO-ro4">
             <objects>
-                <viewController storyboardIdentifier="SelectBackgroundViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BJn-Zm-KMM" customClass="SelectBackgroundViewController" customModule="Framer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BJn-Zm-KMM" customClass="HomeViewController" customModule="Framer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0pi-FQ-8qE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphoneX" translatesAutoresizingMaskIntoConstraints="NO" id="UHN-cK-Ecl">
-                                <rect key="frame" x="46.5" y="80" width="282" height="579"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfS-wi-VTV">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem tag="1" title="Template" id="oxj-XJ-rsw"/>
+                                    <tabBarItem tag="2" title="Background" id="C8d-T9-NPy"/>
+                                    <tabBarItem tag="3" title="Image" id="qFz-4D-4Jg"/>
+                                    <tabBarItem tag="4" title="Text" id="e4V-M1-vz7"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ijb-yM-Ai6" firstAttribute="bottom" secondItem="UfS-wi-VTV" secondAttribute="bottom" id="7CT-uH-EeX"/>
+                            <constraint firstItem="UfS-wi-VTV" firstAttribute="trailing" secondItem="ijb-yM-Ai6" secondAttribute="trailing" id="PLt-YG-Nki"/>
+                            <constraint firstItem="UfS-wi-VTV" firstAttribute="leading" secondItem="ijb-yM-Ai6" secondAttribute="leading" id="hYt-gH-i2W"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ijb-yM-Ai6"/>
                     </view>
                     <navigationItem key="navigationItem" id="zvB-Wg-y5u"/>
+                    <connections>
+                        <outlet property="tabBar" destination="UfS-wi-VTV" id="bOv-Sk-xyo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHR-es-nm7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039.2" y="151.57421289355324"/>
+            <point key="canvasLocation" x="1978.4000000000001" y="151.57421289355324"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="rgn-l5-T2y">
+        <scene sceneID="v71-rH-ir7">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="slu-GW-ey2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="devices" landscapeImage="devices" largeContentSizeImage="devices" id="kyf-lv-1vp"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HLX-7b-oUd" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QsB-IJ-Rnd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pee-V0-N3J">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BJn-Zm-KMM" kind="relationship" relationship="rootViewController" id="BNo-UP-Jon"/>
+                        <segue destination="BJn-Zm-KMM" kind="relationship" relationship="rootViewController" id="PyH-jQ-C3X"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FJC-Au-5Zp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCq-1H-z8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="151.57421289355324"/>
+            <point key="canvasLocation" x="1039.2" y="151.57421289355324"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="devices" width="25" height="25"/>
-        <image name="iphoneX" width="539" height="1168"/>
-    </resources>
 </document>

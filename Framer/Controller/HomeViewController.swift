@@ -10,21 +10,44 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var tabBar: UITabBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        tabBar.delegate = self
+        navigationItem.title = "Home"
     }
+
+}
+
+extension HomeViewController: UITabBarDelegate {
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        switch item.tag {
+        case 1:
+            guard let vc = UIStoryboard.template().instantiateViewController(withIdentifier: "SelectTemplateViewController") as? SelectTemplateViewController else {
+                return
+            }
+            navigationController?.present(vc, animated: true, completion: nil)
+        case 2:
+            guard let vc = UIStoryboard.background().instantiateViewController(withIdentifier: "SelectBackgroundViewController") as? SelectBackgroundViewController else {
+                return
+            }
+            navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            guard let vc = UIStoryboard.image().instantiateViewController(withIdentifier: "SelectImageViewController") as? SelectImageViewController else {
+                return
+            }
+            navigationController?.present(vc, animated: true, completion: nil)
+        case 4:
+            guard let vc = UIStoryboard.text().instantiateViewController(withIdentifier: "SelectTextViewController") as? SelectTextViewController else {
+                return
+            }
+            navigationController?.present(vc, animated: true, completion: nil)
+        default:
+            break
+        }
+        
     }
-    */
-
 }
