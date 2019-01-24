@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SelectTemplateViewController.swift
 //  Framer
 //
 //  Created by Dide van Berkel on 20/01/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SelectTemplateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

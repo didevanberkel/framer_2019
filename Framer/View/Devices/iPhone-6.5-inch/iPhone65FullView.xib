@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iPhone65FullView" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-gold" translatesAutoresizingMaskIntoConstraints="NO" id="Oci-Nb-MN1">
+                    <rect key="frame" x="31" y="16" width="313" height="635"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Oci-Nb-MN1" secondAttribute="height" multiplier="613:1242" id="2vy-DP-loU"/>
+                        <constraint firstAttribute="height" priority="750" constant="1242" id="9XA-IF-uqK"/>
+                        <constraint firstAttribute="width" priority="750" constant="613" id="hfe-UT-Caw"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphoneX" translatesAutoresizingMaskIntoConstraints="NO" id="YCx-5g-INw">
+                    <rect key="frame" x="39" y="32" width="297" height="611"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Oci-Nb-MN1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="E0N-ve-K7E"/>
+                <constraint firstItem="YCx-5g-INw" firstAttribute="leading" secondItem="Oci-Nb-MN1" secondAttribute="leading" constant="8" id="KAq-tu-Nrh"/>
+                <constraint firstItem="YCx-5g-INw" firstAttribute="trailing" secondItem="Oci-Nb-MN1" secondAttribute="trailing" constant="-8" id="M5A-rV-WWU"/>
+                <constraint firstAttribute="bottom" secondItem="Oci-Nb-MN1" secondAttribute="bottom" constant="16" id="XkX-m8-Ifp"/>
+                <constraint firstItem="Oci-Nb-MN1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="fUr-4o-Jbj"/>
+                <constraint firstItem="Oci-Nb-MN1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gA1-G7-EL9"/>
+                <constraint firstItem="YCx-5g-INw" firstAttribute="top" secondItem="Oci-Nb-MN1" secondAttribute="top" constant="16" id="rDu-6G-8EP"/>
+                <constraint firstItem="Oci-Nb-MN1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="sqH-wD-Af1"/>
+                <constraint firstItem="YCx-5g-INw" firstAttribute="bottom" secondItem="Oci-Nb-MN1" secondAttribute="bottom" constant="-8" id="wZP-zB-Pz6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oci-Nb-MN1" secondAttribute="trailing" constant="16" id="zBZ-fw-Ter"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iphone-65-gold" width="1295" height="2590"/>
+        <image name="iphoneX" width="539" height="1168"/>
+    </resources>
+</document>
