@@ -74,7 +74,7 @@ extension HomeViewController: UITabBarDelegate {
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         switch item.tag {
         case 1:
-            guard let vc = UIStoryboard.template().instantiateViewController(withIdentifier: "SelectTemplateViewController") as? SelectTemplateViewController else {
+            guard let vc = UIStoryboard.deviceColor().instantiateViewController(withIdentifier: "SelectDeviceColorViewController") as? SelectDeviceColorViewController else {
                 return
             }
             navigationController?.present(vc, animated: true, completion: nil)

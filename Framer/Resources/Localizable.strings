@@ -12,6 +12,7 @@
 "navbar_device" = "Pick device";
 "navbar_template" = "Pick templates";
 "navbar_home" = "App store image";
+"navbar_color" = "Pick color device";
 
 "button_save" = "Save";
 "button_next" = "Next";

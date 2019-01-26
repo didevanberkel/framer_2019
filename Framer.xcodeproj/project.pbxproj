@@ -99,6 +99,8 @@
 		AAD5D31621FA427E008C88B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31521FA427E008C88B1 /* HomeViewController.swift */; };
 		AAD5D31821FA436E008C88B1 /* SelectBackground.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD5D31721FA436E008C88B1 /* SelectBackground.storyboard */; };
 		AAD5D31A21FA43FC008C88B1 /* UIStoryboardEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31921FA43FC008C88B1 /* UIStoryboardEx.swift */; };
+		AAD8666C21FCEB310069492A /* SelectDeviceColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8666B21FCEB310069492A /* SelectDeviceColorViewController.swift */; };
+		AAD8666E21FCEB3F0069492A /* SelectDeviceColor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD8666D21FCEB3F0069492A /* SelectDeviceColor.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,6 +219,8 @@
 		AAD5D31521FA427E008C88B1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AAD5D31721FA436E008C88B1 /* SelectBackground.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectBackground.storyboard; sourceTree = "<group>"; };
 		AAD5D31921FA43FC008C88B1 /* UIStoryboardEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardEx.swift; sourceTree = "<group>"; };
+		AAD8666B21FCEB310069492A /* SelectDeviceColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceColorViewController.swift; sourceTree = "<group>"; };
+		AAD8666D21FCEB3F0069492A /* SelectDeviceColor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectDeviceColor.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +382,7 @@
 				AA42A6E921F4F0B800F9BC57 /* SelectText.storyboard */,
 				AA42A6F121F4F1D600F9BC57 /* SelectImage.storyboard */,
 				AAD5D31721FA436E008C88B1 /* SelectBackground.storyboard */,
+				AAD8666D21FCEB3F0069492A /* SelectDeviceColor.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				AA42A6ED21F4F18500F9BC57 /* SelectBackgroundViewController.swift */,
 				AA42A6F321F4F1F200F9BC57 /* SelectImageViewController.swift */,
 				AA42A6EF21F4F19700F9BC57 /* SelectTextViewController.swift */,
+				AAD8666B21FCEB310069492A /* SelectDeviceColorViewController.swift */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -896,6 +902,7 @@
 				AAC81D3E21FCB04A00F2B576 /* thirdGeniPad129Screenshot.xib in Resources */,
 				AAC81D8021FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.xib in Resources */,
 				AAC81D3D21FCB04A00F2B576 /* secondGeniPad129Screenshot.xib in Resources */,
+				AAD8666E21FCEB3F0069492A /* SelectDeviceColor.storyboard in Resources */,
 				AAC81D8821FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.xib in Resources */,
 				AA42A6E421F4F03500F9BC57 /* SelectTemplate.storyboard in Resources */,
 				AAC81D7F21FCB30700F2B576 /* iPhone65CaptionBelow.xib in Resources */,
@@ -952,6 +959,7 @@
 				AAC81CDC21FB414600F2B576 /* Enums.swift in Sources */,
 				AAC81D3F21FCB04A00F2B576 /* thirdGeniPad129Screenshot.swift in Sources */,
 				AAC81D8421FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.swift in Sources */,
+				AAD8666C21FCEB310069492A /* SelectDeviceColorViewController.swift in Sources */,
 				AAC81D9621FCB30700F2B576 /* iPhone65CaptionAbove.swift in Sources */,
 				AAC81D8E21FCB30700F2B576 /* iPhone65RotateCaptionBelow.swift in Sources */,
 				AA42A6AF21F4EE0000F9BC57 /* SelectTemplateViewController.swift in Sources */,

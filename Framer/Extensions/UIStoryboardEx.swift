@@ -34,4 +34,8 @@ extension UIStoryboard {
     class func image() -> UIStoryboard {
         return UIStoryboard(name: "SelectImage", bundle: Bundle.main)
     }
+    
+    class func deviceColor() -> UIStoryboard {
+        return UIStoryboard(name: "SelectDeviceColor", bundle: Bundle.main)
+    }
 }
