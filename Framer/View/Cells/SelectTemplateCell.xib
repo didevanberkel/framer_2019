@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectTemplateCell" id="gTV-IL-0wX" customClass="SelectTemplateCell" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="313"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="313"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ik ben twee rgels lang dus ik moet lange tekst maken" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enm-iC-iHZ">
+                        <rect key="frame" x="16" y="263" width="257" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="3hC-bl-CT0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OKU-0P-bQp">
+                        <rect key="frame" x="21" y="16" width="247" height="247"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="OKU-0P-bQp" secondAttribute="height" multiplier="1:1" id="o4x-Fb-0EB"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Enm-iC-iHZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="CRX-iM-8cL"/>
+                <constraint firstAttribute="bottom" secondItem="Enm-iC-iHZ" secondAttribute="bottom" id="KW2-oC-iWp"/>
+                <constraint firstItem="OKU-0P-bQp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="MgG-kF-c7Y"/>
+                <constraint firstAttribute="trailing" secondItem="Enm-iC-iHZ" secondAttribute="trailing" constant="16" id="RnA-p4-tsN"/>
+                <constraint firstItem="Enm-iC-iHZ" firstAttribute="top" secondItem="OKU-0P-bQp" secondAttribute="bottom" id="UmV-vP-gtg"/>
+                <constraint firstItem="OKU-0P-bQp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="guy-7e-jq6"/>
+                <constraint firstItem="OKU-0P-bQp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="lA9-Yc-xz0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="293" height="317"/>
+            <connections>
+                <outlet property="selectTemplateImage" destination="OKU-0P-bQp" id="lMc-s1-4D0"/>
+                <outlet property="selectTemplateTitle" destination="Enm-iC-iHZ" id="Gkq-7k-dh4"/>
+            </connections>
+            <point key="canvasLocation" x="240.80000000000001" y="255.92203898050977"/>
+        </collectionViewCell>
+    </objects>
+</document>

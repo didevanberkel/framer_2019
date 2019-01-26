@@ -9,46 +9,30 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Framer/Controller/HomeViewController.swift"
-            timestampString = "570051631.046104"
+            filePath = "Framer/Controller/Setup/SelectTemplateViewController.swift"
+            timestampString = "570220888.206461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "tabBar(_:didSelect:)"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Framer.HomeViewController.tabBar(_: __C.UITabBar, didSelect: __C.UITabBarItem) -&gt; ()"
-                  moduleName = "Framer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/didevanberkel/Desktop/Framer/Framer/Controller/HomeViewController.swift"
-                  timestampString = "570051160.018742"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "81">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Framer.HomeViewController.tabBar(_: __C.UITabBar, didSelect: __C.UITabBarItem) -&gt; ()"
-                  moduleName = "Framer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/didevanberkel/Desktop/Framer/Framer/Controller/HomeViewController.swift"
-                  timestampString = "570051160.021147"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "158">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Framer/Controller/Setup/SelectTemplateViewController.swift"
+            timestampString = "570220888.206781"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "collectionView(_:didDeselectItemAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Framer
+
+  Created by Dide van Berkel on 25/01/2019.
+  Copyright © 2019 Dide van Berkel. All rights reserved.
+*/
+
+"navbar_background" = "Set background";
+"navbar_image" = "Set image";
+"navbar_text" = "Set font";
+"navbar_device" = "Pick device";
+"navbar_template" = "Pick templates";
+"navbar_home" = "App store image";
+
+"button_save" = "Save";
+"button_next" = "Next";
+
+"template_fulldevice" = "Full device";
+"template_fulldevicecaptionbelow" = "Full device, caption below";
+"template_fulldevicecaptionabove" = "Full device, caption above";
+"template_captionbelow" = "Caption below";
+"template_captionabove" = "Caption above";
+"template_rotatecaptionbelow" = "Rotate, caption below";
+"template_rotatecaptionabove" = "Rotate, caption above";
+"template_screenshot" = "Screenshot";
+"template_screenshotcaptionbelow" = "Screenshot, caption below";
+"template_screenshotcaptionabove" = "Screenshot, caption above";

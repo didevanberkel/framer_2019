@@ -53,6 +53,7 @@
                     <constraint firstAttribute="bottom" secondItem="SGH-db-pqy" secondAttribute="bottom" constant="16" id="uag-z3-gGR"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="selectDeviceImage" destination="SGH-db-pqy" id="z24-ZE-ejR"/>
