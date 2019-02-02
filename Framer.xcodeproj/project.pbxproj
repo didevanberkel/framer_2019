@@ -65,22 +65,22 @@
 		AAC81D7D21FCB30700F2B576 /* secondGeniPad129CaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D4D21FCB30700F2B576 /* secondGeniPad129CaptionBelow.xib */; };
 		AAC81D7E21FCB30700F2B576 /* iPhone65CaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D4F21FCB30700F2B576 /* iPhone65CaptionBelow.swift */; };
 		AAC81D7F21FCB30700F2B576 /* iPhone65CaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5021FCB30700F2B576 /* iPhone65CaptionBelow.xib */; };
-		AAC81D8021FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5321FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.xib */; };
-		AAC81D8121FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5421FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.swift */; };
-		AAC81D8221FCB30700F2B576 /* iPhone55RotateCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5621FCB30700F2B576 /* iPhone55RotateCaptionAbove.swift */; };
-		AAC81D8321FCB30700F2B576 /* iPhone55RotateCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5721FCB30700F2B576 /* iPhone55RotateCaptionAbove.xib */; };
-		AAC81D8421FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5921FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.swift */; };
-		AAC81D8521FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5A21FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.xib */; };
-		AAC81D8621FCB30700F2B576 /* iPhone65RotateCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5C21FCB30700F2B576 /* iPhone65RotateCaptionAbove.swift */; };
-		AAC81D8721FCB30700F2B576 /* iPhone65RotateCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5D21FCB30700F2B576 /* iPhone65RotateCaptionAbove.xib */; };
-		AAC81D8821FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6021FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.xib */; };
-		AAC81D8921FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6121FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.swift */; };
-		AAC81D8A21FCB30700F2B576 /* iPhone55RotateCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6321FCB30700F2B576 /* iPhone55RotateCaptionBelow.swift */; };
-		AAC81D8B21FCB30700F2B576 /* iPhone55RotateCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6421FCB30700F2B576 /* iPhone55RotateCaptionBelow.xib */; };
-		AAC81D8C21FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6621FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.swift */; };
-		AAC81D8D21FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6721FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.xib */; };
-		AAC81D8E21FCB30700F2B576 /* iPhone65RotateCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6921FCB30700F2B576 /* iPhone65RotateCaptionBelow.swift */; };
-		AAC81D8F21FCB30700F2B576 /* iPhone65RotateCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6A21FCB30700F2B576 /* iPhone65RotateCaptionBelow.xib */; };
+		AAC81D8021FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5321FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.xib */; };
+		AAC81D8121FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5421FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.swift */; };
+		AAC81D8221FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5621FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.swift */; };
+		AAC81D8321FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5721FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.xib */; };
+		AAC81D8421FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5921FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.swift */; };
+		AAC81D8521FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5A21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.xib */; };
+		AAC81D8621FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D5C21FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.swift */; };
+		AAC81D8721FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D5D21FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.xib */; };
+		AAC81D8821FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6021FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.xib */; };
+		AAC81D8921FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6121FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.swift */; };
+		AAC81D8A21FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6321FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.swift */; };
+		AAC81D8B21FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6421FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.xib */; };
+		AAC81D8C21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6621FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.swift */; };
+		AAC81D8D21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6721FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.xib */; };
+		AAC81D8E21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6921FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.swift */; };
+		AAC81D8F21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6A21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.xib */; };
 		AAC81D9021FCB30700F2B576 /* thirdGeniPad129CaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D6D21FCB30700F2B576 /* thirdGeniPad129CaptionAbove.xib */; };
 		AAC81D9121FCB30700F2B576 /* thirdGeniPad129CaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D6E21FCB30700F2B576 /* thirdGeniPad129CaptionAbove.swift */; };
 		AAC81D9221FCB30700F2B576 /* iPhone55CaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D7021FCB30700F2B576 /* iPhone55CaptionAbove.swift */; };
@@ -93,6 +93,44 @@
 		AAC81D9B21FCB8ED00F2B576 /* SelectTemplateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D9921FCB8ED00F2B576 /* SelectTemplateCell.xib */; };
 		AAC81D9D21FCB9DE00F2B576 /* SelectTemplateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D9C21FCB9DE00F2B576 /* SelectTemplateHelper.swift */; };
 		AAC81D9F21FCBA1200F2B576 /* SelectTemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D9E21FCBA1200F2B576 /* SelectTemplateModel.swift */; };
+		AACF5F6921FDB301000687A6 /* iPhone65DevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F6821FDB301000687A6 /* iPhone65DevView.swift */; };
+		AACF5F6B21FDB30D000687A6 /* iPhone65DevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F6A21FDB30D000687A6 /* iPhone65DevView.xib */; };
+		AACF5F6D21FDB3B4000687A6 /* iPad129thirdDevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F6C21FDB3B4000687A6 /* iPad129thirdDevView.xib */; };
+		AACF5F6F21FDB3BF000687A6 /* iPad129thirdDevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F6E21FDB3BF000687A6 /* iPad129thirdDevView.swift */; };
+		AACF5F7121FDB41F000687A6 /* iPad129secondDevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F7021FDB41F000687A6 /* iPad129secondDevView.swift */; };
+		AACF5F7321FDB42C000687A6 /* iPad129secondDevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F7221FDB42C000687A6 /* iPad129secondDevView.xib */; };
+		AACF5F7D21FDDD5F000687A6 /* iPhone55RotateLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F7C21FDDD5F000687A6 /* iPhone55RotateLeft.swift */; };
+		AACF5F7F21FDDD69000687A6 /* iPhone55RotateLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F7E21FDDD69000687A6 /* iPhone55RotateLeft.xib */; };
+		AACF5F8121FDDD7A000687A6 /* iPhone65RotateLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F8021FDDD7A000687A6 /* iPhone65RotateLeft.xib */; };
+		AACF5F8321FDDD86000687A6 /* iPhone65RotateLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F8221FDDD86000687A6 /* iPhone65RotateLeft.swift */; };
+		AACF5F8521FDDDA8000687A6 /* secondGeniPad129RotateLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F8421FDDDA8000687A6 /* secondGeniPad129RotateLeft.swift */; };
+		AACF5F8721FDDDB2000687A6 /* secondGeniPad129RotateLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F8621FDDDB2000687A6 /* secondGeniPad129RotateLeft.xib */; };
+		AACF5F8921FDDDC3000687A6 /* thirdGeniPad129RotateLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F8821FDDDC3000687A6 /* thirdGeniPad129RotateLeft.xib */; };
+		AACF5F8B21FDDDCD000687A6 /* thirdGeniPad129RotateLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F8A21FDDDCD000687A6 /* thirdGeniPad129RotateLeft.swift */; };
+		AACF5F9121FDDF0C000687A6 /* thirdGeniPad129RotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F9021FDDF0C000687A6 /* thirdGeniPad129RotateRight.swift */; };
+		AACF5F9321FDDF14000687A6 /* thirdGeniPad129RotateRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F9221FDDF14000687A6 /* thirdGeniPad129RotateRight.xib */; };
+		AACF5F9521FDDF22000687A6 /* secondGeniPad129RotateRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F9421FDDF22000687A6 /* secondGeniPad129RotateRight.xib */; };
+		AACF5F9721FDDF2E000687A6 /* secondGeniPad129RotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F9621FDDF2E000687A6 /* secondGeniPad129RotateRight.swift */; };
+		AACF5F9921FDDF43000687A6 /* iphone65RotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F9821FDDF43000687A6 /* iphone65RotateRight.swift */; };
+		AACF5F9B21FDDF4B000687A6 /* iphone65RotateRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F9A21FDDF4B000687A6 /* iphone65RotateRight.xib */; };
+		AACF5F9D21FDDF55000687A6 /* iphone55RotateRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F9C21FDDF55000687A6 /* iphone55RotateRight.xib */; };
+		AACF5F9F21FDDF61000687A6 /* iphone55RotateRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F9E21FDDF61000687A6 /* iphone55RotateRight.swift */; };
+		AACF5FA521FDDFB8000687A6 /* thirdGeniPad129RotateRightCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FA421FDDFB8000687A6 /* thirdGeniPad129RotateRightCaptionAbove.swift */; };
+		AACF5FA721FDDFC1000687A6 /* thirdGeniPad129RotateRightCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FA621FDDFC1000687A6 /* thirdGeniPad129RotateRightCaptionAbove.xib */; };
+		AACF5FA921FDDFD3000687A6 /* secondGeniPad129RotateRightCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FA821FDDFD3000687A6 /* secondGeniPad129RotateRightCaptionAbove.xib */; };
+		AACF5FAB21FDDFE2000687A6 /* secondGeniPad129RotateRightCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FAA21FDDFE2000687A6 /* secondGeniPad129RotateRightCaptionAbove.swift */; };
+		AACF5FAD21FDDFFE000687A6 /* iphone65RotateRightCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FAC21FDDFFE000687A6 /* iphone65RotateRightCaptionAbove.swift */; };
+		AACF5FAF21FDE007000687A6 /* iphone65RotateRightCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FAE21FDE007000687A6 /* iphone65RotateRightCaptionAbove.xib */; };
+		AACF5FB121FDE016000687A6 /* iphone55RotateRightCaptionAbove.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FB021FDE016000687A6 /* iphone55RotateRightCaptionAbove.xib */; };
+		AACF5FB321FDE021000687A6 /* iphone55RotateRightCaptionAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FB221FDE021000687A6 /* iphone55RotateRightCaptionAbove.swift */; };
+		AACF5FB921FDE07D000687A6 /* iphone55RotateRightCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FB821FDE07D000687A6 /* iphone55RotateRightCaptionBelow.swift */; };
+		AACF5FBB21FDE085000687A6 /* iphone55RotateRightCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FBA21FDE085000687A6 /* iphone55RotateRightCaptionBelow.xib */; };
+		AACF5FBD21FDE0B8000687A6 /* iphone65RotateRightCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FBC21FDE0B8000687A6 /* iphone65RotateRightCaptionBelow.xib */; };
+		AACF5FBF21FDE0C2000687A6 /* iphone65RotateRightCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FBE21FDE0C2000687A6 /* iphone65RotateRightCaptionBelow.swift */; };
+		AACF5FC121FDE0D9000687A6 /* secondGeniPad129RotateRightCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FC021FDE0D9000687A6 /* secondGeniPad129RotateRightCaptionBelow.swift */; };
+		AACF5FC321FDE0E1000687A6 /* secondGeniPad129RotateRightCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FC221FDE0E1000687A6 /* secondGeniPad129RotateRightCaptionBelow.xib */; };
+		AACF5FC521FDE0F3000687A6 /* thirdGeniPad129RotateRightCaptionBelow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5FC421FDE0F3000687A6 /* thirdGeniPad129RotateRightCaptionBelow.xib */; };
+		AACF5FC721FDE0FD000687A6 /* thirdGeniPad129RotateRightCaptionBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5FC621FDE0FD000687A6 /* thirdGeniPad129RotateRightCaptionBelow.swift */; };
 		AAD5D30F21F8FD48008C88B1 /* SelectDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D30D21F8FD48008C88B1 /* SelectDeviceCell.swift */; };
 		AAD5D31021F8FD48008C88B1 /* SelectDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD5D30E21F8FD48008C88B1 /* SelectDeviceCell.xib */; };
 		AAD5D31221F9002F008C88B1 /* SelectDeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D31121F9002F008C88B1 /* SelectDeviceHelper.swift */; };
@@ -185,22 +223,22 @@
 		AAC81D4D21FCB30700F2B576 /* secondGeniPad129CaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondGeniPad129CaptionBelow.xib; sourceTree = "<group>"; };
 		AAC81D4F21FCB30700F2B576 /* iPhone65CaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone65CaptionBelow.swift; sourceTree = "<group>"; };
 		AAC81D5021FCB30700F2B576 /* iPhone65CaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone65CaptionBelow.xib; sourceTree = "<group>"; };
-		AAC81D5321FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdGeniPad129RotateCaptionAbove.xib; sourceTree = "<group>"; };
-		AAC81D5421FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateCaptionAbove.swift; sourceTree = "<group>"; };
-		AAC81D5621FCB30700F2B576 /* iPhone55RotateCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone55RotateCaptionAbove.swift; sourceTree = "<group>"; };
-		AAC81D5721FCB30700F2B576 /* iPhone55RotateCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone55RotateCaptionAbove.xib; sourceTree = "<group>"; };
-		AAC81D5921FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateCaptionAbove.swift; sourceTree = "<group>"; };
-		AAC81D5A21FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondGeniPad129RotateCaptionAbove.xib; sourceTree = "<group>"; };
-		AAC81D5C21FCB30700F2B576 /* iPhone65RotateCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone65RotateCaptionAbove.swift; sourceTree = "<group>"; };
-		AAC81D5D21FCB30700F2B576 /* iPhone65RotateCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone65RotateCaptionAbove.xib; sourceTree = "<group>"; };
-		AAC81D6021FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdGeniPad129RotateCaptionBelow.xib; sourceTree = "<group>"; };
-		AAC81D6121FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateCaptionBelow.swift; sourceTree = "<group>"; };
-		AAC81D6321FCB30700F2B576 /* iPhone55RotateCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone55RotateCaptionBelow.swift; sourceTree = "<group>"; };
-		AAC81D6421FCB30700F2B576 /* iPhone55RotateCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone55RotateCaptionBelow.xib; sourceTree = "<group>"; };
-		AAC81D6621FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateCaptionBelow.swift; sourceTree = "<group>"; };
-		AAC81D6721FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondGeniPad129RotateCaptionBelow.xib; sourceTree = "<group>"; };
-		AAC81D6921FCB30700F2B576 /* iPhone65RotateCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone65RotateCaptionBelow.swift; sourceTree = "<group>"; };
-		AAC81D6A21FCB30700F2B576 /* iPhone65RotateCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone65RotateCaptionBelow.xib; sourceTree = "<group>"; };
+		AAC81D5321FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdGeniPad129RotateLeftCaptionAbove.xib; sourceTree = "<group>"; };
+		AAC81D5421FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateLeftCaptionAbove.swift; sourceTree = "<group>"; };
+		AAC81D5621FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone55RotateLeftCaptionAbove.swift; sourceTree = "<group>"; };
+		AAC81D5721FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone55RotateLeftCaptionAbove.xib; sourceTree = "<group>"; };
+		AAC81D5921FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateLeftCaptionAbove.swift; sourceTree = "<group>"; };
+		AAC81D5A21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondGeniPad129RotateLeftCaptionAbove.xib; sourceTree = "<group>"; };
+		AAC81D5C21FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone65RotateLeftCaptionAbove.swift; sourceTree = "<group>"; };
+		AAC81D5D21FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone65RotateLeftCaptionAbove.xib; sourceTree = "<group>"; };
+		AAC81D6021FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdGeniPad129RotateLeftCaptionBelow.xib; sourceTree = "<group>"; };
+		AAC81D6121FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateLeftCaptionBelow.swift; sourceTree = "<group>"; };
+		AAC81D6321FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone55RotateLeftCaptionBelow.swift; sourceTree = "<group>"; };
+		AAC81D6421FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone55RotateLeftCaptionBelow.xib; sourceTree = "<group>"; };
+		AAC81D6621FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateLeftCaptionBelow.swift; sourceTree = "<group>"; };
+		AAC81D6721FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondGeniPad129RotateLeftCaptionBelow.xib; sourceTree = "<group>"; };
+		AAC81D6921FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone65RotateLeftCaptionBelow.swift; sourceTree = "<group>"; };
+		AAC81D6A21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone65RotateLeftCaptionBelow.xib; sourceTree = "<group>"; };
 		AAC81D6D21FCB30700F2B576 /* thirdGeniPad129CaptionAbove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdGeniPad129CaptionAbove.xib; sourceTree = "<group>"; };
 		AAC81D6E21FCB30700F2B576 /* thirdGeniPad129CaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129CaptionAbove.swift; sourceTree = "<group>"; };
 		AAC81D7021FCB30700F2B576 /* iPhone55CaptionAbove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone55CaptionAbove.swift; sourceTree = "<group>"; };
@@ -213,6 +251,44 @@
 		AAC81D9921FCB8ED00F2B576 /* SelectTemplateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectTemplateCell.xib; sourceTree = "<group>"; };
 		AAC81D9C21FCB9DE00F2B576 /* SelectTemplateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTemplateHelper.swift; sourceTree = "<group>"; };
 		AAC81D9E21FCBA1200F2B576 /* SelectTemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTemplateModel.swift; sourceTree = "<group>"; };
+		AACF5F6821FDB301000687A6 /* iPhone65DevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone65DevView.swift; sourceTree = "<group>"; };
+		AACF5F6A21FDB30D000687A6 /* iPhone65DevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone65DevView.xib; sourceTree = "<group>"; };
+		AACF5F6C21FDB3B4000687A6 /* iPad129thirdDevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPad129thirdDevView.xib; sourceTree = "<group>"; };
+		AACF5F6E21FDB3BF000687A6 /* iPad129thirdDevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad129thirdDevView.swift; sourceTree = "<group>"; };
+		AACF5F7021FDB41F000687A6 /* iPad129secondDevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad129secondDevView.swift; sourceTree = "<group>"; };
+		AACF5F7221FDB42C000687A6 /* iPad129secondDevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPad129secondDevView.xib; sourceTree = "<group>"; };
+		AACF5F7C21FDDD5F000687A6 /* iPhone55RotateLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone55RotateLeft.swift; sourceTree = "<group>"; };
+		AACF5F7E21FDDD69000687A6 /* iPhone55RotateLeft.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone55RotateLeft.xib; sourceTree = "<group>"; };
+		AACF5F8021FDDD7A000687A6 /* iPhone65RotateLeft.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone65RotateLeft.xib; sourceTree = "<group>"; };
+		AACF5F8221FDDD86000687A6 /* iPhone65RotateLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone65RotateLeft.swift; sourceTree = "<group>"; };
+		AACF5F8421FDDDA8000687A6 /* secondGeniPad129RotateLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateLeft.swift; sourceTree = "<group>"; };
+		AACF5F8621FDDDB2000687A6 /* secondGeniPad129RotateLeft.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondGeniPad129RotateLeft.xib; sourceTree = "<group>"; };
+		AACF5F8821FDDDC3000687A6 /* thirdGeniPad129RotateLeft.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdGeniPad129RotateLeft.xib; sourceTree = "<group>"; };
+		AACF5F8A21FDDDCD000687A6 /* thirdGeniPad129RotateLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateLeft.swift; sourceTree = "<group>"; };
+		AACF5F9021FDDF0C000687A6 /* thirdGeniPad129RotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateRight.swift; sourceTree = "<group>"; };
+		AACF5F9221FDDF14000687A6 /* thirdGeniPad129RotateRight.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdGeniPad129RotateRight.xib; sourceTree = "<group>"; };
+		AACF5F9421FDDF22000687A6 /* secondGeniPad129RotateRight.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondGeniPad129RotateRight.xib; sourceTree = "<group>"; };
+		AACF5F9621FDDF2E000687A6 /* secondGeniPad129RotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateRight.swift; sourceTree = "<group>"; };
+		AACF5F9821FDDF43000687A6 /* iphone65RotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone65RotateRight.swift; sourceTree = "<group>"; };
+		AACF5F9A21FDDF4B000687A6 /* iphone65RotateRight.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iphone65RotateRight.xib; sourceTree = "<group>"; };
+		AACF5F9C21FDDF55000687A6 /* iphone55RotateRight.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iphone55RotateRight.xib; sourceTree = "<group>"; };
+		AACF5F9E21FDDF61000687A6 /* iphone55RotateRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone55RotateRight.swift; sourceTree = "<group>"; };
+		AACF5FA421FDDFB8000687A6 /* thirdGeniPad129RotateRightCaptionAbove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateRightCaptionAbove.swift; sourceTree = "<group>"; };
+		AACF5FA621FDDFC1000687A6 /* thirdGeniPad129RotateRightCaptionAbove.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdGeniPad129RotateRightCaptionAbove.xib; sourceTree = "<group>"; };
+		AACF5FA821FDDFD3000687A6 /* secondGeniPad129RotateRightCaptionAbove.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondGeniPad129RotateRightCaptionAbove.xib; sourceTree = "<group>"; };
+		AACF5FAA21FDDFE2000687A6 /* secondGeniPad129RotateRightCaptionAbove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateRightCaptionAbove.swift; sourceTree = "<group>"; };
+		AACF5FAC21FDDFFE000687A6 /* iphone65RotateRightCaptionAbove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone65RotateRightCaptionAbove.swift; sourceTree = "<group>"; };
+		AACF5FAE21FDE007000687A6 /* iphone65RotateRightCaptionAbove.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iphone65RotateRightCaptionAbove.xib; sourceTree = "<group>"; };
+		AACF5FB021FDE016000687A6 /* iphone55RotateRightCaptionAbove.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iphone55RotateRightCaptionAbove.xib; sourceTree = "<group>"; };
+		AACF5FB221FDE021000687A6 /* iphone55RotateRightCaptionAbove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone55RotateRightCaptionAbove.swift; sourceTree = "<group>"; };
+		AACF5FB821FDE07D000687A6 /* iphone55RotateRightCaptionBelow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone55RotateRightCaptionBelow.swift; sourceTree = "<group>"; };
+		AACF5FBA21FDE085000687A6 /* iphone55RotateRightCaptionBelow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iphone55RotateRightCaptionBelow.xib; sourceTree = "<group>"; };
+		AACF5FBC21FDE0B8000687A6 /* iphone65RotateRightCaptionBelow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iphone65RotateRightCaptionBelow.xib; sourceTree = "<group>"; };
+		AACF5FBE21FDE0C2000687A6 /* iphone65RotateRightCaptionBelow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iphone65RotateRightCaptionBelow.swift; sourceTree = "<group>"; };
+		AACF5FC021FDE0D9000687A6 /* secondGeniPad129RotateRightCaptionBelow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondGeniPad129RotateRightCaptionBelow.swift; sourceTree = "<group>"; };
+		AACF5FC221FDE0E1000687A6 /* secondGeniPad129RotateRightCaptionBelow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondGeniPad129RotateRightCaptionBelow.xib; sourceTree = "<group>"; };
+		AACF5FC421FDE0F3000687A6 /* thirdGeniPad129RotateRightCaptionBelow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdGeniPad129RotateRightCaptionBelow.xib; sourceTree = "<group>"; };
+		AACF5FC621FDE0FD000687A6 /* thirdGeniPad129RotateRightCaptionBelow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129RotateRightCaptionBelow.swift; sourceTree = "<group>"; };
 		AAD5D30D21F8FD48008C88B1 /* SelectDeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceCell.swift; sourceTree = "<group>"; };
 		AAD5D30E21F8FD48008C88B1 /* SelectDeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectDeviceCell.xib; sourceTree = "<group>"; };
 		AAD5D31121F9002F008C88B1 /* SelectDeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceHelper.swift; sourceTree = "<group>"; };
@@ -448,6 +524,8 @@
 		AAC81CFF21FC659D00F2B576 /* iPhone-6.5-inch */ = {
 			isa = PBXGroup;
 			children = (
+				AACF5F6821FDB301000687A6 /* iPhone65DevView.swift */,
+				AACF5F6A21FDB30D000687A6 /* iPhone65DevView.xib */,
 			);
 			path = "iPhone-6.5-inch";
 			sourceTree = "<group>";
@@ -464,6 +542,8 @@
 		AAC81D0121FC65AD00F2B576 /* iPad-12.9-inch-2ndGen */ = {
 			isa = PBXGroup;
 			children = (
+				AACF5F7021FDB41F000687A6 /* iPad129secondDevView.swift */,
+				AACF5F7221FDB42C000687A6 /* iPad129secondDevView.xib */,
 			);
 			path = "iPad-12.9-inch-2ndGen";
 			sourceTree = "<group>";
@@ -471,6 +551,8 @@
 		AAC81D0221FC65B700F2B576 /* iPad-12.9-inch-3rdGen */ = {
 			isa = PBXGroup;
 			children = (
+				AACF5F6C21FDB3B4000687A6 /* iPad129thirdDevView.xib */,
+				AACF5F6E21FDB3BF000687A6 /* iPad129thirdDevView.swift */,
 			);
 			path = "iPad-12.9-inch-3rdGen";
 			sourceTree = "<group>";
@@ -478,10 +560,10 @@
 		AAC81D1B21FCB01800F2B576 /* FullDevice */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D1C21FCB01800F2B576 /* iPad-12.9-inch-3rdGen */,
 				AAC81D1F21FCB01800F2B576 /* iPhone-5.5-inch */,
-				AAC81D2221FCB01800F2B576 /* iPad-12.9-inch-2ndGen */,
 				AAC81D2521FCB01800F2B576 /* iPhone-6.5-inch */,
+				AAC81D2221FCB01800F2B576 /* iPad-12.9-inch-2ndGen */,
+				AAC81D1C21FCB01800F2B576 /* iPad-12.9-inch-3rdGen */,
 			);
 			path = FullDevice;
 			sourceTree = "<group>";
@@ -561,10 +643,10 @@
 		AAC81D4421FCB30700F2B576 /* CaptionBelow */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D4521FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 				AAC81D4821FCB30700F2B576 /* iPhone-5.5-inch */,
-				AAC81D4B21FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
 				AAC81D4E21FCB30700F2B576 /* iPhone-6.5-inch */,
+				AAC81D4B21FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
+				AAC81D4521FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 			);
 			path = CaptionBelow;
 			sourceTree = "<group>";
@@ -605,22 +687,22 @@
 			path = "iPhone-6.5-inch";
 			sourceTree = "<group>";
 		};
-		AAC81D5121FCB30700F2B576 /* RotateCaptionAbove */ = {
+		AAC81D5121FCB30700F2B576 /* RotateLeftCaptionAbove */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D5221FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 				AAC81D5521FCB30700F2B576 /* iPhone-5.5-inch */,
-				AAC81D5821FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
 				AAC81D5B21FCB30700F2B576 /* iPhone-6.5-inch */,
+				AAC81D5821FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
+				AAC81D5221FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 			);
-			path = RotateCaptionAbove;
+			path = RotateLeftCaptionAbove;
 			sourceTree = "<group>";
 		};
 		AAC81D5221FCB30700F2B576 /* iPad-12.9-inch-3rdGen */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D5321FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.xib */,
-				AAC81D5421FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.swift */,
+				AAC81D5321FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.xib */,
+				AAC81D5421FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.swift */,
 			);
 			path = "iPad-12.9-inch-3rdGen";
 			sourceTree = "<group>";
@@ -628,8 +710,8 @@
 		AAC81D5521FCB30700F2B576 /* iPhone-5.5-inch */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D5621FCB30700F2B576 /* iPhone55RotateCaptionAbove.swift */,
-				AAC81D5721FCB30700F2B576 /* iPhone55RotateCaptionAbove.xib */,
+				AAC81D5621FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.swift */,
+				AAC81D5721FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.xib */,
 			);
 			path = "iPhone-5.5-inch";
 			sourceTree = "<group>";
@@ -637,8 +719,8 @@
 		AAC81D5821FCB30700F2B576 /* iPad-12.9-inch-2ndGen */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D5921FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.swift */,
-				AAC81D5A21FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.xib */,
+				AAC81D5921FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.swift */,
+				AAC81D5A21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.xib */,
 			);
 			path = "iPad-12.9-inch-2ndGen";
 			sourceTree = "<group>";
@@ -646,28 +728,28 @@
 		AAC81D5B21FCB30700F2B576 /* iPhone-6.5-inch */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D5C21FCB30700F2B576 /* iPhone65RotateCaptionAbove.swift */,
-				AAC81D5D21FCB30700F2B576 /* iPhone65RotateCaptionAbove.xib */,
+				AAC81D5C21FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.swift */,
+				AAC81D5D21FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.xib */,
 			);
 			path = "iPhone-6.5-inch";
 			sourceTree = "<group>";
 		};
-		AAC81D5E21FCB30700F2B576 /* RotateCaptionBelow */ = {
+		AAC81D5E21FCB30700F2B576 /* RotateLeftCaptionBelow */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D5F21FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 				AAC81D6221FCB30700F2B576 /* iPhone-5.5-inch */,
-				AAC81D6521FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
 				AAC81D6821FCB30700F2B576 /* iPhone-6.5-inch */,
+				AAC81D6521FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
+				AAC81D5F21FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 			);
-			path = RotateCaptionBelow;
+			path = RotateLeftCaptionBelow;
 			sourceTree = "<group>";
 		};
 		AAC81D5F21FCB30700F2B576 /* iPad-12.9-inch-3rdGen */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D6021FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.xib */,
-				AAC81D6121FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.swift */,
+				AAC81D6021FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.xib */,
+				AAC81D6121FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.swift */,
 			);
 			path = "iPad-12.9-inch-3rdGen";
 			sourceTree = "<group>";
@@ -675,8 +757,8 @@
 		AAC81D6221FCB30700F2B576 /* iPhone-5.5-inch */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D6321FCB30700F2B576 /* iPhone55RotateCaptionBelow.swift */,
-				AAC81D6421FCB30700F2B576 /* iPhone55RotateCaptionBelow.xib */,
+				AAC81D6321FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.swift */,
+				AAC81D6421FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.xib */,
 			);
 			path = "iPhone-5.5-inch";
 			sourceTree = "<group>";
@@ -684,8 +766,8 @@
 		AAC81D6521FCB30700F2B576 /* iPad-12.9-inch-2ndGen */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D6621FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.swift */,
-				AAC81D6721FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.xib */,
+				AAC81D6621FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.swift */,
+				AAC81D6721FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.xib */,
 			);
 			path = "iPad-12.9-inch-2ndGen";
 			sourceTree = "<group>";
@@ -693,8 +775,8 @@
 		AAC81D6821FCB30700F2B576 /* iPhone-6.5-inch */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D6921FCB30700F2B576 /* iPhone65RotateCaptionBelow.swift */,
-				AAC81D6A21FCB30700F2B576 /* iPhone65RotateCaptionBelow.xib */,
+				AAC81D6921FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.swift */,
+				AAC81D6A21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.xib */,
 			);
 			path = "iPhone-6.5-inch";
 			sourceTree = "<group>";
@@ -702,10 +784,10 @@
 		AAC81D6B21FCB30700F2B576 /* CaptionAbove */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D6C21FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 				AAC81D6F21FCB30700F2B576 /* iPhone-5.5-inch */,
-				AAC81D7221FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
 				AAC81D7521FCB30700F2B576 /* iPhone-6.5-inch */,
+				AAC81D7221FCB30700F2B576 /* iPad-12.9-inch-2ndGen */,
+				AAC81D6C21FCB30700F2B576 /* iPad-12.9-inch-3rdGen */,
 			);
 			path = CaptionAbove;
 			sourceTree = "<group>";
@@ -746,6 +828,194 @@
 			path = "iPhone-6.5-inch";
 			sourceTree = "<group>";
 		};
+		AACF5F7421FDCD03000687A6 /* RotateRight */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F8F21FDDEEC000687A6 /* iPhone-5.5-inch */,
+				AACF5F8E21FDDEDC000687A6 /* iPhone-6.5-inch */,
+				AACF5F8D21FDDED3000687A6 /* iPad-12.9-inch-2ndGen */,
+				AACF5F8C21FDDEC5000687A6 /* iPad-12.9-inch-3rdGen */,
+			);
+			path = RotateRight;
+			sourceTree = "<group>";
+		};
+		AACF5F7521FDCD09000687A6 /* RotateLeft */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F7B21FDDBFE000687A6 /* iPhone-5.5-inch */,
+				AACF5F7921FDDBE9000687A6 /* iPhone-6.5-inch */,
+				AACF5F7A21FDDBF2000687A6 /* iPad-12.9-inch-2ndGen */,
+				AACF5F7821FDDBDF000687A6 /* iPad-12.9-inch-3rdGen */,
+			);
+			path = RotateLeft;
+			sourceTree = "<group>";
+		};
+		AACF5F7621FDDBB7000687A6 /* RotateRightCaptionBelow */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FB721FDE06A000687A6 /* iPhone-5.5-inch */,
+				AACF5FB621FDE063000687A6 /* iPhone-6.5-inch */,
+				AACF5FB521FDE057000687A6 /* iPad-12.9-inch-2ndGen */,
+				AACF5FB421FDE04F000687A6 /* iPad-12.9-inch-3rdGen */,
+			);
+			path = RotateRightCaptionBelow;
+			sourceTree = "<group>";
+		};
+		AACF5F7721FDDBC0000687A6 /* RotateRightCaptionAbove */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FA321FDDF94000687A6 /* iPhone-5.5-inch */,
+				AACF5FA221FDDF8D000687A6 /* iPhone-6.5-inch */,
+				AACF5FA121FDDF85000687A6 /* iPad-12.9-inch-2ndGen */,
+				AACF5FA021FDDF7D000687A6 /* iPad-12.9-inch-3rdGen */,
+			);
+			path = RotateRightCaptionAbove;
+			sourceTree = "<group>";
+		};
+		AACF5F7821FDDBDF000687A6 /* iPad-12.9-inch-3rdGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F8821FDDDC3000687A6 /* thirdGeniPad129RotateLeft.xib */,
+				AACF5F8A21FDDDCD000687A6 /* thirdGeniPad129RotateLeft.swift */,
+			);
+			path = "iPad-12.9-inch-3rdGen";
+			sourceTree = "<group>";
+		};
+		AACF5F7921FDDBE9000687A6 /* iPhone-6.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F8021FDDD7A000687A6 /* iPhone65RotateLeft.xib */,
+				AACF5F8221FDDD86000687A6 /* iPhone65RotateLeft.swift */,
+			);
+			path = "iPhone-6.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5F7A21FDDBF2000687A6 /* iPad-12.9-inch-2ndGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F8421FDDDA8000687A6 /* secondGeniPad129RotateLeft.swift */,
+				AACF5F8621FDDDB2000687A6 /* secondGeniPad129RotateLeft.xib */,
+			);
+			path = "iPad-12.9-inch-2ndGen";
+			sourceTree = "<group>";
+		};
+		AACF5F7B21FDDBFE000687A6 /* iPhone-5.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F7E21FDDD69000687A6 /* iPhone55RotateLeft.xib */,
+				AACF5F7C21FDDD5F000687A6 /* iPhone55RotateLeft.swift */,
+			);
+			path = "iPhone-5.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5F8C21FDDEC5000687A6 /* iPad-12.9-inch-3rdGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F9021FDDF0C000687A6 /* thirdGeniPad129RotateRight.swift */,
+				AACF5F9221FDDF14000687A6 /* thirdGeniPad129RotateRight.xib */,
+			);
+			path = "iPad-12.9-inch-3rdGen";
+			sourceTree = "<group>";
+		};
+		AACF5F8D21FDDED3000687A6 /* iPad-12.9-inch-2ndGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F9421FDDF22000687A6 /* secondGeniPad129RotateRight.xib */,
+				AACF5F9621FDDF2E000687A6 /* secondGeniPad129RotateRight.swift */,
+			);
+			path = "iPad-12.9-inch-2ndGen";
+			sourceTree = "<group>";
+		};
+		AACF5F8E21FDDEDC000687A6 /* iPhone-6.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F9821FDDF43000687A6 /* iphone65RotateRight.swift */,
+				AACF5F9A21FDDF4B000687A6 /* iphone65RotateRight.xib */,
+			);
+			path = "iPhone-6.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5F8F21FDDEEC000687A6 /* iPhone-5.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5F9C21FDDF55000687A6 /* iphone55RotateRight.xib */,
+				AACF5F9E21FDDF61000687A6 /* iphone55RotateRight.swift */,
+			);
+			path = "iPhone-5.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5FA021FDDF7D000687A6 /* iPad-12.9-inch-3rdGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FA421FDDFB8000687A6 /* thirdGeniPad129RotateRightCaptionAbove.swift */,
+				AACF5FA621FDDFC1000687A6 /* thirdGeniPad129RotateRightCaptionAbove.xib */,
+			);
+			path = "iPad-12.9-inch-3rdGen";
+			sourceTree = "<group>";
+		};
+		AACF5FA121FDDF85000687A6 /* iPad-12.9-inch-2ndGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FA821FDDFD3000687A6 /* secondGeniPad129RotateRightCaptionAbove.xib */,
+				AACF5FAA21FDDFE2000687A6 /* secondGeniPad129RotateRightCaptionAbove.swift */,
+			);
+			path = "iPad-12.9-inch-2ndGen";
+			sourceTree = "<group>";
+		};
+		AACF5FA221FDDF8D000687A6 /* iPhone-6.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FAC21FDDFFE000687A6 /* iphone65RotateRightCaptionAbove.swift */,
+				AACF5FAE21FDE007000687A6 /* iphone65RotateRightCaptionAbove.xib */,
+			);
+			path = "iPhone-6.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5FA321FDDF94000687A6 /* iPhone-5.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FB021FDE016000687A6 /* iphone55RotateRightCaptionAbove.xib */,
+				AACF5FB221FDE021000687A6 /* iphone55RotateRightCaptionAbove.swift */,
+			);
+			path = "iPhone-5.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5FB421FDE04F000687A6 /* iPad-12.9-inch-3rdGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FC421FDE0F3000687A6 /* thirdGeniPad129RotateRightCaptionBelow.xib */,
+				AACF5FC621FDE0FD000687A6 /* thirdGeniPad129RotateRightCaptionBelow.swift */,
+			);
+			path = "iPad-12.9-inch-3rdGen";
+			sourceTree = "<group>";
+		};
+		AACF5FB521FDE057000687A6 /* iPad-12.9-inch-2ndGen */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FC021FDE0D9000687A6 /* secondGeniPad129RotateRightCaptionBelow.swift */,
+				AACF5FC221FDE0E1000687A6 /* secondGeniPad129RotateRightCaptionBelow.xib */,
+			);
+			path = "iPad-12.9-inch-2ndGen";
+			sourceTree = "<group>";
+		};
+		AACF5FB621FDE063000687A6 /* iPhone-6.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FBC21FDE0B8000687A6 /* iphone65RotateRightCaptionBelow.xib */,
+				AACF5FBE21FDE0C2000687A6 /* iphone65RotateRightCaptionBelow.swift */,
+			);
+			path = "iPhone-6.5-inch";
+			sourceTree = "<group>";
+		};
+		AACF5FB721FDE06A000687A6 /* iPhone-5.5-inch */ = {
+			isa = PBXGroup;
+			children = (
+				AACF5FB821FDE07D000687A6 /* iphone55RotateRightCaptionBelow.swift */,
+				AACF5FBA21FDE085000687A6 /* iphone55RotateRightCaptionBelow.xib */,
+			);
+			path = "iPhone-5.5-inch";
+			sourceTree = "<group>";
+		};
 		AAD5D30B21F8FD1C008C88B1 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -761,10 +1031,14 @@
 			isa = PBXGroup;
 			children = (
 				AAC81D1B21FCB01800F2B576 /* FullDevice */,
-				AAC81D6B21FCB30700F2B576 /* CaptionAbove */,
 				AAC81D4421FCB30700F2B576 /* CaptionBelow */,
-				AAC81D5121FCB30700F2B576 /* RotateCaptionAbove */,
-				AAC81D5E21FCB30700F2B576 /* RotateCaptionBelow */,
+				AAC81D6B21FCB30700F2B576 /* CaptionAbove */,
+				AACF5F7521FDCD09000687A6 /* RotateLeft */,
+				AAC81D5121FCB30700F2B576 /* RotateLeftCaptionAbove */,
+				AAC81D5E21FCB30700F2B576 /* RotateLeftCaptionBelow */,
+				AACF5F7421FDCD03000687A6 /* RotateRight */,
+				AACF5F7721FDDBC0000687A6 /* RotateRightCaptionAbove */,
+				AACF5F7621FDDBB7000687A6 /* RotateRightCaptionBelow */,
 				AAC81CF321FB54A900F2B576 /* Screenshot */,
 			);
 			path = DeviceViews;
@@ -875,41 +1149,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA42A6F221F4F1D600F9BC57 /* SelectImage.storyboard in Resources */,
+				AACF5F6D21FDB3B4000687A6 /* iPad129thirdDevView.xib in Resources */,
+				AACF5F9D21FDDF55000687A6 /* iphone55RotateRight.xib in Resources */,
 				AAC81D9521FCB30700F2B576 /* secondGeniPad129CaptionAbove.xib in Resources */,
-				AAC81D8521FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.xib in Resources */,
+				AAC81D8521FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.xib in Resources */,
 				AAC81D7D21FCB30700F2B576 /* secondGeniPad129CaptionBelow.xib in Resources */,
+				AACF5F8121FDDD7A000687A6 /* iPhone65RotateLeft.xib in Resources */,
 				AAC81D9321FCB30700F2B576 /* iPhone55CaptionAbove.xib in Resources */,
+				AACF5F8921FDDDC3000687A6 /* thirdGeniPad129RotateLeft.xib in Resources */,
 				AAD5D31021F8FD48008C88B1 /* SelectDeviceCell.xib in Resources */,
-				AAC81D8B21FCB30700F2B576 /* iPhone55RotateCaptionBelow.xib in Resources */,
+				AACF5F6B21FDB30D000687A6 /* iPhone65DevView.xib in Resources */,
+				AACF5FBB21FDE085000687A6 /* iphone55RotateRightCaptionBelow.xib in Resources */,
+				AAC81D8B21FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.xib in Resources */,
 				AAC81D0621FC660200F2B576 /* iPhone55DevView.xib in Resources */,
 				AAC81D4321FCB04A00F2B576 /* iPhone65Screenshot.xib in Resources */,
 				AAC81D2F21FCB01800F2B576 /* iPhone65FullView.xib in Resources */,
 				AAC81D2B21FCB01800F2B576 /* iPhone55FullView.xib in Resources */,
 				AAC81D9021FCB30700F2B576 /* thirdGeniPad129CaptionAbove.xib in Resources */,
-				AAC81D8F21FCB30700F2B576 /* iPhone65RotateCaptionBelow.xib in Resources */,
+				AACF5FBD21FDE0B8000687A6 /* iphone65RotateRightCaptionBelow.xib in Resources */,
+				AAC81D8F21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.xib in Resources */,
 				AAC81CCE21FB04D600F2B576 /* Localizable.strings in Resources */,
 				AAC81D4121FCB04A00F2B576 /* iPhone55Screenshot.xib in Resources */,
-				AAC81D8321FCB30700F2B576 /* iPhone55RotateCaptionAbove.xib in Resources */,
+				AACF5FC521FDE0F3000687A6 /* thirdGeniPad129RotateRightCaptionBelow.xib in Resources */,
+				AAC81D8321FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.xib in Resources */,
 				AA42A6EA21F4F0B800F9BC57 /* SelectText.storyboard in Resources */,
 				AAC81D9721FCB30700F2B576 /* iPhone65CaptionAbove.xib in Resources */,
+				AACF5F7F21FDDD69000687A6 /* iPhone55RotateLeft.xib in Resources */,
 				AAC81D7B21FCB30700F2B576 /* iPhone55CaptionBelow.xib in Resources */,
 				AAC81D9B21FCB8ED00F2B576 /* SelectTemplateCell.xib in Resources */,
 				AA42A6BA21F4EE0200F9BC57 /* LaunchScreen.storyboard in Resources */,
+				AACF5F9321FDDF14000687A6 /* thirdGeniPad129RotateRight.xib in Resources */,
 				AA42A6B721F4EE0200F9BC57 /* Assets.xcassets in Resources */,
 				AAC81D2821FCB01800F2B576 /* thirdGeniPad129FullView.xib in Resources */,
+				AACF5FAF21FDE007000687A6 /* iphone65RotateRightCaptionAbove.xib in Resources */,
+				AACF5F9521FDDF22000687A6 /* secondGeniPad129RotateRight.xib in Resources */,
+				AACF5F7321FDB42C000687A6 /* iPad129secondDevView.xib in Resources */,
+				AACF5FB121FDE016000687A6 /* iphone55RotateRightCaptionAbove.xib in Resources */,
+				AACF5FA921FDDFD3000687A6 /* secondGeniPad129RotateRightCaptionAbove.xib in Resources */,
+				AACF5FC321FDE0E1000687A6 /* secondGeniPad129RotateRightCaptionBelow.xib in Resources */,
 				AAC81D2D21FCB01800F2B576 /* secondGeniPad129FullView.xib in Resources */,
 				AAC81D7821FCB30700F2B576 /* thirdGeniPad129CaptionBelow.xib in Resources */,
 				AAC81D3E21FCB04A00F2B576 /* thirdGeniPad129Screenshot.xib in Resources */,
-				AAC81D8021FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.xib in Resources */,
+				AAC81D8021FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.xib in Resources */,
 				AAC81D3D21FCB04A00F2B576 /* secondGeniPad129Screenshot.xib in Resources */,
 				AAD8666E21FCEB3F0069492A /* SelectDeviceColor.storyboard in Resources */,
-				AAC81D8821FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.xib in Resources */,
+				AAC81D8821FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.xib in Resources */,
 				AA42A6E421F4F03500F9BC57 /* SelectTemplate.storyboard in Resources */,
 				AAC81D7F21FCB30700F2B576 /* iPhone65CaptionBelow.xib in Resources */,
-				AAC81D8D21FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.xib in Resources */,
-				AAC81D8721FCB30700F2B576 /* iPhone65RotateCaptionAbove.xib in Resources */,
+				AAC81D8D21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.xib in Resources */,
+				AACF5F9B21FDDF4B000687A6 /* iphone65RotateRight.xib in Resources */,
+				AACF5FA721FDDFC1000687A6 /* thirdGeniPad129RotateRightCaptionAbove.xib in Resources */,
+				AAC81D8721FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.xib in Resources */,
 				AA42A6B221F4EE0000F9BC57 /* Main.storyboard in Resources */,
 				AA42A6E821F4F08600F9BC57 /* Home.storyboard in Resources */,
+				AACF5F8721FDDDB2000687A6 /* secondGeniPad129RotateLeft.xib in Resources */,
 				AAD5D31821FA436E008C88B1 /* SelectBackground.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -936,19 +1229,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC81CD421FB0DCD00F2B576 /* CustomNavController.swift in Sources */,
+				AACF5F7121FDB41F000687A6 /* iPad129secondDevView.swift in Sources */,
 				AAC81D2C21FCB01800F2B576 /* secondGeniPad129FullView.swift in Sources */,
 				AAC81CFB21FC616600F2B576 /* ScreenshotHelper.swift in Sources */,
 				AA42A6EE21F4F18500F9BC57 /* SelectBackgroundViewController.swift in Sources */,
+				AACF5F6F21FDB3BF000687A6 /* iPad129thirdDevView.swift in Sources */,
 				AAC81D9221FCB30700F2B576 /* iPhone55CaptionAbove.swift in Sources */,
+				AACF5FB321FDE021000687A6 /* iphone55RotateRightCaptionAbove.swift in Sources */,
 				AAC81CFD21FC61AE00F2B576 /* SelectDeviceModel.swift in Sources */,
-				AAC81D8121FCB30700F2B576 /* thirdGeniPad129RotateCaptionAbove.swift in Sources */,
+				AAC81D8121FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.swift in Sources */,
 				AAC81CE021FB4C0B00F2B576 /* UILabelEx.swift in Sources */,
+				AACF5F6921FDB301000687A6 /* iPhone65DevView.swift in Sources */,
+				AACF5F9721FDDF2E000687A6 /* secondGeniPad129RotateRight.swift in Sources */,
+				AACF5F9921FDDF43000687A6 /* iphone65RotateRight.swift in Sources */,
 				AAD5D30F21F8FD48008C88B1 /* SelectDeviceCell.swift in Sources */,
 				AAD5D31A21FA43FC008C88B1 /* UIStoryboardEx.swift in Sources */,
+				AACF5F8B21FDDDCD000687A6 /* thirdGeniPad129RotateLeft.swift in Sources */,
 				AAC81CD221FB055600F2B576 /* Constants.swift in Sources */,
 				AA42A6F021F4F19700F9BC57 /* SelectTextViewController.swift in Sources */,
 				AA42A6EC21F4F15E00F9BC57 /* SelectDeviceViewController.swift in Sources */,
 				AAC81CD621FB31D300F2B576 /* UIViewEx.swift in Sources */,
+				AACF5FAB21FDDFE2000687A6 /* secondGeniPad129RotateRightCaptionAbove.swift in Sources */,
 				AAD5D31621FA427E008C88B1 /* HomeViewController.swift in Sources */,
 				AAC81CDA21FB411D00F2B576 /* GeneralButton.swift in Sources */,
 				AAC81CD021FB050500F2B576 /* Buttons.swift in Sources */,
@@ -956,23 +1257,28 @@
 				AAC81CF721FC5D6900F2B576 /* ScreenshotModel.swift in Sources */,
 				AAC81D9421FCB30700F2B576 /* secondGeniPad129CaptionAbove.swift in Sources */,
 				AA42A6F421F4F1F200F9BC57 /* SelectImageViewController.swift in Sources */,
+				AACF5F8521FDDDA8000687A6 /* secondGeniPad129RotateLeft.swift in Sources */,
 				AAC81CDC21FB414600F2B576 /* Enums.swift in Sources */,
+				AACF5FAD21FDDFFE000687A6 /* iphone65RotateRightCaptionAbove.swift in Sources */,
 				AAC81D3F21FCB04A00F2B576 /* thirdGeniPad129Screenshot.swift in Sources */,
-				AAC81D8421FCB30700F2B576 /* secondGeniPad129RotateCaptionAbove.swift in Sources */,
+				AAC81D8421FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.swift in Sources */,
 				AAD8666C21FCEB310069492A /* SelectDeviceColorViewController.swift in Sources */,
+				AACF5FC121FDE0D9000687A6 /* secondGeniPad129RotateRightCaptionBelow.swift in Sources */,
 				AAC81D9621FCB30700F2B576 /* iPhone65CaptionAbove.swift in Sources */,
-				AAC81D8E21FCB30700F2B576 /* iPhone65RotateCaptionBelow.swift in Sources */,
+				AAC81D8E21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.swift in Sources */,
 				AA42A6AF21F4EE0000F9BC57 /* SelectTemplateViewController.swift in Sources */,
+				AACF5FA521FDDFB8000687A6 /* thirdGeniPad129RotateRightCaptionAbove.swift in Sources */,
 				AAC81D9F21FCBA1200F2B576 /* SelectTemplateModel.swift in Sources */,
 				AAC81D2921FCB01800F2B576 /* thirdGeniPad129FullView.swift in Sources */,
+				AACF5F9121FDDF0C000687A6 /* thirdGeniPad129RotateRight.swift in Sources */,
 				AAC81CDE21FB41CA00F2B576 /* Fonts.swift in Sources */,
-				AAC81D8621FCB30700F2B576 /* iPhone65RotateCaptionAbove.swift in Sources */,
+				AAC81D8621FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.swift in Sources */,
 				AAC81D7C21FCB30700F2B576 /* secondGeniPad129CaptionBelow.swift in Sources */,
 				AAC81D0421FC65F500F2B576 /* iPhone55DevView.swift in Sources */,
 				AAC81D3C21FCB04A00F2B576 /* secondGeniPad129Screenshot.swift in Sources */,
 				AAC81D7921FCB30700F2B576 /* thirdGeniPad129CaptionBelow.swift in Sources */,
 				AAC81D7E21FCB30700F2B576 /* iPhone65CaptionBelow.swift in Sources */,
-				AAC81D8A21FCB30700F2B576 /* iPhone55RotateCaptionBelow.swift in Sources */,
+				AAC81D8A21FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.swift in Sources */,
 				AA42A6AD21F4EE0000F9BC57 /* AppDelegate.swift in Sources */,
 				AAC81D4021FCB04A00F2B576 /* iPhone55Screenshot.swift in Sources */,
 				AA42A6B521F4EE0000F9BC57 /* Framer.xcdatamodeld in Sources */,
@@ -982,14 +1288,20 @@
 				AAC81D2A21FCB01800F2B576 /* iPhone55FullView.swift in Sources */,
 				AAC81CCC21FB04B400F2B576 /* StringEx.swift in Sources */,
 				AAC81D9D21FCB9DE00F2B576 /* SelectTemplateHelper.swift in Sources */,
+				AACF5FC721FDE0FD000687A6 /* thirdGeniPad129RotateRightCaptionBelow.swift in Sources */,
 				AAC81D7A21FCB30700F2B576 /* iPhone55CaptionBelow.swift in Sources */,
 				AAC81CC421FB017A00F2B576 /* Colors.swift in Sources */,
-				AAC81D8221FCB30700F2B576 /* iPhone55RotateCaptionAbove.swift in Sources */,
-				AAC81D8C21FCB30700F2B576 /* secondGeniPad129RotateCaptionBelow.swift in Sources */,
+				AAC81D8221FCB30700F2B576 /* iPhone55RotateLeftCaptionAbove.swift in Sources */,
+				AAC81D8C21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.swift in Sources */,
+				AACF5FB921FDE07D000687A6 /* iphone55RotateRightCaptionBelow.swift in Sources */,
 				AAC81CCA21FB049200F2B576 /* UIViewControllerEx.swift in Sources */,
-				AAC81D8921FCB30700F2B576 /* thirdGeniPad129RotateCaptionBelow.swift in Sources */,
+				AACF5F8321FDDD86000687A6 /* iPhone65RotateLeft.swift in Sources */,
+				AACF5FBF21FDE0C2000687A6 /* iphone65RotateRightCaptionBelow.swift in Sources */,
+				AAC81D8921FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.swift in Sources */,
+				AACF5F9F21FDDF61000687A6 /* iphone55RotateRight.swift in Sources */,
 				AAC81D2E21FCB01800F2B576 /* iPhone65FullView.swift in Sources */,
 				AAC81D4221FCB04A00F2B576 /* iPhone65Screenshot.swift in Sources */,
+				AACF5F7D21FDDD5F000687A6 /* iPhone55RotateLeft.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

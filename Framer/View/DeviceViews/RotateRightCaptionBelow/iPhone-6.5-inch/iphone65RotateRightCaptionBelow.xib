@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LJI-Fl-OkC" customClass="iphone65RotateRightCaptionBelow" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-rotateright-captionbelow-silver" translatesAutoresizingMaskIntoConstraints="NO" id="yYs-SJ-YtY">
+                    <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="yYs-SJ-YtY" secondAttribute="height" multiplier="1413:2300" id="7hg-98-HIj"/>
+                        <constraint firstAttribute="height" priority="750" constant="2300" id="kVl-az-P6h"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yYs-SJ-YtY" firstAttribute="centerX" secondItem="LJI-Fl-OkC" secondAttribute="centerX" id="6Pj-dS-1Pc"/>
+                <constraint firstItem="yYs-SJ-YtY" firstAttribute="centerY" secondItem="LJI-Fl-OkC" secondAttribute="centerY" id="hTj-WR-LX5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="2I1-gl-5l3"/>
+            <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iphone-65-rotateright-captionbelow-silver" width="1413" height="2300"/>
+    </resources>
+</document>

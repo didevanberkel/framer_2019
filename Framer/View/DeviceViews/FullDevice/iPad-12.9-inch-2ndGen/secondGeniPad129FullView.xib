@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="2286" height="3168"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad-129-2nd-silver" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-bV-A79">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad-129-2nd-spacegrey" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-bV-A79">
                     <rect key="frame" x="0.0" y="20" width="2286" height="3148"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-N6-wBb">
@@ -45,6 +45,6 @@
         </view>
     </objects>
     <resources>
-        <image name="ipad-129-2nd-silver" width="2286" height="3168"/>
+        <image name="ipad-129-2nd-spacegrey" width="2286" height="3168"/>
     </resources>
 </document>

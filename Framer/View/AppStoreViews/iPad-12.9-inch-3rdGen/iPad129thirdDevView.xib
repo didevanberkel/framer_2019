@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iPad129thirdDevView" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1200" height="1600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="MHc-an-JQa">
+                    <rect key="frame" x="0.0" y="0.0" width="1200" height="1600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9An-2h-m7s">
+                            <rect key="frame" x="0.0" y="0.0" width="1200" height="200"/>
+                            <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="fat-C6-Wlf"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wae-WU-ZCm">
+                            <rect key="frame" x="0.0" y="200" width="1200" height="1200"/>
+                            <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-6R-zQw">
+                            <rect key="frame" x="0.0" y="1400" width="1200" height="200"/>
+                            <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="Zlg-aE-UVs"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="RhA-6R-zQw" firstAttribute="leading" secondItem="MHc-an-JQa" secondAttribute="leading" id="32M-Oz-PhX"/>
+                        <constraint firstItem="9An-2h-m7s" firstAttribute="leading" secondItem="MHc-an-JQa" secondAttribute="leading" id="8eM-bi-Nx6"/>
+                        <constraint firstAttribute="width" secondItem="MHc-an-JQa" secondAttribute="height" multiplier="1200:1600" id="MFE-oq-nkw"/>
+                        <constraint firstItem="9An-2h-m7s" firstAttribute="top" secondItem="MHc-an-JQa" secondAttribute="top" id="W8G-tj-iiM"/>
+                        <constraint firstAttribute="bottom" secondItem="RhA-6R-zQw" secondAttribute="bottom" id="bNA-ZO-Rim"/>
+                        <constraint firstAttribute="trailing" secondItem="RhA-6R-zQw" secondAttribute="trailing" id="gAS-Rc-Z5M"/>
+                        <constraint firstAttribute="trailing" secondItem="9An-2h-m7s" secondAttribute="trailing" id="oGm-fh-2gp"/>
+                        <constraint firstAttribute="trailing" secondItem="Wae-WU-ZCm" secondAttribute="trailing" id="odX-1x-jfA"/>
+                        <constraint firstItem="Wae-WU-ZCm" firstAttribute="leading" secondItem="MHc-an-JQa" secondAttribute="leading" id="pSF-wA-Dg7"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="Jbq-Qj-g84"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MHc-an-JQa" secondAttribute="trailing" id="5Ek-w4-GbS"/>
+                <constraint firstItem="MHc-an-JQa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Erx-d6-E0e"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="MHc-an-JQa" secondAttribute="bottom" id="YJG-Ac-FFl"/>
+                <constraint firstItem="MHc-an-JQa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pYR-07-f67"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iPhone65RotateLeft" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1413" height="2864"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-rotateleft-silver" translatesAutoresizingMaskIntoConstraints="NO" id="CeS-iG-L4j">
+                    <rect key="frame" x="0.0" y="0.0" width="1413" height="2864"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="2864" id="77P-Q4-wKP"/>
+                        <constraint firstAttribute="width" secondItem="CeS-iG-L4j" secondAttribute="height" multiplier="1413:2864" id="M7q-gh-qwd"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-rotateleft-frame" translatesAutoresizingMaskIntoConstraints="NO" id="Kmo-9F-KKz">
+                    <rect key="frame" x="0.0" y="0.0" width="1413" height="2864"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Kmo-9F-KKz" secondAttribute="height" multiplier="1413:2864" id="Sr3-Ys-GXO"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Kmo-9F-KKz" firstAttribute="leading" secondItem="CeS-iG-L4j" secondAttribute="leading" id="9ju-ZH-nCQ"/>
+                <constraint firstItem="Kmo-9F-KKz" firstAttribute="top" secondItem="CeS-iG-L4j" secondAttribute="top" id="F0O-t3-f4o"/>
+                <constraint firstItem="Kmo-9F-KKz" firstAttribute="trailing" secondItem="CeS-iG-L4j" secondAttribute="trailing" id="ZgL-hJ-yTt"/>
+                <constraint firstItem="CeS-iG-L4j" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pVV-Ti-bY6"/>
+                <constraint firstItem="CeS-iG-L4j" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zrl-18-kMd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iphone-65-rotateleft-frame" width="1413" height="2864"/>
+        <image name="iphone-65-rotateleft-silver" width="1413" height="2864"/>
+    </resources>
+</document>
