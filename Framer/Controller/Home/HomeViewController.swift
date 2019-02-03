@@ -15,7 +15,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var scrollParent: UIView!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
-    var deviceViews = [UIView]()
+    var deviceViews = [DeviceModel]()
     
     var pickedDevices = [DeviceType]()
     var pickedTemplates = [TemplateType]()
@@ -46,7 +46,7 @@ class HomeViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
-    private func setupDeviceScrollView(deviceViews: [UIView]) {
+    private func setupDeviceScrollView(deviceViews: [DeviceModel]) {
         
         for sub in scrollView.subviews {
             sub.removeFromSuperview()
@@ -55,15 +55,37 @@ class HomeViewController: UIViewController {
         scrollView.contentSize.width = scrollParent.frame.width * CGFloat(deviceViews.count)
         
         for i in 0 ..< deviceViews.count {
-            deviceViews[i].frame = CGRect(x: scrollParent.frame.width * CGFloat(i), y: 0, width: scrollParent.frame.width, height: scrollParent.frame.height)
-            scrollView.addSubview(deviceViews[i])
+            let deviceView = deviceViews[i]
+            deviceView.deviceView.translatesAutoresizingMaskIntoConstraints = false
+
+            switch deviceView.device {
+            case .iPhone55:
+                if let devView = Bundle.main.loadNibNamed("iPhone55DevView", owner: self, options: nil)?.first as? iPhone55DevView {
+                    devView.frame = CGRect(x: scrollParent.frame.width * CGFloat(i), y: 0, width: scrollParent.frame.width, height: scrollParent.frame.height)
+                    devView.deviceView.addSubview(deviceView.deviceView)
+                    
+                    NSLayoutConstraint.activate([
+                        deviceView.deviceView.centerXAnchor.constraint(equalTo: devView.deviceView.centerXAnchor),
+                        deviceView.deviceView.leadingAnchor.constraint(greaterThanOrEqualTo: devView.deviceView.leadingAnchor),
+                        //deviceView.deviceView.trailingAnchor.constraint(lessThanOrEqualTo: devView.deviceView.trailingAnchor),
+                        deviceView.deviceView.topAnchor.constraint(greaterThanOrEqualTo: devView.deviceView.topAnchor),
+                        deviceView.deviceView.bottomAnchor.constraint(equalTo: devView.deviceView.bottomAnchor)
+                        ])
+                    
+                    scrollView.addSubview(devView)
+                }
+            case .iPhone65:
+                break
+            case .iPad129second:
+                break
+            case .iPad129third:
+                break
+            }
         }
     }
     
-    private func createDeviceViews() -> [UIView] {
-        var views = [UIView]()
-        
-
+    private func createDeviceViews() -> [DeviceModel] {
+        let views = ScreenshotHelper.addTemplateViews(pickedDevices: pickedDevices, pickedTemplates: pickedTemplates)
         return views
     }
 

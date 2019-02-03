@@ -23,6 +23,8 @@
 		AA42A6F021F4F19700F9BC57 /* SelectTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6EF21F4F19700F9BC57 /* SelectTextViewController.swift */; };
 		AA42A6F221F4F1D600F9BC57 /* SelectImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6F121F4F1D600F9BC57 /* SelectImage.storyboard */; };
 		AA42A6F421F4F1F200F9BC57 /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6F321F4F1F200F9BC57 /* SelectImageViewController.swift */; };
+		AABA69CD220709BC00211EC3 /* UIImageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA69CC220709BC00211EC3 /* UIImageEx.swift */; };
+		AABA69CF220747A500211EC3 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA69CE220747A500211EC3 /* DeviceModel.swift */; };
 		AAC81CC421FB017A00F2B576 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CC321FB017A00F2B576 /* Colors.swift */; };
 		AAC81CCA21FB049200F2B576 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CC921FB049200F2B576 /* UIViewControllerEx.swift */; };
 		AAC81CCC21FB04B400F2B576 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CCB21FB04B400F2B576 /* StringEx.swift */; };
@@ -181,6 +183,8 @@
 		AA42A6EF21F4F19700F9BC57 /* SelectTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTextViewController.swift; sourceTree = "<group>"; };
 		AA42A6F121F4F1D600F9BC57 /* SelectImage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectImage.storyboard; sourceTree = "<group>"; };
 		AA42A6F321F4F1F200F9BC57 /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		AABA69CC220709BC00211EC3 /* UIImageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageEx.swift; sourceTree = "<group>"; };
+		AABA69CE220747A500211EC3 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		AAC81CC321FB017A00F2B576 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		AAC81CC921FB049200F2B576 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
 		AAC81CCB21FB04B400F2B576 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
@@ -409,6 +413,7 @@
 				AAC81CF621FC5D6900F2B576 /* ScreenshotModel.swift */,
 				AAC81CFC21FC61AE00F2B576 /* SelectDeviceModel.swift */,
 				AAC81D9E21FCBA1200F2B576 /* SelectTemplateModel.swift */,
+				AABA69CE220747A500211EC3 /* DeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -421,6 +426,7 @@
 				AAC81CCB21FB04B400F2B576 /* StringEx.swift */,
 				AAC81CD521FB31D300F2B576 /* UIViewEx.swift */,
 				AAC81CDF21FB4C0B00F2B576 /* UILabelEx.swift */,
+				AABA69CC220709BC00211EC3 /* UIImageEx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1230,6 +1236,7 @@
 			files = (
 				AAC81CD421FB0DCD00F2B576 /* CustomNavController.swift in Sources */,
 				AACF5F7121FDB41F000687A6 /* iPad129secondDevView.swift in Sources */,
+				AABA69CD220709BC00211EC3 /* UIImageEx.swift in Sources */,
 				AAC81D2C21FCB01800F2B576 /* secondGeniPad129FullView.swift in Sources */,
 				AAC81CFB21FC616600F2B576 /* ScreenshotHelper.swift in Sources */,
 				AA42A6EE21F4F18500F9BC57 /* SelectBackgroundViewController.swift in Sources */,
@@ -1244,6 +1251,7 @@
 				AACF5F9921FDDF43000687A6 /* iphone65RotateRight.swift in Sources */,
 				AAD5D30F21F8FD48008C88B1 /* SelectDeviceCell.swift in Sources */,
 				AAD5D31A21FA43FC008C88B1 /* UIStoryboardEx.swift in Sources */,
+				AABA69CF220747A500211EC3 /* DeviceModel.swift in Sources */,
 				AACF5F8B21FDDDCD000687A6 /* thirdGeniPad129RotateLeft.swift in Sources */,
 				AAC81CD221FB055600F2B576 /* Constants.swift in Sources */,
 				AA42A6F021F4F19700F9BC57 /* SelectTextViewController.swift in Sources */,

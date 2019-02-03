@@ -22,8 +22,12 @@
 "template_fulldevicecaptionabove" = "Full device, caption above";
 "template_captionbelow" = "Caption below";
 "template_captionabove" = "Caption above";
-"template_rotatecaptionbelow" = "Rotate, caption below";
-"template_rotatecaptionabove" = "Rotate, caption above";
+"template_rotateleft" = "Rotate left";
+"template_rotateleftcaptionbelow" = "Rotate left, caption below";
+"template_rotateleftcaptionabove" = "Rotate left, caption above";
+"template_rotateright" = "Rotate right";
+"template_rotaterightcaptionbelow" = "Rotate right, caption below";
+"template_rotaterightcaptionabove" = "Rotate right, caption above";
 "template_screenshot" = "Screenshot";
 "template_screenshotcaptionbelow" = "Screenshot, caption below";
 "template_screenshotcaptionabove" = "Screenshot, caption above";

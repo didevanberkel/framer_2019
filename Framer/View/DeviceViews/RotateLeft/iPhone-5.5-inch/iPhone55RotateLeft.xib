@@ -12,11 +12,49 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iPhone55RotateLeft" customModule="Framer" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="ReD-Rn-azp" customClass="iPhone55RotateLeft" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-rotateleft-silver" translatesAutoresizingMaskIntoConstraints="NO" id="4ZH-36-liC">
+                    <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4ZH-36-liC" secondAttribute="height" multiplier="1436:2876" id="Rup-oD-QJs"/>
+                        <constraint firstAttribute="height" priority="750" constant="2864" id="TOf-Gd-YfN"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-fulldevice-spacegrey" translatesAutoresizingMaskIntoConstraints="NO" id="Cp8-eT-2HR">
+                    <rect key="frame" x="0.0" y="161.5" width="1436" height="2553"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="2208" id="k1U-Yr-rPG"/>
+                        <constraint firstAttribute="width" secondItem="Cp8-eT-2HR" secondAttribute="height" multiplier="1242:2208" id="rUp-hZ-IXc"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="yko-Gd-3Ca">
+                    <rect key="frame" x="0.0" y="161.5" width="1436" height="90"/>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="yko-Gd-3Ca" firstAttribute="top" secondItem="Cp8-eT-2HR" secondAttribute="top" id="BNg-8z-AAZ"/>
+                <constraint firstItem="yko-Gd-3Ca" firstAttribute="leading" secondItem="Cp8-eT-2HR" secondAttribute="leading" id="MX5-f4-EZt"/>
+                <constraint firstItem="4ZH-36-liC" firstAttribute="centerY" secondItem="ReD-Rn-azp" secondAttribute="centerY" id="OvX-XP-cfQ"/>
+                <constraint firstItem="Cp8-eT-2HR" firstAttribute="centerX" secondItem="ReD-Rn-azp" secondAttribute="centerX" id="XWP-YE-cxF"/>
+                <constraint firstItem="Cp8-eT-2HR" firstAttribute="centerY" secondItem="ReD-Rn-azp" secondAttribute="centerY" id="Xx5-yP-yJk"/>
+                <constraint firstItem="yko-Gd-3Ca" firstAttribute="trailing" secondItem="Cp8-eT-2HR" secondAttribute="trailing" id="vyJ-Jr-Glc"/>
+                <constraint firstItem="4ZH-36-liC" firstAttribute="centerX" secondItem="ReD-Rn-azp" secondAttribute="centerX" id="zxI-7F-qtn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="w5D-VP-Icr"/>
+            <connections>
+                <outlet property="img" destination="Cp8-eT-2HR" id="pU1-1q-x68"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
         </view>
     </objects>
+    <resources>
+        <image name="iphone-55-fulldevice-spacegrey" width="1436" height="2876"/>
+        <image name="iphone-55-rotateleft-silver" width="1436" height="2876"/>
+        <image name="iphone-55-statusbar" width="1242" height="90"/>
+    </resources>
 </document>

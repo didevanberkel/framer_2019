@@ -12,11 +12,29 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iphone55RotateRightCaptionBelow" customModule="Framer" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="nIF-yR-7iL" customClass="iphone55RotateRightCaptionBelow" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-rotateright-captionbelow-silver" translatesAutoresizingMaskIntoConstraints="NO" id="lCe-Gh-bRW">
+                    <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="750" constant="2300" id="RHU-qM-wQO"/>
+                        <constraint firstAttribute="width" secondItem="lCe-Gh-bRW" secondAttribute="height" multiplier="1413:2300" id="XFG-Kw-Kut"/>
+                    </constraints>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="lCe-Gh-bRW" firstAttribute="centerY" secondItem="nIF-yR-7iL" secondAttribute="centerY" id="dVk-Yt-fDc"/>
+                <constraint firstItem="lCe-Gh-bRW" firstAttribute="centerX" secondItem="nIF-yR-7iL" secondAttribute="centerX" id="uvF-94-PK6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="XZf-Rg-0py"/>
+            <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
         </view>
     </objects>
+    <resources>
+        <image name="iphone-55-rotateright-captionbelow-silver" width="1436" height="2212"/>
+    </resources>
 </document>

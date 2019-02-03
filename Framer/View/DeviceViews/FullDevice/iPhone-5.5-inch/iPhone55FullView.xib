@@ -12,46 +12,49 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="Kf5-GY-2Nl" customClass="iPhone55FullView" customModule="Framer" customModuleProvider="target">
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="jnd-XW-UEx" customClass="iPhone55FullView" customModule="Framer" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-spacegrey" translatesAutoresizingMaskIntoConstraints="NO" id="OLB-Ke-MWh">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-fulldevice-silver" translatesAutoresizingMaskIntoConstraints="NO" id="ogN-Vq-LN0">
                     <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="OLB-Ke-MWh" secondAttribute="height" multiplier="1436:2876" id="SAl-Bf-A40"/>
+                        <constraint firstAttribute="width" secondItem="ogN-Vq-LN0" secondAttribute="height" multiplier="1436:2876" id="MWd-Il-Z0v"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lcK-pD-0YG">
-                    <rect key="frame" x="77" y="298.5" width="1282" height="2279"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mN8-mn-Yyo">
+                    <rect key="frame" x="97" y="334" width="1242" height="2208"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="lcK-pD-0YG" secondAttribute="height" multiplier="1242:2208" id="uEw-ll-efh"/>
+                        <constraint firstAttribute="height" priority="750" constant="2208" id="VUb-Cr-IZN"/>
+                        <constraint firstAttribute="width" secondItem="mN8-mn-Yyo" secondAttribute="height" multiplier="1242:2208" id="smC-eM-WfR"/>
                     </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-Pg-H5d">
+                    <rect key="frame" x="97" y="334" width="1242" height="90"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="lcK-pD-0YG" firstAttribute="width" secondItem="OLB-Ke-MWh" secondAttribute="width" multiplier="1:1.12" id="21A-qD-jBB"/>
-                <constraint firstItem="lcK-pD-0YG" firstAttribute="centerX" secondItem="OLB-Ke-MWh" secondAttribute="centerX" id="JJD-yP-noN"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="trailing" secondItem="kEv-if-kAV" secondAttribute="trailing" id="O1N-t6-pUb"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="top" secondItem="Kf5-GY-2Nl" secondAttribute="top" id="POL-ll-J40"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="top" secondItem="Kf5-GY-2Nl" secondAttribute="top" id="Pxw-Jp-1mY"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="centerX" secondItem="Kf5-GY-2Nl" secondAttribute="centerX" id="RFA-8g-qr9"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="leading" secondItem="kEv-if-kAV" secondAttribute="leading" id="Rvv-ci-Dx7"/>
-                <constraint firstAttribute="bottom" secondItem="OLB-Ke-MWh" secondAttribute="bottom" id="kUA-hB-9wr"/>
-                <constraint firstItem="lcK-pD-0YG" firstAttribute="centerY" secondItem="OLB-Ke-MWh" secondAttribute="centerY" id="pG5-sZ-plA"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="centerY" secondItem="Kf5-GY-2Nl" secondAttribute="centerY" id="vy5-I1-CHo"/>
-                <constraint firstItem="OLB-Ke-MWh" firstAttribute="bottom" secondItem="kEv-if-kAV" secondAttribute="bottom" id="xVP-lj-Czn"/>
+                <constraint firstItem="ogN-Vq-LN0" firstAttribute="leading" secondItem="jnd-XW-UEx" secondAttribute="leading" id="MXx-0w-dgm"/>
+                <constraint firstAttribute="bottom" secondItem="ogN-Vq-LN0" secondAttribute="bottom" id="Nfe-P0-S0f"/>
+                <constraint firstItem="HDw-Pg-H5d" firstAttribute="trailing" secondItem="mN8-mn-Yyo" secondAttribute="trailing" id="UBt-SF-eS6"/>
+                <constraint firstItem="HDw-Pg-H5d" firstAttribute="leading" secondItem="mN8-mn-Yyo" secondAttribute="leading" id="VFf-26-KWc"/>
+                <constraint firstItem="HDw-Pg-H5d" firstAttribute="top" secondItem="mN8-mn-Yyo" secondAttribute="top" id="XXV-ZO-Gpz"/>
+                <constraint firstItem="mN8-mn-Yyo" firstAttribute="centerY" secondItem="ogN-Vq-LN0" secondAttribute="centerY" id="YJB-vT-z0U"/>
+                <constraint firstItem="mN8-mn-Yyo" firstAttribute="centerX" secondItem="ogN-Vq-LN0" secondAttribute="centerX" id="fgk-Eh-Dk9"/>
+                <constraint firstItem="ogN-Vq-LN0" firstAttribute="top" secondItem="jnd-XW-UEx" secondAttribute="top" id="sqn-wN-pkv"/>
+                <constraint firstAttribute="trailing" secondItem="ogN-Vq-LN0" secondAttribute="trailing" id="xl7-Nc-U9E"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="kEv-if-kAV"/>
+            <viewLayoutGuide key="safeArea" id="XZT-OQ-mwS"/>
             <connections>
-                <outlet property="img" destination="lcK-pD-0YG" id="Pvc-L4-MeG"/>
+                <outlet property="img" destination="mN8-mn-Yyo" id="YbV-Ez-z1w"/>
             </connections>
-            <point key="canvasLocation" x="128.80000000000001" y="48.125937031484263"/>
+            <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
         </view>
     </objects>
     <resources>
-        <image name="iphone-55-spacegrey" width="1436" height="2876"/>
+        <image name="iphone-55-fulldevice-silver" width="1436" height="2876"/>
+        <image name="iphone-55-statusbar" width="1242" height="90"/>
     </resources>
 </document>

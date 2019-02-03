@@ -15,8 +15,8 @@ enum TypeOfButton {
 }
 
 enum DeviceType {
-    case iPhone65
     case iPhone55
+    case iPhone65
     case iPad129second
     case iPad129third
 }
@@ -27,8 +27,12 @@ enum TemplateType {
     case fullDeviceCaptionAbove
     case captionBelow
     case captionAbove
-    case rotateCaptionBelow
-    case rotateCaptionAbove
+    case rotateLeft
+    case rotateLeftCaptionBelow
+    case rotateLeftCaptionAbove
+    case rotateRight
+    case rotateRightCaptionBelow
+    case rotateRightCaptionAbove
     case screenshot
     case screenshotCaptionBelow
     case screenshotCaptionAbove

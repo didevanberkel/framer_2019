@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iPhone65CaptionBelow" customModule="Framer" customModuleProvider="target">
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="iPhone65CaptionBelow" customModule="Framer" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -23,10 +23,10 @@
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="esG-Mf-G7l">
-                    <rect key="frame" x="85.5" y="0.0" width="1242" height="2221"/>
+                    <rect key="frame" x="85.5" y="0.0" width="1242" height="2212"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="esG-Mf-G7l" secondAttribute="height" multiplier="1242:2221" id="6lh-Zn-zOA"/>
-                        <constraint firstAttribute="height" priority="750" constant="2221" id="qaa-oK-jlb"/>
+                        <constraint firstAttribute="width" secondItem="esG-Mf-G7l" secondAttribute="height" multiplier="1242:2212" id="6lh-Zn-zOA"/>
+                        <constraint firstAttribute="height" priority="750" constant="2212" id="qaa-oK-jlb"/>
                     </constraints>
                 </imageView>
             </subviews>
@@ -43,6 +43,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="img" destination="esG-Mf-G7l" id="dLs-Ga-Yak"/>
+            </connections>
             <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
         </view>
     </objects>

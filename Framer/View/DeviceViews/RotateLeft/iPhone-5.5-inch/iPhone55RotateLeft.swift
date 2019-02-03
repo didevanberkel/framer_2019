@@ -10,12 +10,19 @@ import UIKit
 
 class iPhone55RotateLeft: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet weak var img: UIImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
     }
-    */
-
+    
+    func setupView(image: UIImage) {
+        //img.image = image
+        
+        let degrees: CGFloat = 25.0
+        let radians: CGFloat = degrees * (.pi / 180)
+        img.transform = CGAffineTransform(rotationAngle: radians)
+    }
+    
 }
