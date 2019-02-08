@@ -15,14 +15,15 @@ class iPhone55RotateLeft: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        setupView(image: UIImage(named: "") ?? UIImage())
     }
     
     func setupView(image: UIImage) {
         //img.image = image
         
-        let degrees: CGFloat = 25.0
-        let radians: CGFloat = degrees * (.pi / 180)
-        img.transform = CGAffineTransform(rotationAngle: radians)
+//        let degrees: CGFloat = 25.0
+//        let radians: CGFloat = degrees * (.pi / 180)
+//        img.transform = CGAffineTransform(rotationAngle: radians)
     }
     
 }

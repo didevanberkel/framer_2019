@@ -13,25 +13,25 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iPhone55DevView" customModule="Framer" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="1242" height="2208"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="nuX-tp-S4P">
-                    <rect key="frame" x="0.0" y="0.5" width="375" height="666.5"/>
+                    <rect key="frame" x="0.0" y="0.0" width="1242" height="2208"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zKU-kM-CPq">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                            <rect key="frame" x="0.0" y="0.0" width="1242" height="100"/>
                             <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="YWL-5t-daz"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ddf-R1-49j">
-                            <rect key="frame" x="0.0" y="100" width="375" height="466.5"/>
+                            <rect key="frame" x="0.0" y="100" width="1242" height="2008"/>
                             <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRC-kf-8ZV">
-                            <rect key="frame" x="0.0" y="566.5" width="375" height="100"/>
+                            <rect key="frame" x="0.0" y="2108" width="1242" height="100"/>
                             <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="IHP-Xp-S4e"/>
@@ -58,12 +58,11 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="nuX-tp-S4P" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" id="7Uk-xp-Gsf"/>
-                <constraint firstItem="nuX-tp-S4P" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="PAm-YS-Dsb"/>
                 <constraint firstItem="nuX-tp-S4P" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cTz-6F-dAu"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nuX-tp-S4P" secondAttribute="trailing" id="dG8-Ql-Fy7"/>
                 <constraint firstItem="nuX-tp-S4P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nC1-h3-hAf"/>
-                <constraint firstItem="nuX-tp-S4P" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" id="qsu-go-OCY"/>
             </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="deviceView" destination="Ddf-R1-49j" id="JZe-t8-9DJ"/>

@@ -34,21 +34,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPy-jt-nLS">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-Ga-C2g">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
-                                    </scrollView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="D9p-De-taU">
                                         <rect key="frame" x="168" y="501" width="39" height="37"/>
                                     </pageControl>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="eFA-Ga-C2g" firstAttribute="height" secondItem="DPy-jt-nLS" secondAttribute="height" id="95R-9x-Giv"/>
                                     <constraint firstItem="D9p-De-taU" firstAttribute="centerX" secondItem="DPy-jt-nLS" secondAttribute="centerX" id="SFX-kV-x3r"/>
-                                    <constraint firstItem="eFA-Ga-C2g" firstAttribute="centerX" secondItem="DPy-jt-nLS" secondAttribute="centerX" id="ge9-d2-d9B"/>
                                     <constraint firstAttribute="bottom" secondItem="D9p-De-taU" secondAttribute="bottom" constant="16" id="kjk-K3-LQ3"/>
-                                    <constraint firstItem="eFA-Ga-C2g" firstAttribute="width" secondItem="DPy-jt-nLS" secondAttribute="width" id="noe-SU-d2g"/>
-                                    <constraint firstItem="eFA-Ga-C2g" firstAttribute="centerY" secondItem="DPy-jt-nLS" secondAttribute="centerY" id="yGy-zR-wIx"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -68,7 +61,6 @@
                     <connections>
                         <outlet property="pageControl" destination="D9p-De-taU" id="FcM-D2-jVG"/>
                         <outlet property="scrollParent" destination="DPy-jt-nLS" id="EDg-WZ-FqC"/>
-                        <outlet property="scrollView" destination="eFA-Ga-C2g" id="d6b-qn-ZSl"/>
                         <outlet property="tabBar" destination="LLJ-6R-HNk" id="xA0-iO-Uj0"/>
                     </connections>
                 </viewController>

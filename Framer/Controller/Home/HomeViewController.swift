@@ -11,10 +11,11 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var tabBar: UITabBar!
-    
     @IBOutlet weak var scrollParent: UIView!
-    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
+    
+    private var scrollView = UIScrollView()
+    
     var deviceViews = [DeviceModel]()
     
     var pickedDevices = [DeviceType]()
@@ -23,12 +24,12 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        scrollView.delegate = self
-        scrollView.isPagingEnabled = true
+        setupScrollView()
+        
         tabBar.delegate = self
         
         deviceViews = createDeviceViews()
-        setupDeviceScrollView(deviceViews: deviceViews)
+        setupDeviceViews(deviceViews: deviceViews)
         
         pageControl.numberOfPages = deviceViews.count
         pageControl.currentPage = 0
@@ -46,33 +47,85 @@ class HomeViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
-    private func setupDeviceScrollView(deviceViews: [DeviceModel]) {
+    private func setupScrollView() {
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        scrollView.delegate = self
+        scrollView.isPagingEnabled = true
+        scrollParent.addSubview(scrollView)
+        NSLayoutConstraint.activate([
+            
+            scrollView.leadingAnchor.constraint(equalTo: scrollParent.leadingAnchor),
+            scrollView.trailingAnchor.constraint(equalTo: scrollParent.trailingAnchor),
+            scrollView.topAnchor.constraint(equalTo: scrollParent.topAnchor),
+            scrollView.bottomAnchor.constraint(equalTo: scrollParent.bottomAnchor)
+            
+            ])
+    }
+    
+    private func setupDeviceViews(deviceViews: [DeviceModel]) {
         
         for sub in scrollView.subviews {
             sub.removeFromSuperview()
         }
         
-        scrollView.contentSize.width = scrollParent.frame.width * CGFloat(deviceViews.count)
+        var priorAnchor = scrollView.leadingAnchor
         
         for i in 0 ..< deviceViews.count {
             let deviceView = deviceViews[i]
-            deviceView.deviceView.translatesAutoresizingMaskIntoConstraints = false
-
+            
             switch deviceView.device {
             case .iPhone55:
                 if let devView = Bundle.main.loadNibNamed("iPhone55DevView", owner: self, options: nil)?.first as? iPhone55DevView {
-                    devView.frame = CGRect(x: scrollParent.frame.width * CGFloat(i), y: 0, width: scrollParent.frame.width, height: scrollParent.frame.height)
+                    
+                    let transparentView = UIView()
+                    transparentView.translatesAutoresizingMaskIntoConstraints = false
+                    transparentView.backgroundColor = UIColor.yellow
+                    scrollView.addSubview(transparentView)
+                    
+                    devView.translatesAutoresizingMaskIntoConstraints = false
+                    devView.backgroundColor = UIColor.clear
+                    transparentView.addSubview(devView)
+                    let devViewWidthAnchor = devView.widthAnchor.constraint(equalToConstant: 1242)
+                    devViewWidthAnchor.priority = UILayoutPriority(rawValue: 250)
+                    
+                    deviceView.deviceView.translatesAutoresizingMaskIntoConstraints = false
                     devView.deviceView.addSubview(deviceView.deviceView)
+                    let screenshotWidthAnchor = devView.widthAnchor.constraint(equalToConstant: 1436)
+                    screenshotWidthAnchor.priority = UILayoutPriority(rawValue: 250)
                     
                     NSLayoutConstraint.activate([
+                        
+                        transparentView.centerYAnchor.constraint(equalTo: scrollParent.centerYAnchor),
+                        transparentView.leadingAnchor.constraint(equalTo: priorAnchor),
+                        transparentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+                        transparentView.topAnchor.constraint(equalTo: scrollView.topAnchor),
+                        transparentView.heightAnchor.constraint(equalTo: scrollParent.heightAnchor),
+                        transparentView.widthAnchor.constraint(equalTo: scrollParent.widthAnchor),
+                        
+                        devViewWidthAnchor,
+                        devView.heightAnchor.constraint(equalTo: devView.widthAnchor, multiplier: 2208/1242),
+                        
+                        devView.centerYAnchor.constraint(equalTo: transparentView.centerYAnchor),
+                        devView.centerXAnchor.constraint(equalTo: transparentView.centerXAnchor),
+                        devView.topAnchor.constraint(greaterThanOrEqualTo: transparentView.topAnchor, constant: 24),
+                        devView.bottomAnchor.constraint(lessThanOrEqualTo: transparentView.bottomAnchor, constant: -24),
+                        devView.leadingAnchor.constraint(greaterThanOrEqualTo: transparentView.leadingAnchor, constant: 16),
+                        devView.trailingAnchor.constraint(lessThanOrEqualTo: transparentView.trailingAnchor, constant: -16),
+                        
+                        screenshotWidthAnchor,
+                        deviceView.deviceView.heightAnchor.constraint(equalTo: deviceView.deviceView.widthAnchor, multiplier: 2876/1436),
+                        
+                        deviceView.deviceView.centerYAnchor.constraint(equalTo: devView.deviceView.centerYAnchor),
                         deviceView.deviceView.centerXAnchor.constraint(equalTo: devView.deviceView.centerXAnchor),
+                        deviceView.deviceView.topAnchor.constraint(equalTo: devView.deviceView.topAnchor),
+                        deviceView.deviceView.bottomAnchor.constraint(equalTo: devView.deviceView.bottomAnchor),
                         deviceView.deviceView.leadingAnchor.constraint(greaterThanOrEqualTo: devView.deviceView.leadingAnchor),
-                        //deviceView.deviceView.trailingAnchor.constraint(lessThanOrEqualTo: devView.deviceView.trailingAnchor),
-                        deviceView.deviceView.topAnchor.constraint(greaterThanOrEqualTo: devView.deviceView.topAnchor),
-                        deviceView.deviceView.bottomAnchor.constraint(equalTo: devView.deviceView.bottomAnchor)
+                        deviceView.deviceView.trailingAnchor.constraint(lessThanOrEqualTo: devView.deviceView.trailingAnchor)
+                        
                         ])
                     
-                    scrollView.addSubview(devView)
+                    priorAnchor = transparentView.trailingAnchor
+                    
                 }
             case .iPhone65:
                 break
@@ -82,6 +135,8 @@ class HomeViewController: UIViewController {
                 break
             }
         }
+        
+        scrollView.trailingAnchor.constraint(equalTo: priorAnchor).isActive = true
     }
     
     private func createDeviceViews() -> [DeviceModel] {
