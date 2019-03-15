@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1BB1BB223C2AEE009FB2DB /* FloatEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BB1BA223C2AEE009FB2DB /* FloatEx.swift */; };
+		AA1BB1BD223C2C3D009FB2DB /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BB1BC223C2C3D009FB2DB /* UIColorEx.swift */; };
 		AA42A6AD21F4EE0000F9BC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6AC21F4EE0000F9BC57 /* AppDelegate.swift */; };
 		AA42A6AF21F4EE0000F9BC57 /* SelectTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42A6AE21F4EE0000F9BC57 /* SelectTemplateViewController.swift */; };
 		AA42A6B221F4EE0000F9BC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA42A6B021F4EE0000F9BC57 /* Main.storyboard */; };
@@ -38,11 +40,9 @@
 		AAC81CDC21FB414600F2B576 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CDB21FB414600F2B576 /* Enums.swift */; };
 		AAC81CDE21FB41CA00F2B576 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CDD21FB41CA00F2B576 /* Fonts.swift */; };
 		AAC81CE021FB4C0B00F2B576 /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CDF21FB4C0B00F2B576 /* UILabelEx.swift */; };
-		AAC81CF721FC5D6900F2B576 /* ScreenshotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CF621FC5D6900F2B576 /* ScreenshotModel.swift */; };
+		AAC81CF721FC5D6900F2B576 /* AppStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CF621FC5D6900F2B576 /* AppStoreViewModel.swift */; };
 		AAC81CFB21FC616600F2B576 /* ScreenshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CFA21FC616600F2B576 /* ScreenshotHelper.swift */; };
 		AAC81CFD21FC61AE00F2B576 /* SelectDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81CFC21FC61AE00F2B576 /* SelectDeviceModel.swift */; };
-		AAC81D0421FC65F500F2B576 /* iPhone55DevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D0321FC65F500F2B576 /* iPhone55DevView.swift */; };
-		AAC81D0621FC660200F2B576 /* iPhone55DevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D0521FC660200F2B576 /* iPhone55DevView.xib */; };
 		AAC81D2821FCB01800F2B576 /* thirdGeniPad129FullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D1D21FCB01800F2B576 /* thirdGeniPad129FullView.xib */; };
 		AAC81D2921FCB01800F2B576 /* thirdGeniPad129FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D1E21FCB01800F2B576 /* thirdGeniPad129FullView.swift */; };
 		AAC81D2A21FCB01800F2B576 /* iPhone55FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D2021FCB01800F2B576 /* iPhone55FullView.swift */; };
@@ -95,12 +95,12 @@
 		AAC81D9B21FCB8ED00F2B576 /* SelectTemplateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC81D9921FCB8ED00F2B576 /* SelectTemplateCell.xib */; };
 		AAC81D9D21FCB9DE00F2B576 /* SelectTemplateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D9C21FCB9DE00F2B576 /* SelectTemplateHelper.swift */; };
 		AAC81D9F21FCBA1200F2B576 /* SelectTemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC81D9E21FCBA1200F2B576 /* SelectTemplateModel.swift */; };
-		AACF5F6921FDB301000687A6 /* iPhone65DevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F6821FDB301000687A6 /* iPhone65DevView.swift */; };
-		AACF5F6B21FDB30D000687A6 /* iPhone65DevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F6A21FDB30D000687A6 /* iPhone65DevView.xib */; };
-		AACF5F6D21FDB3B4000687A6 /* iPad129thirdDevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F6C21FDB3B4000687A6 /* iPad129thirdDevView.xib */; };
-		AACF5F6F21FDB3BF000687A6 /* iPad129thirdDevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F6E21FDB3BF000687A6 /* iPad129thirdDevView.swift */; };
-		AACF5F7121FDB41F000687A6 /* iPad129secondDevView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F7021FDB41F000687A6 /* iPad129secondDevView.swift */; };
-		AACF5F7321FDB42C000687A6 /* iPad129secondDevView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F7221FDB42C000687A6 /* iPad129secondDevView.xib */; };
+		AACB8807220DE0AE004B2960 /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB8806220DE0AE004B2960 /* AppStoreView.swift */; };
+		AACB8809220DE0BE004B2960 /* AppStoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACB8808220DE0BE004B2960 /* AppStoreView.xib */; };
+		AACB880B220DE55E004B2960 /* TopTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB880A220DE55E004B2960 /* TopTextView.swift */; };
+		AACB880D220DE56A004B2960 /* TopTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACB880C220DE56A004B2960 /* TopTextView.xib */; };
+		AACB880F220DE595004B2960 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACB880E220DE595004B2960 /* BottomTextView.swift */; };
+		AACB8811220DE5A1004B2960 /* BottomTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACB8810220DE5A1004B2960 /* BottomTextView.xib */; };
 		AACF5F7D21FDDD5F000687A6 /* iPhone55RotateLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF5F7C21FDDD5F000687A6 /* iPhone55RotateLeft.swift */; };
 		AACF5F7F21FDDD69000687A6 /* iPhone55RotateLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F7E21FDDD69000687A6 /* iPhone55RotateLeft.xib */; };
 		AACF5F8121FDDD7A000687A6 /* iPhone65RotateLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACF5F8021FDDD7A000687A6 /* iPhone65RotateLeft.xib */; };
@@ -161,6 +161,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1BB1BA223C2AEE009FB2DB /* FloatEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatEx.swift; sourceTree = "<group>"; };
+		AA1BB1BC223C2C3D009FB2DB /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
 		AA42A6A921F4EE0000F9BC57 /* Framer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Framer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA42A6AC21F4EE0000F9BC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA42A6AE21F4EE0000F9BC57 /* SelectTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTemplateViewController.swift; sourceTree = "<group>"; };
@@ -198,11 +200,9 @@
 		AAC81CDB21FB414600F2B576 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		AAC81CDD21FB41CA00F2B576 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		AAC81CDF21FB4C0B00F2B576 /* UILabelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
-		AAC81CF621FC5D6900F2B576 /* ScreenshotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotModel.swift; sourceTree = "<group>"; };
+		AAC81CF621FC5D6900F2B576 /* AppStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreViewModel.swift; sourceTree = "<group>"; };
 		AAC81CFA21FC616600F2B576 /* ScreenshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotHelper.swift; sourceTree = "<group>"; };
 		AAC81CFC21FC61AE00F2B576 /* SelectDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceModel.swift; sourceTree = "<group>"; };
-		AAC81D0321FC65F500F2B576 /* iPhone55DevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone55DevView.swift; sourceTree = "<group>"; };
-		AAC81D0521FC660200F2B576 /* iPhone55DevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone55DevView.xib; sourceTree = "<group>"; };
 		AAC81D1D21FCB01800F2B576 /* thirdGeniPad129FullView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdGeniPad129FullView.xib; sourceTree = "<group>"; };
 		AAC81D1E21FCB01800F2B576 /* thirdGeniPad129FullView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdGeniPad129FullView.swift; sourceTree = "<group>"; };
 		AAC81D2021FCB01800F2B576 /* iPhone55FullView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone55FullView.swift; sourceTree = "<group>"; };
@@ -255,12 +255,12 @@
 		AAC81D9921FCB8ED00F2B576 /* SelectTemplateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectTemplateCell.xib; sourceTree = "<group>"; };
 		AAC81D9C21FCB9DE00F2B576 /* SelectTemplateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTemplateHelper.swift; sourceTree = "<group>"; };
 		AAC81D9E21FCBA1200F2B576 /* SelectTemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTemplateModel.swift; sourceTree = "<group>"; };
-		AACF5F6821FDB301000687A6 /* iPhone65DevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone65DevView.swift; sourceTree = "<group>"; };
-		AACF5F6A21FDB30D000687A6 /* iPhone65DevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone65DevView.xib; sourceTree = "<group>"; };
-		AACF5F6C21FDB3B4000687A6 /* iPad129thirdDevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPad129thirdDevView.xib; sourceTree = "<group>"; };
-		AACF5F6E21FDB3BF000687A6 /* iPad129thirdDevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad129thirdDevView.swift; sourceTree = "<group>"; };
-		AACF5F7021FDB41F000687A6 /* iPad129secondDevView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad129secondDevView.swift; sourceTree = "<group>"; };
-		AACF5F7221FDB42C000687A6 /* iPad129secondDevView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPad129secondDevView.xib; sourceTree = "<group>"; };
+		AACB8806220DE0AE004B2960 /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
+		AACB8808220DE0BE004B2960 /* AppStoreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppStoreView.xib; sourceTree = "<group>"; };
+		AACB880A220DE55E004B2960 /* TopTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTextView.swift; sourceTree = "<group>"; };
+		AACB880C220DE56A004B2960 /* TopTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTextView.xib; sourceTree = "<group>"; };
+		AACB880E220DE595004B2960 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		AACB8810220DE5A1004B2960 /* BottomTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomTextView.xib; sourceTree = "<group>"; };
 		AACF5F7C21FDDD5F000687A6 /* iPhone55RotateLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone55RotateLeft.swift; sourceTree = "<group>"; };
 		AACF5F7E21FDDD69000687A6 /* iPhone55RotateLeft.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone55RotateLeft.xib; sourceTree = "<group>"; };
 		AACF5F8021FDDD7A000687A6 /* iPhone65RotateLeft.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhone65RotateLeft.xib; sourceTree = "<group>"; };
@@ -396,7 +396,7 @@
 			children = (
 				AAC81CD921FB411D00F2B576 /* GeneralButton.swift */,
 				AAC81CD721FB3C7000F2B576 /* RoundedView.swift */,
-				AAC81CFE21FC656D00F2B576 /* AppStoreViews */,
+				AAC81CFE21FC656D00F2B576 /* AppStoreView */,
 				AAD5D30C21F8FD22008C88B1 /* DeviceViews */,
 				AAD5D30B21F8FD1C008C88B1 /* Cells */,
 				AA42A6B821F4EE0200F9BC57 /* LaunchScreen.storyboard */,
@@ -410,10 +410,10 @@
 			isa = PBXGroup;
 			children = (
 				AA42A6B321F4EE0000F9BC57 /* Framer.xcdatamodeld */,
-				AAC81CF621FC5D6900F2B576 /* ScreenshotModel.swift */,
 				AAC81CFC21FC61AE00F2B576 /* SelectDeviceModel.swift */,
 				AAC81D9E21FCBA1200F2B576 /* SelectTemplateModel.swift */,
 				AABA69CE220747A500211EC3 /* DeviceModel.swift */,
+				AAC81CF621FC5D6900F2B576 /* AppStoreViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -427,6 +427,8 @@
 				AAC81CD521FB31D300F2B576 /* UIViewEx.swift */,
 				AAC81CDF21FB4C0B00F2B576 /* UILabelEx.swift */,
 				AABA69CC220709BC00211EC3 /* UIImageEx.swift */,
+				AA1BB1BA223C2AEE009FB2DB /* FloatEx.swift */,
+				AA1BB1BC223C2C3D009FB2DB /* UIColorEx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -516,51 +518,17 @@
 			path = Screenshot;
 			sourceTree = "<group>";
 		};
-		AAC81CFE21FC656D00F2B576 /* AppStoreViews */ = {
+		AAC81CFE21FC656D00F2B576 /* AppStoreView */ = {
 			isa = PBXGroup;
 			children = (
-				AAC81D0021FC65A500F2B576 /* iPhone-5.5-inch */,
-				AAC81CFF21FC659D00F2B576 /* iPhone-6.5-inch */,
-				AAC81D0221FC65B700F2B576 /* iPad-12.9-inch-3rdGen */,
-				AAC81D0121FC65AD00F2B576 /* iPad-12.9-inch-2ndGen */,
+				AACB8806220DE0AE004B2960 /* AppStoreView.swift */,
+				AACB8808220DE0BE004B2960 /* AppStoreView.xib */,
+				AACB880A220DE55E004B2960 /* TopTextView.swift */,
+				AACB880C220DE56A004B2960 /* TopTextView.xib */,
+				AACB880E220DE595004B2960 /* BottomTextView.swift */,
+				AACB8810220DE5A1004B2960 /* BottomTextView.xib */,
 			);
-			path = AppStoreViews;
-			sourceTree = "<group>";
-		};
-		AAC81CFF21FC659D00F2B576 /* iPhone-6.5-inch */ = {
-			isa = PBXGroup;
-			children = (
-				AACF5F6821FDB301000687A6 /* iPhone65DevView.swift */,
-				AACF5F6A21FDB30D000687A6 /* iPhone65DevView.xib */,
-			);
-			path = "iPhone-6.5-inch";
-			sourceTree = "<group>";
-		};
-		AAC81D0021FC65A500F2B576 /* iPhone-5.5-inch */ = {
-			isa = PBXGroup;
-			children = (
-				AAC81D0321FC65F500F2B576 /* iPhone55DevView.swift */,
-				AAC81D0521FC660200F2B576 /* iPhone55DevView.xib */,
-			);
-			path = "iPhone-5.5-inch";
-			sourceTree = "<group>";
-		};
-		AAC81D0121FC65AD00F2B576 /* iPad-12.9-inch-2ndGen */ = {
-			isa = PBXGroup;
-			children = (
-				AACF5F7021FDB41F000687A6 /* iPad129secondDevView.swift */,
-				AACF5F7221FDB42C000687A6 /* iPad129secondDevView.xib */,
-			);
-			path = "iPad-12.9-inch-2ndGen";
-			sourceTree = "<group>";
-		};
-		AAC81D0221FC65B700F2B576 /* iPad-12.9-inch-3rdGen */ = {
-			isa = PBXGroup;
-			children = (
-				AACF5F6C21FDB3B4000687A6 /* iPad129thirdDevView.xib */,
-				AACF5F6E21FDB3BF000687A6 /* iPad129thirdDevView.swift */,
-			);
-			path = "iPad-12.9-inch-3rdGen";
+			path = AppStoreView;
 			sourceTree = "<group>";
 		};
 		AAC81D1B21FCB01800F2B576 /* FullDevice */ = {
@@ -1155,7 +1123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA42A6F221F4F1D600F9BC57 /* SelectImage.storyboard in Resources */,
-				AACF5F6D21FDB3B4000687A6 /* iPad129thirdDevView.xib in Resources */,
 				AACF5F9D21FDDF55000687A6 /* iphone55RotateRight.xib in Resources */,
 				AAC81D9521FCB30700F2B576 /* secondGeniPad129CaptionAbove.xib in Resources */,
 				AAC81D8521FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionAbove.xib in Resources */,
@@ -1164,10 +1131,8 @@
 				AAC81D9321FCB30700F2B576 /* iPhone55CaptionAbove.xib in Resources */,
 				AACF5F8921FDDDC3000687A6 /* thirdGeniPad129RotateLeft.xib in Resources */,
 				AAD5D31021F8FD48008C88B1 /* SelectDeviceCell.xib in Resources */,
-				AACF5F6B21FDB30D000687A6 /* iPhone65DevView.xib in Resources */,
 				AACF5FBB21FDE085000687A6 /* iphone55RotateRightCaptionBelow.xib in Resources */,
 				AAC81D8B21FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.xib in Resources */,
-				AAC81D0621FC660200F2B576 /* iPhone55DevView.xib in Resources */,
 				AAC81D4321FCB04A00F2B576 /* iPhone65Screenshot.xib in Resources */,
 				AAC81D2F21FCB01800F2B576 /* iPhone65FullView.xib in Resources */,
 				AAC81D2B21FCB01800F2B576 /* iPhone55FullView.xib in Resources */,
@@ -1181,6 +1146,7 @@
 				AA42A6EA21F4F0B800F9BC57 /* SelectText.storyboard in Resources */,
 				AAC81D9721FCB30700F2B576 /* iPhone65CaptionAbove.xib in Resources */,
 				AACF5F7F21FDDD69000687A6 /* iPhone55RotateLeft.xib in Resources */,
+				AACB8809220DE0BE004B2960 /* AppStoreView.xib in Resources */,
 				AAC81D7B21FCB30700F2B576 /* iPhone55CaptionBelow.xib in Resources */,
 				AAC81D9B21FCB8ED00F2B576 /* SelectTemplateCell.xib in Resources */,
 				AA42A6BA21F4EE0200F9BC57 /* LaunchScreen.storyboard in Resources */,
@@ -1189,7 +1155,7 @@
 				AAC81D2821FCB01800F2B576 /* thirdGeniPad129FullView.xib in Resources */,
 				AACF5FAF21FDE007000687A6 /* iphone65RotateRightCaptionAbove.xib in Resources */,
 				AACF5F9521FDDF22000687A6 /* secondGeniPad129RotateRight.xib in Resources */,
-				AACF5F7321FDB42C000687A6 /* iPad129secondDevView.xib in Resources */,
+				AACB880D220DE56A004B2960 /* TopTextView.xib in Resources */,
 				AACF5FB121FDE016000687A6 /* iphone55RotateRightCaptionAbove.xib in Resources */,
 				AACF5FA921FDDFD3000687A6 /* secondGeniPad129RotateRightCaptionAbove.xib in Resources */,
 				AACF5FC321FDE0E1000687A6 /* secondGeniPad129RotateRightCaptionBelow.xib in Resources */,
@@ -1201,6 +1167,7 @@
 				AAD8666E21FCEB3F0069492A /* SelectDeviceColor.storyboard in Resources */,
 				AAC81D8821FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.xib in Resources */,
 				AA42A6E421F4F03500F9BC57 /* SelectTemplate.storyboard in Resources */,
+				AACB8811220DE5A1004B2960 /* BottomTextView.xib in Resources */,
 				AAC81D7F21FCB30700F2B576 /* iPhone65CaptionBelow.xib in Resources */,
 				AAC81D8D21FCB30700F2B576 /* secondGeniPad129RotateLeftCaptionBelow.xib in Resources */,
 				AACF5F9B21FDDF4B000687A6 /* iphone65RotateRight.xib in Resources */,
@@ -1235,18 +1202,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC81CD421FB0DCD00F2B576 /* CustomNavController.swift in Sources */,
-				AACF5F7121FDB41F000687A6 /* iPad129secondDevView.swift in Sources */,
 				AABA69CD220709BC00211EC3 /* UIImageEx.swift in Sources */,
 				AAC81D2C21FCB01800F2B576 /* secondGeniPad129FullView.swift in Sources */,
 				AAC81CFB21FC616600F2B576 /* ScreenshotHelper.swift in Sources */,
 				AA42A6EE21F4F18500F9BC57 /* SelectBackgroundViewController.swift in Sources */,
-				AACF5F6F21FDB3BF000687A6 /* iPad129thirdDevView.swift in Sources */,
 				AAC81D9221FCB30700F2B576 /* iPhone55CaptionAbove.swift in Sources */,
 				AACF5FB321FDE021000687A6 /* iphone55RotateRightCaptionAbove.swift in Sources */,
 				AAC81CFD21FC61AE00F2B576 /* SelectDeviceModel.swift in Sources */,
 				AAC81D8121FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionAbove.swift in Sources */,
 				AAC81CE021FB4C0B00F2B576 /* UILabelEx.swift in Sources */,
-				AACF5F6921FDB301000687A6 /* iPhone65DevView.swift in Sources */,
 				AACF5F9721FDDF2E000687A6 /* secondGeniPad129RotateRight.swift in Sources */,
 				AACF5F9921FDDF43000687A6 /* iphone65RotateRight.swift in Sources */,
 				AAD5D30F21F8FD48008C88B1 /* SelectDeviceCell.swift in Sources */,
@@ -1258,11 +1222,12 @@
 				AA42A6EC21F4F15E00F9BC57 /* SelectDeviceViewController.swift in Sources */,
 				AAC81CD621FB31D300F2B576 /* UIViewEx.swift in Sources */,
 				AACF5FAB21FDDFE2000687A6 /* secondGeniPad129RotateRightCaptionAbove.swift in Sources */,
+				AA1BB1BD223C2C3D009FB2DB /* UIColorEx.swift in Sources */,
 				AAD5D31621FA427E008C88B1 /* HomeViewController.swift in Sources */,
 				AAC81CDA21FB411D00F2B576 /* GeneralButton.swift in Sources */,
 				AAC81CD021FB050500F2B576 /* Buttons.swift in Sources */,
 				AAC81CD821FB3C7000F2B576 /* RoundedView.swift in Sources */,
-				AAC81CF721FC5D6900F2B576 /* ScreenshotModel.swift in Sources */,
+				AAC81CF721FC5D6900F2B576 /* AppStoreViewModel.swift in Sources */,
 				AAC81D9421FCB30700F2B576 /* secondGeniPad129CaptionAbove.swift in Sources */,
 				AA42A6F421F4F1F200F9BC57 /* SelectImageViewController.swift in Sources */,
 				AACF5F8521FDDDA8000687A6 /* secondGeniPad129RotateLeft.swift in Sources */,
@@ -1276,17 +1241,18 @@
 				AAC81D8E21FCB30700F2B576 /* iPhone65RotateLeftCaptionBelow.swift in Sources */,
 				AA42A6AF21F4EE0000F9BC57 /* SelectTemplateViewController.swift in Sources */,
 				AACF5FA521FDDFB8000687A6 /* thirdGeniPad129RotateRightCaptionAbove.swift in Sources */,
+				AACB880F220DE595004B2960 /* BottomTextView.swift in Sources */,
 				AAC81D9F21FCBA1200F2B576 /* SelectTemplateModel.swift in Sources */,
 				AAC81D2921FCB01800F2B576 /* thirdGeniPad129FullView.swift in Sources */,
 				AACF5F9121FDDF0C000687A6 /* thirdGeniPad129RotateRight.swift in Sources */,
 				AAC81CDE21FB41CA00F2B576 /* Fonts.swift in Sources */,
 				AAC81D8621FCB30700F2B576 /* iPhone65RotateLeftCaptionAbove.swift in Sources */,
 				AAC81D7C21FCB30700F2B576 /* secondGeniPad129CaptionBelow.swift in Sources */,
-				AAC81D0421FC65F500F2B576 /* iPhone55DevView.swift in Sources */,
 				AAC81D3C21FCB04A00F2B576 /* secondGeniPad129Screenshot.swift in Sources */,
 				AAC81D7921FCB30700F2B576 /* thirdGeniPad129CaptionBelow.swift in Sources */,
 				AAC81D7E21FCB30700F2B576 /* iPhone65CaptionBelow.swift in Sources */,
 				AAC81D8A21FCB30700F2B576 /* iPhone55RotateLeftCaptionBelow.swift in Sources */,
+				AACB880B220DE55E004B2960 /* TopTextView.swift in Sources */,
 				AA42A6AD21F4EE0000F9BC57 /* AppDelegate.swift in Sources */,
 				AAC81D4021FCB04A00F2B576 /* iPhone55Screenshot.swift in Sources */,
 				AA42A6B521F4EE0000F9BC57 /* Framer.xcdatamodeld in Sources */,
@@ -1304,8 +1270,10 @@
 				AACF5FB921FDE07D000687A6 /* iphone55RotateRightCaptionBelow.swift in Sources */,
 				AAC81CCA21FB049200F2B576 /* UIViewControllerEx.swift in Sources */,
 				AACF5F8321FDDD86000687A6 /* iPhone65RotateLeft.swift in Sources */,
+				AACB8807220DE0AE004B2960 /* AppStoreView.swift in Sources */,
 				AACF5FBF21FDE0C2000687A6 /* iphone65RotateRightCaptionBelow.swift in Sources */,
 				AAC81D8921FCB30700F2B576 /* thirdGeniPad129RotateLeftCaptionBelow.swift in Sources */,
+				AA1BB1BB223C2AEE009FB2DB /* FloatEx.swift in Sources */,
 				AACF5F9F21FDDF61000687A6 /* iphone55RotateRight.swift in Sources */,
 				AAC81D2E21FCB01800F2B576 /* iPhone65FullView.swift in Sources */,
 				AAC81D4221FCB04A00F2B576 /* iPhone65Screenshot.swift in Sources */,

@@ -31,6 +31,11 @@ class SelectBackgroundViewController: UIViewController {
     
     @IBOutlet weak var hextTextField: UITextField!
     
+    var callback: (([UIColor])->())?
+    
+    var firstColor: UIColor = .red
+    var secondColor: UIColor = .purple
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,10 +52,13 @@ class SelectBackgroundViewController: UIViewController {
         blueTextField.delegate = self
         blueTextField.addTarget(self, action: #selector(blueTextFieldDidChange(_:)), for: .editingChanged)
         
+        redSlider.value = Float(firstColor.rgb().red)
+        greenSlider.value = Float(firstColor.rgb().green)
+        blueSlider.value = Float(firstColor.rgb().blue)
+        
         setupSliderValues()
         setupGradientValues()
-        
-        view.applyGradient(colors: [Colors.hexToUIColor(hex: "#de6262"), Colors.hexToUIColor(hex: "#ffb88c")])
+        changeColors()
     }
     
     @IBAction func closeButtonPressed(_ sender: Any) {
@@ -60,27 +68,37 @@ class SelectBackgroundViewController: UIViewController {
     
     @IBAction func saveButtonPressed(_ sender: Any) {
         
+        if gradientSwitch.isOn {
+            callback?([firstColor, secondColor])
+        } else {
+            callback?([UIColor.red, UIColor.green])
+        }
+        
         dismiss(animated: true, completion: nil)
     }
     
     @IBAction func gradientSwitchValueChanged(_ sender: Any) {
         
         setupGradientValues()
+        changeColors()
     }
     
     @IBAction func redSliderValueChanged(_ sender: UISlider) {
         
         redTextField.text = String(Int(redSlider.value))
+        changeColors()
     }
     
     @IBAction func greenSliderValueChanged(_ sender: UISlider) {
         
         greenTextField.text = String(Int(greenSlider.value))
+        changeColors()
     }
 
     @IBAction func blueSliderValueChanged(_ sender: UISlider) {
         
         blueTextField.text = String(Int(blueSlider.value))
+        changeColors()
     }
     
     private func setupSliderValues() {
@@ -100,6 +118,39 @@ class SelectBackgroundViewController: UIViewController {
             colorSegmentedControl.isHidden = true
         }
     }
+    
+    private func changeColors() {
+        
+        if colorSegmentedControl.selectedSegmentIndex == 0 {
+            // First color
+            redSlider.value = Float(firstColor.rgb().red)
+            greenSlider.value = Float(firstColor.rgb().green)
+            blueSlider.value = Float(firstColor.rgb().blue)
+        } else {
+            // Second color
+            redSlider.value = Float(secondColor.rgb().red)
+            greenSlider.value = Float(secondColor.rgb().green)
+            blueSlider.value = Float(secondColor.rgb().blue)
+        }
+        
+        if gradientSwitch.isOn {
+            if colorSegmentedControl.selectedSegmentIndex == 0 {
+                firstColor = UIColor(red: redSlider.value.colorValue(), green: greenSlider.value.colorValue(), blue: blueSlider.value.colorValue(), alpha: 1.0)
+            } else {
+                secondColor = UIColor(red: redSlider.value.colorValue(), green: greenSlider.value.colorValue(), blue: blueSlider.value.colorValue(), alpha: 1.0)
+            }
+            colorView.applyGradient(colors: [firstColor, secondColor])
+        } else {
+            firstColor = UIColor(red: redSlider.value.colorValue(), green: greenSlider.value.colorValue(), blue: blueSlider.value.colorValue(), alpha: 1.0)
+            colorView.backgroundColor = firstColor
+        }
+    }
+    
+    @IBAction func segmentedControlChanged(_ sender: UISegmentedControl) {
+        
+        changeColors()
+    }
+    
 }
 
 extension SelectBackgroundViewController: UITextFieldDelegate {
@@ -108,18 +159,20 @@ extension SelectBackgroundViewController: UITextFieldDelegate {
         
         let currentValue: Float = Float(textField.text ?? "0") ?? 0
         redSlider.setValue(currentValue, animated: true)
+        changeColors()
     }
     
     @objc func greenTextFieldDidChange(_ textField: UITextField) {
         
         let currentValue: Float = Float(textField.text ?? "0") ?? 0
         greenSlider.setValue(currentValue, animated: true)
+        changeColors()
     }
     
     @objc func blueTextFieldDidChange(_ textField: UITextField) {
         
         let currentValue: Float = Float(textField.text ?? "0") ?? 0
         blueSlider.setValue(currentValue, animated: true)
+        changeColors()
     }
 }
-

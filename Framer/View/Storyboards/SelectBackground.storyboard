@@ -52,7 +52,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="1N1-J9-AaT">
                                                                 <rect key="frame" x="0.0" y="0.0" width="131" height="31"/>
                                                                 <subviews>
-                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oua-YB-5Fo">
+                                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oua-YB-5Fo">
                                                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                                         <connections>
                                                                             <action selector="gradientSwitchValueChanged:" destination="hLB-P4-bom" eventType="valueChanged" id="NIQ-XK-Op8"/>
@@ -72,6 +72,9 @@
                                                                     <segment title="First color"/>
                                                                     <segment title="Second color"/>
                                                                 </segments>
+                                                                <connections>
+                                                                    <action selector="segmentedControlChanged:" destination="hLB-P4-bom" eventType="valueChanged" id="9hP-x6-pFn"/>
+                                                                </connections>
                                                             </segmentedControl>
                                                         </subviews>
                                                     </stackView>

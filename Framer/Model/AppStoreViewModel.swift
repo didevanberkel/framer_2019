@@ -1,5 +1,5 @@
 //
-//  ScreenshotModel.swift
+//  AppStoreViewModel.swift
 //  Framer
 //
 //  Created by Dide van Berkel on 26/01/2019.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct ScreenshotModel {
+struct AppStoreViewModel {
     
     var device: DeviceType
     var template: TemplateType
