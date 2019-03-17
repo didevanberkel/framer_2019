@@ -37,3 +37,9 @@ enum TemplateType {
     case screenshotCaptionBelow
     case screenshotCaptionAbove
 }
+
+enum DeviceColor {
+    case silver
+    case spaceGrey
+    case gold
+}

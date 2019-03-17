@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="Kf5-GY-2Nl" customClass="iPhone55Screenshot" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OLB-Ke-MWh">
+                    <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OLB-Ke-MWh" secondAttribute="height" multiplier="1436:2876" id="SAl-Bf-A40"/>
+                        <constraint firstAttribute="height" priority="750" constant="2876" id="o04-5i-5DA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OLB-Ke-MWh" firstAttribute="top" secondItem="Kf5-GY-2Nl" secondAttribute="top" id="C2a-qJ-nbU"/>
+                <constraint firstAttribute="bottom" secondItem="OLB-Ke-MWh" secondAttribute="bottom" id="DGZ-EC-nXB"/>
+                <constraint firstAttribute="trailing" secondItem="OLB-Ke-MWh" secondAttribute="trailing" id="EWa-ma-AVh"/>
+                <constraint firstItem="OLB-Ke-MWh" firstAttribute="leading" secondItem="Kf5-GY-2Nl" secondAttribute="leading" id="PXZ-BD-WPO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="kEv-if-kAV"/>
+            <connections>
+                <outlet property="img" destination="OLB-Ke-MWh" id="qmx-Pu-Y7K"/>
+            </connections>
+            <point key="canvasLocation" x="128.80000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

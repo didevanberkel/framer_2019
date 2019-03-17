@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
     @IBOutlet weak var tabBar: UITabBar!
     @IBOutlet weak var scrollParent: UIView!
     @IBOutlet weak var pageControl: UIPageControl!
@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setupScrollView()
         
         tabBar.delegate = self
@@ -78,15 +78,19 @@ class HomeViewController: UIViewController {
             var appStoreViewWidth: CGFloat = 0.0
             var appStoreViewHeight: CGFloat = 0.0
             var screenshotWidth: CGFloat = 0.0
-            
+
             switch deviceModel.device {
             case .iPhone55:
+                // for full devices
                 appStoreViewWidth = 1242
                 appStoreViewHeight = 2208
+                
                 screenshotWidth = 1436
             case .iPhone65:
+                // for full devices
                 appStoreViewWidth = 1242
                 appStoreViewHeight = 2688
+                
                 screenshotWidth = 1413
             case .iPad129second:
                 break
@@ -126,6 +130,7 @@ class HomeViewController: UIViewController {
                     transparentView.widthAnchor.constraint(equalTo: scrollParent.widthAnchor),
                     
                     devViewWidthAnchor,
+                    
                     appStoreView.heightAnchor.constraint(equalTo: appStoreView.widthAnchor, multiplier: appStoreViewHeight/appStoreViewWidth),
                     
                     appStoreView.centerYAnchor.constraint(equalTo: transparentView.centerYAnchor),
@@ -136,12 +141,11 @@ class HomeViewController: UIViewController {
                     appStoreView.trailingAnchor.constraint(lessThanOrEqualTo: transparentView.trailingAnchor, constant: -16),
                     
                     screenshotWidthAnchor,
-                    deviceModel.deviceView.heightAnchor.constraint(equalTo: deviceModel.deviceView.widthAnchor, multiplier: 2876/1436),
-                    
+
                     deviceModel.deviceView.centerYAnchor.constraint(equalTo: appStoreView.deviceView.centerYAnchor),
                     deviceModel.deviceView.centerXAnchor.constraint(equalTo: appStoreView.deviceView.centerXAnchor),
-                    deviceModel.deviceView.topAnchor.constraint(equalTo: appStoreView.deviceView.topAnchor),
-                    deviceModel.deviceView.bottomAnchor.constraint(equalTo: appStoreView.deviceView.bottomAnchor),
+                    deviceModel.deviceView.topAnchor.constraint(greaterThanOrEqualTo: appStoreView.deviceView.topAnchor),
+                    deviceModel.deviceView.bottomAnchor.constraint(lessThanOrEqualTo: appStoreView.deviceView.bottomAnchor),
                     deviceModel.deviceView.leadingAnchor.constraint(greaterThanOrEqualTo: appStoreView.deviceView.leadingAnchor),
                     deviceModel.deviceView.trailingAnchor.constraint(lessThanOrEqualTo: appStoreView.deviceView.trailingAnchor)
                     
@@ -149,6 +153,7 @@ class HomeViewController: UIViewController {
                 
                 priorAnchor = transparentView.trailingAnchor
             }
+            
         }
         
         scrollView.trailingAnchor.constraint(equalTo: priorAnchor).isActive = true
@@ -158,7 +163,11 @@ class HomeViewController: UIViewController {
         let views = ScreenshotHelper.addTemplateViews(pickedDevices: pickedDevices, pickedTemplates: pickedTemplates)
         return views
     }
-
+    
+    private func changeDeviceColor(views: [DeviceModel], color: DeviceColor) {
+        ScreenshotHelper.changeDeviceColor(devices: views, color: color)
+    }
+    
 }
 
 extension HomeViewController: UITabBarDelegate {
@@ -176,7 +185,7 @@ extension HomeViewController: UITabBarDelegate {
             }
             vc.callback = { result in
                 // Apply this color to all the dev views.
-                
+                print(result)
             }
             navigationController?.present(vc, animated: true, completion: nil)
         case 3:

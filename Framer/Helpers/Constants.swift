@@ -14,3 +14,7 @@ struct BarButtonTraits {
     static let width: CGFloat = 80.0
     static let widthSmall: CGFloat = 44.0
 }
+
+let leftRotation: CGFloat = -25
+let rightRotation: CGFloat = 25
+let standardColor: String = "silver"

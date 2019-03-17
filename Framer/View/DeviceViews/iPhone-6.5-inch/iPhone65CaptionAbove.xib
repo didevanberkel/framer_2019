@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="iPhone65CaptionAbove" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-captionabove-silver" translatesAutoresizingMaskIntoConstraints="NO" id="Oci-Nb-MN1">
+                    <rect key="frame" x="0.0" y="0.0" width="1413" height="2300"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Oci-Nb-MN1" secondAttribute="height" multiplier="1413:2300" id="2vy-DP-loU"/>
+                        <constraint firstAttribute="height" priority="750" constant="2300" id="km5-l9-emZ"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8YO-Aq-S8h">
+                    <rect key="frame" x="85.5" y="88" width="1242" height="2212"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JUj-NT-2jE">
+                            <rect key="frame" x="0.0" y="0.0" width="1242" height="2212"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-captionabove-frame" translatesAutoresizingMaskIntoConstraints="NO" id="dsv-Tc-mrq" userLabel="iPhoneXFrame">
+                            <rect key="frame" x="0.0" y="0.0" width="1242" height="2212"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-65-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="Aa2-2L-TDH" userLabel="statusbar">
+                            <rect key="frame" x="0.0" y="0.0" width="1242" height="140"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Aa2-2L-TDH" secondAttribute="height" multiplier="1242:140" id="taw-fI-5Z1"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="JUj-NT-2jE" secondAttribute="trailing" id="7hM-Rx-PEB"/>
+                        <constraint firstAttribute="bottom" secondItem="JUj-NT-2jE" secondAttribute="bottom" id="Ac4-rN-21Z"/>
+                        <constraint firstItem="Aa2-2L-TDH" firstAttribute="top" secondItem="8YO-Aq-S8h" secondAttribute="top" id="Ad7-ai-bZh"/>
+                        <constraint firstAttribute="width" secondItem="8YO-Aq-S8h" secondAttribute="height" multiplier="1242:2212" id="EYG-de-7ti"/>
+                        <constraint firstItem="dsv-Tc-mrq" firstAttribute="leading" secondItem="8YO-Aq-S8h" secondAttribute="leading" id="PEj-Rc-tJq"/>
+                        <constraint firstItem="Aa2-2L-TDH" firstAttribute="leading" secondItem="8YO-Aq-S8h" secondAttribute="leading" id="hQ7-jX-iYO"/>
+                        <constraint firstItem="JUj-NT-2jE" firstAttribute="leading" secondItem="8YO-Aq-S8h" secondAttribute="leading" id="qcq-NK-PuQ"/>
+                        <constraint firstItem="JUj-NT-2jE" firstAttribute="top" secondItem="8YO-Aq-S8h" secondAttribute="top" id="tyR-ND-VJk"/>
+                        <constraint firstAttribute="trailing" secondItem="dsv-Tc-mrq" secondAttribute="trailing" id="vDd-Yc-VzL"/>
+                        <constraint firstAttribute="bottom" secondItem="dsv-Tc-mrq" secondAttribute="bottom" id="xLV-iS-avi"/>
+                        <constraint firstAttribute="trailing" secondItem="Aa2-2L-TDH" secondAttribute="trailing" id="xyN-cJ-asc"/>
+                        <constraint firstItem="dsv-Tc-mrq" firstAttribute="top" secondItem="8YO-Aq-S8h" secondAttribute="top" id="zjr-2J-2rt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8YO-Aq-S8h" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ldt-JL-Oxv"/>
+                <constraint firstAttribute="bottom" secondItem="Oci-Nb-MN1" secondAttribute="bottom" id="XkX-m8-Ifp"/>
+                <constraint firstItem="8YO-Aq-S8h" firstAttribute="height" secondItem="Oci-Nb-MN1" secondAttribute="height" multiplier="2212:2300" id="Y8a-lT-aU1"/>
+                <constraint firstItem="Oci-Nb-MN1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Z9U-Gd-BKv"/>
+                <constraint firstAttribute="trailing" secondItem="Oci-Nb-MN1" secondAttribute="trailing" id="eYb-8S-bXq"/>
+                <constraint firstItem="Oci-Nb-MN1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sqH-wD-Af1"/>
+                <constraint firstAttribute="bottom" secondItem="8YO-Aq-S8h" secondAttribute="bottom" id="x32-oz-27l"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="deviceFrame" destination="Oci-Nb-MN1" id="bCB-0H-bCf"/>
+                <outlet property="img" destination="JUj-NT-2jE" id="fWZ-Pg-uQJ"/>
+                <outlet property="imgView" destination="8YO-Aq-S8h" id="8E6-kA-mRP"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iphone-65-captionabove-frame" width="1242" height="2212"/>
+        <image name="iphone-65-captionabove-silver" width="1413" height="2300"/>
+        <image name="iphone-65-statusbar" width="1242" height="140"/>
+    </resources>
+</document>

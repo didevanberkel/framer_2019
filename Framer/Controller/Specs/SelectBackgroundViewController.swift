@@ -56,6 +56,8 @@ class SelectBackgroundViewController: UIViewController {
         greenSlider.value = Float(firstColor.rgb().green)
         blueSlider.value = Float(firstColor.rgb().blue)
         
+        view.applyGradient(colors: [Colors.hexToUIColor(hex: "#de6262"), Colors.hexToUIColor(hex: "#ffb88c")])
+        
         setupSliderValues()
         setupGradientValues()
         changeColors()

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleAspectFill" id="iN0-l3-epB" customClass="secondGeniPad129CaptionBelow" customModule="Framer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="2286" height="2428"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad-1292nd-captionbelow-silver" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-bV-A79">
+                    <rect key="frame" x="0.0" y="0.0" width="2286" height="2428"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-N6-wBb">
+                    <rect key="frame" x="119" y="0.0" width="2048" height="2208"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2048" id="2pR-cs-Hhp"/>
+                        <constraint firstAttribute="width" secondItem="8rh-N6-wBb" secondAttribute="height" multiplier="2048:2208" id="ceu-uC-YpF"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8rh-N6-wBb" firstAttribute="top" secondItem="X1z-bV-A79" secondAttribute="top" id="764-qG-L5g"/>
+                <constraint firstItem="8rh-N6-wBb" firstAttribute="centerX" secondItem="X1z-bV-A79" secondAttribute="centerX" id="IdL-A4-Jaj"/>
+                <constraint firstItem="X1z-bV-A79" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="V8X-12-YBO"/>
+                <constraint firstItem="X1z-bV-A79" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="stf-cS-wrS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="img" destination="8rh-N6-wBb" id="gN6-5x-hfg"/>
+            </connections>
+            <point key="canvasLocation" x="-15" y="167"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ipad-1292nd-captionbelow-silver" width="2286" height="2428"/>
+    </resources>
+</document>
