@@ -2,22 +2,14 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "rotateRightFrameGold.png",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "rotateRightFrameGold@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "rotateRightFrameGold@3x.png",
-      "scale" : "3x"
+      "filename" : "rotateRightFrameGold.pdf"
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
   }
 }

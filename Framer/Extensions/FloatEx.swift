@@ -13,6 +13,6 @@ extension Float {
     
     func colorValue() -> CGFloat {
         
-        return CGFloat((self ?? 0) / 255)
+        return CGFloat(self / 255)
     }
 }

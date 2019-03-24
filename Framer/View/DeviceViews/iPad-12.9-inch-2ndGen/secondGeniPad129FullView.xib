@@ -18,35 +18,59 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad-1292nd-fulldevice-silver" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-bV-A79">
                     <rect key="frame" x="0.0" y="0.0" width="2286" height="3168"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-N6-wBb">
-                    <rect key="frame" x="119" y="218" width="2048" height="2732"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="8rh-N6-wBb" secondAttribute="height" multiplier="2048:2732" id="VnH-hu-xNS"/>
-                        <constraint firstAttribute="height" priority="750" constant="2732" id="nKa-2g-J84"/>
+                        <constraint firstAttribute="width" secondItem="X1z-bV-A79" secondAttribute="height" multiplier="2286:3168" id="ahx-pV-VbR"/>
+                        <constraint firstAttribute="height" priority="750" constant="3168" id="ny2-Jw-zGP"/>
                     </constraints>
                 </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3LO-kp-Isf">
+                    <rect key="frame" x="119" y="218" width="2048" height="2732"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8rh-N6-wBb">
+                            <rect key="frame" x="0.0" y="0.0" width="2048" height="2732"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad-1292nd-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="dvD-XJ-Oac" userLabel="statusbar">
+                            <rect key="frame" x="0.0" y="0.0" width="2048" height="140"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="dvD-XJ-Oac" secondAttribute="height" multiplier="2048:140" id="0CT-tc-sZl"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="8rh-N6-wBb" secondAttribute="bottom" id="0IY-OC-Ikz"/>
+                        <constraint firstAttribute="trailing" secondItem="dvD-XJ-Oac" secondAttribute="trailing" id="JW1-4E-hjh"/>
+                        <constraint firstItem="dvD-XJ-Oac" firstAttribute="leading" secondItem="3LO-kp-Isf" secondAttribute="leading" id="Ki7-7j-lpJ"/>
+                        <constraint firstItem="8rh-N6-wBb" firstAttribute="leading" secondItem="3LO-kp-Isf" secondAttribute="leading" id="MkV-4r-x1q"/>
+                        <constraint firstItem="8rh-N6-wBb" firstAttribute="top" secondItem="3LO-kp-Isf" secondAttribute="top" id="d58-5N-vg7"/>
+                        <constraint firstAttribute="trailing" secondItem="8rh-N6-wBb" secondAttribute="trailing" id="h5C-7n-kS3"/>
+                        <constraint firstAttribute="width" secondItem="3LO-kp-Isf" secondAttribute="height" multiplier="2048:2732" id="kMO-Ei-uqV"/>
+                        <constraint firstItem="dvD-XJ-Oac" firstAttribute="top" secondItem="3LO-kp-Isf" secondAttribute="top" id="mjU-EB-ANU"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="AuR-IX-Nvm"/>
-                <constraint firstItem="8rh-N6-wBb" firstAttribute="centerX" secondItem="X1z-bV-A79" secondAttribute="centerX" id="IdL-A4-Jaj"/>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MJy-Mh-qx3"/>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Mvh-16-D2n"/>
+                <constraint firstItem="3LO-kp-Isf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1Qp-Va-gZZ"/>
+                <constraint firstItem="3LO-kp-Isf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2gG-F1-Ju0"/>
+                <constraint firstItem="X1z-bV-A79" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6aQ-HP-TGc"/>
+                <constraint firstAttribute="trailing" secondItem="X1z-bV-A79" secondAttribute="trailing" id="7SK-qh-QM0"/>
+                <constraint firstAttribute="bottom" secondItem="X1z-bV-A79" secondAttribute="bottom" id="AaK-Yj-8rB"/>
                 <constraint firstItem="X1z-bV-A79" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PeD-dv-9iC"/>
-                <constraint firstItem="8rh-N6-wBb" firstAttribute="centerY" secondItem="X1z-bV-A79" secondAttribute="centerY" id="V4X-Iu-3QF"/>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="x3d-B4-Ii7"/>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zm5-1t-bzY"/>
+                <constraint firstItem="3LO-kp-Isf" firstAttribute="height" secondItem="X1z-bV-A79" secondAttribute="height" multiplier="2732:3168" id="dZ2-sv-rOz"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="deviceFrame" destination="X1z-bV-A79" id="ZBv-hT-bJ9"/>
                 <outlet property="img" destination="8rh-N6-wBb" id="gN6-5x-hfg"/>
+                <outlet property="imgView" destination="3LO-kp-Isf" id="6Cu-w1-NQ0"/>
             </connections>
             <point key="canvasLocation" x="-15.199999999999999" y="166.41679160419793"/>
         </view>
     </objects>
     <resources>
         <image name="ipad-1292nd-fulldevice-silver" width="2286" height="3168"/>
+        <image name="ipad-1292nd-statusbar" width="2048" height="140"/>
     </resources>
 </document>

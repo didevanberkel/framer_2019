@@ -72,82 +72,81 @@ class HomeViewController: UIViewController {
         var priorAnchor = scrollView.leadingAnchor
         
         for i in 0 ..< deviceModels.count {
-            let deviceModel = deviceViews[i]
-            
-            // set the proper aspect ratio of the specific device.
-            var appStoreViewWidth: CGFloat = 0.0
-            var appStoreViewHeight: CGFloat = 0.0
-            var screenshotWidth: CGFloat = 0.0
-
-            switch deviceModel.device {
-            case .iPhone55:
-                // for full devices
-                appStoreViewWidth = 1242
-                appStoreViewHeight = 2208
-                
-                screenshotWidth = 1436
-            case .iPhone65:
-                // for full devices
-                appStoreViewWidth = 1242
-                appStoreViewHeight = 2688
-                
-                screenshotWidth = 1413
-            case .iPad129second:
-                break
-            case .iPad129third:
-                break
-            }
-            
             // Set the constraints of the appstore view.
-            
             if let appStoreView = Bundle.main.loadNibNamed("AppStoreView", owner: self, options: nil)?.first as? AppStoreView {
+                
+                let deviceModel = deviceViews[i]
+                
+                // set the proper aspect ratio of the specific device.
+                var appStoreViewWidth: CGFloat = 0.0
+                var appStoreViewHeight: CGFloat = 0.0
+                
+                var deviceViewWidth: CGFloat = 0.0
+                var deviceViewHeight: CGFloat = 0.0
+                
+                switch deviceModel.device {
+                case .iPhone55:
+                    // for full devices
+                    appStoreViewWidth = 1242
+                    appStoreViewHeight = 2208
+                    
+                    deviceViewWidth = 2550
+                    deviceViewHeight = 3182
+//                    if deviceModel.template == .captionAbove || deviceModel.template == .captionBelow || deviceModel.template == .rotateLeftCaptionAbove || deviceModel.template == .rotateLeftCaptionBelow || deviceModel.template == .rotateRightCaptionAbove || deviceModel.template == .rotateRightCaptionBelow {
+//                        deviceViewWidth = 2550
+//                        deviceViewHeight = 2300
+//                    } else {
+//
+//                    }
+                case .iPhone65:
+                    // for full devices
+                    appStoreViewWidth = 1242
+                    appStoreViewHeight = 2688
+                    
+                case .iPad129second:
+                    break
+                case .iPad129third:
+                    break
+                }
                 
                 // This is just a transparent view to add the dev view on.
                 let transparentView = UIView()
                 transparentView.translatesAutoresizingMaskIntoConstraints = false
                 transparentView.backgroundColor = UIColor.clear
-                scrollView.addSubview(transparentView)
-                
-                // Eventually, the dev view is exported as png, so this view has to be the right aspect ratio for the app store, and the right specs (backgroundColor, etc).
                 appStoreView.translatesAutoresizingMaskIntoConstraints = false
                 appStoreView.backgroundColor = UIColor.clear
-                transparentView.addSubview(appStoreView)
-                let devViewWidthAnchor = appStoreView.widthAnchor.constraint(equalToConstant: appStoreViewWidth)
-                devViewWidthAnchor.priority = UILayoutPriority(rawValue: 250)
-                
                 deviceModel.deviceView.translatesAutoresizingMaskIntoConstraints = false
+                
+                scrollView.addSubview(transparentView)
+                transparentView.addSubview(appStoreView)
                 appStoreView.deviceView.addSubview(deviceModel.deviceView)
-                let screenshotWidthAnchor = appStoreView.widthAnchor.constraint(equalToConstant: screenshotWidth)
-                screenshotWidthAnchor.priority = UILayoutPriority(rawValue: 250)
+                
+                // Eventually, the dev view is exported as png, so this view has to be the right aspect ratio for the app store, and the right specs (backgroundColor, etc).
+                let aspectRatio = appStoreView.heightAnchor.constraint(equalTo: appStoreView.widthAnchor, multiplier: appStoreViewHeight/appStoreViewWidth)
+                let aspectRatioDevice = deviceModel.deviceView.heightAnchor.constraint(equalTo: deviceModel.deviceView.widthAnchor, multiplier: deviceViewHeight/deviceViewWidth)
                 
                 NSLayoutConstraint.activate([
                     
-                    transparentView.centerYAnchor.constraint(equalTo: scrollParent.centerYAnchor),
+                    //transparentView.centerYAnchor.constraint(equalTo: scrollParent.centerYAnchor),
                     transparentView.leadingAnchor.constraint(equalTo: priorAnchor),
-                    transparentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
-                    transparentView.topAnchor.constraint(equalTo: scrollView.topAnchor),
+                    transparentView.bottomAnchor.constraint(equalTo: scrollParent.bottomAnchor),
+                    transparentView.topAnchor.constraint(equalTo: scrollParent.topAnchor),
                     transparentView.heightAnchor.constraint(equalTo: scrollParent.heightAnchor),
                     transparentView.widthAnchor.constraint(equalTo: scrollParent.widthAnchor),
                     
-                    devViewWidthAnchor,
-                    
-                    appStoreView.heightAnchor.constraint(equalTo: appStoreView.widthAnchor, multiplier: appStoreViewHeight/appStoreViewWidth),
-                    
-                    appStoreView.centerYAnchor.constraint(equalTo: transparentView.centerYAnchor),
+                    aspectRatio,
                     appStoreView.centerXAnchor.constraint(equalTo: transparentView.centerXAnchor),
-                    appStoreView.topAnchor.constraint(greaterThanOrEqualTo: transparentView.topAnchor, constant: 24),
-                    appStoreView.bottomAnchor.constraint(lessThanOrEqualTo: transparentView.bottomAnchor, constant: -24),
-                    appStoreView.leadingAnchor.constraint(greaterThanOrEqualTo: transparentView.leadingAnchor, constant: 16),
-                    appStoreView.trailingAnchor.constraint(lessThanOrEqualTo: transparentView.trailingAnchor, constant: -16),
+                    appStoreView.centerYAnchor.constraint(equalTo: transparentView.centerYAnchor),
+                    appStoreView.topAnchor.constraint(equalTo: transparentView.topAnchor, constant: 24),
+                    appStoreView.bottomAnchor.constraint(equalTo: transparentView.bottomAnchor, constant: -24),
+                    appStoreView.leadingAnchor.constraint(greaterThanOrEqualTo: transparentView.leadingAnchor),
+                    appStoreView.trailingAnchor.constraint(lessThanOrEqualTo: transparentView.trailingAnchor),
                     
-                    screenshotWidthAnchor,
-
-                    deviceModel.deviceView.centerYAnchor.constraint(equalTo: appStoreView.deviceView.centerYAnchor),
+                    aspectRatioDevice,
                     deviceModel.deviceView.centerXAnchor.constraint(equalTo: appStoreView.deviceView.centerXAnchor),
-                    deviceModel.deviceView.topAnchor.constraint(greaterThanOrEqualTo: appStoreView.deviceView.topAnchor),
-                    deviceModel.deviceView.bottomAnchor.constraint(lessThanOrEqualTo: appStoreView.deviceView.bottomAnchor),
-                    deviceModel.deviceView.leadingAnchor.constraint(greaterThanOrEqualTo: appStoreView.deviceView.leadingAnchor),
-                    deviceModel.deviceView.trailingAnchor.constraint(lessThanOrEqualTo: appStoreView.deviceView.trailingAnchor)
+                    deviceModel.deviceView.centerYAnchor.constraint(equalTo: appStoreView.deviceView.centerYAnchor),
+                    deviceModel.deviceView.leadingAnchor.constraint(equalTo: appStoreView.deviceView.leadingAnchor),
+                    deviceModel.deviceView.trailingAnchor.constraint(equalTo: appStoreView.deviceView.trailingAnchor)
                     
                     ])
                 

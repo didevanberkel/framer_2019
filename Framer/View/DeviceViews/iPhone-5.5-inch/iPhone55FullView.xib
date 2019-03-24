@@ -13,50 +13,45 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clipsSubviews="YES" contentMode="scaleAspectFit" id="jnd-XW-UEx" customClass="iPhone55FullView" customModule="Framer" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
+            <rect key="frame" x="0.0" y="0.0" width="2550" height="3182"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-fulldevice-silver" translatesAutoresizingMaskIntoConstraints="NO" id="ogN-Vq-LN0">
-                    <rect key="frame" x="0.0" y="0.0" width="1436" height="2876"/>
-                    <constraints>
-                        <constraint firstAttribute="width" secondItem="ogN-Vq-LN0" secondAttribute="height" multiplier="1436:2876" id="MWd-Il-Z0v"/>
-                        <constraint firstAttribute="height" priority="750" constant="2876" id="SJl-TC-hn0"/>
-                    </constraints>
+                    <rect key="frame" x="0.0" y="0.0" width="2550" height="3182"/>
                 </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cRP-wi-xoE">
-                    <rect key="frame" x="97" y="334" width="1242" height="2208"/>
+                <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="cRP-wi-xoE">
+                    <rect key="frame" x="0.0" y="0.0" width="2550" height="3182"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mN8-mn-Yyo">
-                            <rect key="frame" x="0.0" y="0.0" width="1242" height="2208"/>
+                            <rect key="frame" x="654" y="487" width="1242" height="2208"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-Pg-H5d">
-                            <rect key="frame" x="0.0" y="0.0" width="1242" height="90"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-Pg-H5d">
+                            <rect key="frame" x="654" y="487" width="1242" height="90"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="HDw-Pg-H5d" secondAttribute="height" multiplier="69:5" id="aer-0Y-Dfg"/>
                             </constraints>
                         </imageView>
                     </subviews>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="cRP-wi-xoE" secondAttribute="height" multiplier="1242:2208" id="4Pm-5n-pkS"/>
-                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="top" secondItem="cRP-wi-xoE" secondAttribute="top" id="KyW-8P-nAT"/>
-                        <constraint firstItem="HDw-Pg-H5d" firstAttribute="leading" secondItem="cRP-wi-xoE" secondAttribute="leading" id="LUX-cW-bva"/>
-                        <constraint firstAttribute="bottom" secondItem="mN8-mn-Yyo" secondAttribute="bottom" id="VKL-s2-ePe"/>
-                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="leading" secondItem="cRP-wi-xoE" secondAttribute="leading" id="dNf-YW-fQY"/>
-                        <constraint firstItem="HDw-Pg-H5d" firstAttribute="top" secondItem="cRP-wi-xoE" secondAttribute="top" id="df4-AS-x8p"/>
-                        <constraint firstAttribute="trailing" secondItem="HDw-Pg-H5d" secondAttribute="trailing" id="kwo-Ao-Nqk"/>
-                        <constraint firstAttribute="trailing" secondItem="mN8-mn-Yyo" secondAttribute="trailing" id="rLh-SH-52G"/>
+                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="width" secondItem="cRP-wi-xoE" secondAttribute="width" multiplier="1242:2550" id="7iz-Id-Eci"/>
+                        <constraint firstItem="HDw-Pg-H5d" firstAttribute="trailing" secondItem="mN8-mn-Yyo" secondAttribute="trailing" id="9Nh-50-WHk"/>
+                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="height" secondItem="cRP-wi-xoE" secondAttribute="height" multiplier="2208:3182" id="DhL-u7-IvR"/>
+                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="centerY" secondItem="cRP-wi-xoE" secondAttribute="centerY" id="IZD-g9-zCY"/>
+                        <constraint firstItem="HDw-Pg-H5d" firstAttribute="leading" secondItem="mN8-mn-Yyo" secondAttribute="leading" id="hQ9-Y5-gfZ"/>
+                        <constraint firstItem="HDw-Pg-H5d" firstAttribute="top" secondItem="mN8-mn-Yyo" secondAttribute="top" id="nkf-BV-GEk"/>
+                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="centerX" secondItem="cRP-wi-xoE" secondAttribute="centerX" id="qFm-FQ-8uf"/>
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="cRP-wi-xoE" firstAttribute="height" secondItem="ogN-Vq-LN0" secondAttribute="height" multiplier="2208:2876" id="GYH-nc-xQk"/>
-                <constraint firstItem="ogN-Vq-LN0" firstAttribute="leading" secondItem="jnd-XW-UEx" secondAttribute="leading" id="MXx-0w-dgm"/>
-                <constraint firstAttribute="bottom" secondItem="ogN-Vq-LN0" secondAttribute="bottom" id="Nfe-P0-S0f"/>
-                <constraint firstItem="cRP-wi-xoE" firstAttribute="centerX" secondItem="jnd-XW-UEx" secondAttribute="centerX" id="WwK-pn-ft5"/>
-                <constraint firstItem="cRP-wi-xoE" firstAttribute="centerY" secondItem="jnd-XW-UEx" secondAttribute="centerY" id="dcC-9N-WsH"/>
-                <constraint firstItem="ogN-Vq-LN0" firstAttribute="top" secondItem="jnd-XW-UEx" secondAttribute="top" id="sqn-wN-pkv"/>
-                <constraint firstAttribute="trailing" secondItem="ogN-Vq-LN0" secondAttribute="trailing" id="xl7-Nc-U9E"/>
+                <constraint firstAttribute="trailing" secondItem="cRP-wi-xoE" secondAttribute="trailing" id="0cY-bN-hzp"/>
+                <constraint firstAttribute="bottom" secondItem="cRP-wi-xoE" secondAttribute="bottom" id="2Br-ae-T5f"/>
+                <constraint firstItem="cRP-wi-xoE" firstAttribute="top" secondItem="jnd-XW-UEx" secondAttribute="top" id="Dfq-cb-bwx"/>
+                <constraint firstItem="ogN-Vq-LN0" firstAttribute="leading" secondItem="jnd-XW-UEx" secondAttribute="leading" id="HBH-u4-dFm"/>
+                <constraint firstItem="ogN-Vq-LN0" firstAttribute="top" secondItem="jnd-XW-UEx" secondAttribute="top" id="Hno-v9-Ajm"/>
+                <constraint firstAttribute="trailing" secondItem="ogN-Vq-LN0" secondAttribute="trailing" id="IuO-ov-PHY"/>
+                <constraint firstAttribute="bottom" secondItem="ogN-Vq-LN0" secondAttribute="bottom" id="KYE-0c-ZmW"/>
+                <constraint firstItem="cRP-wi-xoE" firstAttribute="leading" secondItem="jnd-XW-UEx" secondAttribute="leading" id="ik7-1l-0UB"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="XZT-OQ-mwS"/>
@@ -69,7 +64,7 @@
         </view>
     </objects>
     <resources>
-        <image name="iphone-55-fulldevice-silver" width="1436" height="2876"/>
+        <image name="iphone-55-fulldevice-silver" width="160" height="200"/>
         <image name="iphone-55-statusbar" width="1242" height="90"/>
     </resources>
 </document>

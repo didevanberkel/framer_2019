@@ -16,41 +16,30 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dMx-ZP-EKw">
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dMx-ZP-EKw">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5x-eg-jWK" customClass="TopTextView" customModule="Framer" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                             <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="100" id="eup-D2-VfB"/>
+                                <constraint firstAttribute="height" constant="80" id="eup-D2-VfB"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DZ-4j-qfm">
-                            <rect key="frame" x="0.0" y="100" width="375" height="467"/>
+                            <rect key="frame" x="0.0" y="80" width="375" height="507"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsq-kd-eFS" customClass="BottomTextView" customModule="Framer" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                            <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                             <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="100" id="hok-NA-zMX"/>
+                                <constraint firstAttribute="height" constant="80" id="hok-NA-zMX"/>
                             </constraints>
                         </view>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="0DZ-4j-qfm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dMx-ZP-EKw" secondAttribute="leading" id="1jE-d7-5ae"/>
-                        <constraint firstItem="L5x-eg-jWK" firstAttribute="top" secondItem="dMx-ZP-EKw" secondAttribute="top" id="BUs-DL-RZt"/>
-                        <constraint firstAttribute="trailing" secondItem="L5x-eg-jWK" secondAttribute="trailing" id="G1V-EP-Obc"/>
-                        <constraint firstAttribute="bottom" secondItem="fsq-kd-eFS" secondAttribute="bottom" id="GaO-tH-S3u"/>
-                        <constraint firstItem="L5x-eg-jWK" firstAttribute="leading" secondItem="dMx-ZP-EKw" secondAttribute="leading" id="KGH-DE-EiA"/>
-                        <constraint firstItem="fsq-kd-eFS" firstAttribute="top" secondItem="0DZ-4j-qfm" secondAttribute="bottom" id="N28-qo-Trf"/>
-                        <constraint firstItem="fsq-kd-eFS" firstAttribute="leading" secondItem="dMx-ZP-EKw" secondAttribute="leading" id="QCi-fu-6kO"/>
                         <constraint firstAttribute="width" secondItem="dMx-ZP-EKw" secondAttribute="height" multiplier="1242:2208" id="gQl-uF-Mp1"/>
-                        <constraint firstItem="0DZ-4j-qfm" firstAttribute="top" secondItem="L5x-eg-jWK" secondAttribute="bottom" id="jXq-ZR-yIa"/>
                         <constraint firstAttribute="width" priority="750" constant="1242" id="lLZ-gR-l8x"/>
-                        <constraint firstAttribute="trailing" secondItem="fsq-kd-eFS" secondAttribute="trailing" id="pmH-Co-jCo"/>
-                        <constraint firstItem="0DZ-4j-qfm" firstAttribute="centerX" secondItem="dMx-ZP-EKw" secondAttribute="centerX" id="uSW-yw-eoH"/>
-                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0DZ-4j-qfm" secondAttribute="trailing" id="vhR-6b-Fun"/>
                     </constraints>
                 </stackView>
             </subviews>

@@ -48,12 +48,12 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="sVX-uS-oD3" firstAttribute="bottom" secondItem="LLJ-6R-HNk" secondAttribute="bottom" id="3Yk-vm-lr5"/>
-                            <constraint firstItem="sVX-uS-oD3" firstAttribute="trailing" secondItem="DPy-jt-nLS" secondAttribute="trailing" id="9it-dN-mSA"/>
                             <constraint firstItem="LLJ-6R-HNk" firstAttribute="leading" secondItem="sVX-uS-oD3" secondAttribute="leading" id="B90-aj-oJc"/>
+                            <constraint firstItem="DPy-jt-nLS" firstAttribute="leading" secondItem="bSH-qs-4ie" secondAttribute="leading" id="YQF-ox-AXP"/>
+                            <constraint firstAttribute="trailing" secondItem="DPy-jt-nLS" secondAttribute="trailing" id="cAy-bN-D3r"/>
                             <constraint firstItem="LLJ-6R-HNk" firstAttribute="trailing" secondItem="sVX-uS-oD3" secondAttribute="trailing" id="cc3-AR-Rrf"/>
                             <constraint firstItem="LLJ-6R-HNk" firstAttribute="top" secondItem="DPy-jt-nLS" secondAttribute="bottom" id="mPP-vg-k5D"/>
-                            <constraint firstItem="DPy-jt-nLS" firstAttribute="leading" secondItem="sVX-uS-oD3" secondAttribute="leading" id="n8L-jN-qCI"/>
-                            <constraint firstItem="DPy-jt-nLS" firstAttribute="top" secondItem="sVX-uS-oD3" secondAttribute="top" id="uq9-pM-Dyl"/>
+                            <constraint firstItem="DPy-jt-nLS" firstAttribute="top" secondItem="sVX-uS-oD3" secondAttribute="top" id="nuY-65-K0n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sVX-uS-oD3"/>
                     </view>

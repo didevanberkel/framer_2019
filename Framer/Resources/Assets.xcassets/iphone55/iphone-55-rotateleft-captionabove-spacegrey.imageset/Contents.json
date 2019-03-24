@@ -2,22 +2,14 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "rotateLeftCaptionAboveFrameGrey.png",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "rotateLeftCaptionAboveFrameGrey@2x.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "rotateLeftCaptionAboveFrameGrey@3x.png",
-      "scale" : "3x"
+      "filename" : "rotateLeftCaptionAboveFrameGrey.pdf"
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
   }
 }

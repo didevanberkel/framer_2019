@@ -17,22 +17,26 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-bV-A79">
-                    <rect key="frame" x="0.0" y="20" width="2286" height="3148"/>
+                    <rect key="frame" x="0.0" y="0.0" width="2286" height="3168"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="X1z-bV-A79" secondAttribute="height" multiplier="2286:3168" id="mXG-Ye-Nbo"/>
+                        <constraint firstAttribute="height" priority="750" constant="3168" id="xTa-tS-gzt"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="X1z-bV-A79" secondAttribute="trailing" id="4AT-6o-gow"/>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="AI5-gp-9Wv"/>
-                <constraint firstItem="X1z-bV-A79" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Klx-Hf-2T9"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="X1z-bV-A79" secondAttribute="bottom" id="vgu-Wn-0Od"/>
+                <constraint firstItem="X1z-bV-A79" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="O2p-6F-aAx"/>
+                <constraint firstItem="X1z-bV-A79" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Vs8-Vk-bgk"/>
+                <constraint firstItem="X1z-bV-A79" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Yqx-VG-dR9"/>
+                <constraint firstAttribute="trailing" secondItem="X1z-bV-A79" secondAttribute="trailing" id="p7m-0Q-C5f"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="img" destination="X1z-bV-A79" id="n5Z-QN-r0D"/>
             </connections>
-            <point key="canvasLocation" x="-15" y="167"/>
+            <point key="canvasLocation" x="-16" y="166.41679160419793"/>
         </view>
     </objects>
 </document>
