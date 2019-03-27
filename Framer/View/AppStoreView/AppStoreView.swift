@@ -13,11 +13,10 @@ class AppStoreView: UIView {
     @IBOutlet weak var deviceView: UIView!
     @IBOutlet weak var topTextView: TopTextView!
     @IBOutlet weak var bottomTextView: BottomTextView!
-    //@IBOutlet weak var deviceAspectRatioiPhone55: NSLayoutConstraint!
     
     override func awakeFromNib() {
-        topTextView.isHidden = true
-        bottomTextView.isHidden = true
+        topTextView.isHidden = false
+        bottomTextView.isHidden = false
     }
     
     func setupBackgroundColors(colors: [UIColor]) {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,26 +34,40 @@
                         </imageView>
                     </subviews>
                     <constraints>
+                        <constraint firstItem="LGG-b8-8oZ" firstAttribute="centerX" secondItem="0vh-aI-NxU" secondAttribute="centerX" multiplier="0.815" identifier="rotateleft" id="AlZ-67-8fF"/>
                         <constraint firstItem="atZ-G2-t8h" firstAttribute="trailing" secondItem="LGG-b8-8oZ" secondAttribute="trailing" id="CND-aT-3Ho"/>
                         <constraint firstItem="LGG-b8-8oZ" firstAttribute="width" secondItem="0vh-aI-NxU" secondAttribute="width" multiplier="1672:2550" id="UTJ-lA-2fr"/>
+                        <constraint firstAttribute="bottom" secondItem="LGG-b8-8oZ" secondAttribute="bottom" multiplier="0.885" identifier="rotateleft" id="Uar-9T-Ug0"/>
                         <constraint firstItem="atZ-G2-t8h" firstAttribute="leading" secondItem="LGG-b8-8oZ" secondAttribute="leading" id="XH5-Uw-ssC"/>
                         <constraint firstAttribute="bottom" secondItem="LGG-b8-8oZ" secondAttribute="bottom" id="aeU-ML-Gmk"/>
                         <constraint firstItem="atZ-G2-t8h" firstAttribute="top" secondItem="LGG-b8-8oZ" secondAttribute="top" id="gke-Py-zLg"/>
                         <constraint firstItem="LGG-b8-8oZ" firstAttribute="height" secondItem="0vh-aI-NxU" secondAttribute="height" multiplier="2731:3182" id="mAz-9q-eZl"/>
+                        <constraint firstItem="LGG-b8-8oZ" firstAttribute="height" secondItem="0vh-aI-NxU" secondAttribute="height" multiplier="2971:3182" identifier="rotateleftandright" id="xDs-DK-554"/>
+                        <constraint firstItem="LGG-b8-8oZ" firstAttribute="centerX" secondItem="0vh-aI-NxU" secondAttribute="centerX" multiplier="1.192" identifier="rotateright" id="xlD-FG-VHG"/>
                         <constraint firstItem="LGG-b8-8oZ" firstAttribute="centerX" secondItem="0vh-aI-NxU" secondAttribute="centerX" id="yiN-UU-YGw"/>
                     </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="AlZ-67-8fF"/>
+                            <exclude reference="Uar-9T-Ug0"/>
+                            <exclude reference="xDs-DK-554"/>
+                            <exclude reference="xlD-FG-VHG"/>
+                        </mask>
+                    </variation>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
             <constraints>
                 <constraint firstItem="OHQ-0q-tI8" firstAttribute="top" secondItem="KHV-w7-vTb" secondAttribute="top" id="5B1-Gq-hVr"/>
-                <constraint firstItem="0vh-aI-NxU" firstAttribute="height" secondItem="KHV-w7-vTb" secondAttribute="height" id="Hrv-kO-CDb"/>
+                <constraint firstItem="0vh-aI-NxU" firstAttribute="bottom" secondItem="WyF-IR-glD" secondAttribute="bottom" id="HkG-jg-t0G"/>
                 <constraint firstAttribute="bottom" secondItem="OHQ-0q-tI8" secondAttribute="bottom" id="RvT-Xr-roJ"/>
-                <constraint firstItem="0vh-aI-NxU" firstAttribute="width" secondItem="KHV-w7-vTb" secondAttribute="width" id="Z6P-A3-qrQ"/>
-                <constraint firstItem="0vh-aI-NxU" firstAttribute="centerX" secondItem="KHV-w7-vTb" secondAttribute="centerX" id="fth-xE-QUM"/>
-                <constraint firstItem="0vh-aI-NxU" firstAttribute="centerY" secondItem="KHV-w7-vTb" secondAttribute="centerY" id="j8m-Vu-9Zd"/>
+                <constraint firstItem="0vh-aI-NxU" firstAttribute="leading" secondItem="WyF-IR-glD" secondAttribute="leading" id="VTa-82-8pa"/>
+                <constraint firstItem="0vh-aI-NxU" firstAttribute="top" secondItem="KHV-w7-vTb" secondAttribute="top" id="hoD-Cs-Smq"/>
+                <constraint firstItem="OHQ-0q-tI8" firstAttribute="centerX" secondItem="KHV-w7-vTb" secondAttribute="centerX" id="jqm-oa-4e0"/>
                 <constraint firstItem="OHQ-0q-tI8" firstAttribute="leading" secondItem="KHV-w7-vTb" secondAttribute="leading" id="kGM-HQ-4kH"/>
                 <constraint firstAttribute="trailing" secondItem="OHQ-0q-tI8" secondAttribute="trailing" id="qsg-w8-hHb"/>
+                <constraint firstItem="0vh-aI-NxU" firstAttribute="trailing" secondItem="WyF-IR-glD" secondAttribute="trailing" id="wrK-wK-GxW"/>
+                <constraint firstItem="0vh-aI-NxU" firstAttribute="centerX" secondItem="KHV-w7-vTb" secondAttribute="centerX" id="yRg-sa-Q6Z"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="WyF-IR-glD"/>
@@ -61,6 +75,15 @@
                 <outlet property="deviceFrame" destination="OHQ-0q-tI8" id="bGa-M3-7a0"/>
                 <outlet property="img" destination="LGG-b8-8oZ" id="ugT-68-3fU"/>
                 <outlet property="imgView" destination="0vh-aI-NxU" id="MfI-Lv-5Fz"/>
+                <outletCollection property="normalConstraints" destination="mAz-9q-eZl" collectionClass="NSMutableArray" id="ssi-2N-SN0"/>
+                <outletCollection property="normalConstraints" destination="aeU-ML-Gmk" collectionClass="NSMutableArray" id="6W7-Fu-h5F"/>
+                <outletCollection property="normalConstraints" destination="yiN-UU-YGw" collectionClass="NSMutableArray" id="AtE-tW-xHr"/>
+                <outletCollection property="rotatedLeftConstraints" destination="xDs-DK-554" collectionClass="NSMutableArray" id="lPw-IY-6kx"/>
+                <outletCollection property="rotatedLeftConstraints" destination="AlZ-67-8fF" collectionClass="NSMutableArray" id="603-fM-an4"/>
+                <outletCollection property="rotatedLeftConstraints" destination="Uar-9T-Ug0" collectionClass="NSMutableArray" id="Pog-A2-WP8"/>
+                <outletCollection property="rotatedRightConstraints" destination="Uar-9T-Ug0" collectionClass="NSMutableArray" id="bOZ-WC-SCS"/>
+                <outletCollection property="rotatedRightConstraints" destination="xDs-DK-554" collectionClass="NSMutableArray" id="jIz-BX-g3J"/>
+                <outletCollection property="rotatedRightConstraints" destination="xlD-FG-VHG" collectionClass="NSMutableArray" id="Aad-jN-diS"/>
             </connections>
             <point key="canvasLocation" x="53.600000000000001" y="109.74512743628186"/>
         </view>

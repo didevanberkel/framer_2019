@@ -14,6 +14,10 @@ class iPhone55CaptionAbove: UIView {
     @IBOutlet weak var deviceFrame: UIImageView!
     @IBOutlet weak var img: UIImageView!
     
+    @IBOutlet var rotatedLeftConstraints: [NSLayoutConstraint]!
+    @IBOutlet var rotatedRightConstraints: [NSLayoutConstraint]!
+    @IBOutlet var normalConstraints: [NSLayoutConstraint]!
+    
     var deviceImgStr: String? {
         didSet {
             deviceFrame.image = UIImage(named: deviceImgStr ?? "")
@@ -32,6 +36,44 @@ class iPhone55CaptionAbove: UIView {
         didSet {
             if let content = deviceContent {
                 img.image = UIImage(named: content)
+            }
+        }
+    }
+    
+    override func layoutSubviews() {
+        if let rotation = deviceRotation {
+            for constraint in normalConstraints {
+                constraint.isActive = false
+            }
+            if rotation < 0.0 {
+                // left rotation
+                for constraint in rotatedRightConstraints {
+                    constraint.isActive = false
+                }
+                
+                for constraint in rotatedLeftConstraints {
+                    constraint.isActive = true
+                }
+                
+
+            } else {
+                for constraint in rotatedLeftConstraints {
+                    constraint.isActive = false
+                }
+                for constraint in rotatedRightConstraints {
+                    constraint.isActive = true
+                }
+                
+            }
+        } else {
+            for constraint in rotatedRightConstraints {
+                constraint.isActive = false
+            }
+            for constraint in rotatedLeftConstraints {
+                constraint.isActive = false
+            }
+            for constraint in normalConstraints {
+                constraint.isActive = true
             }
         }
     }

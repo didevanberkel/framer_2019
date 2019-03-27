@@ -92,12 +92,6 @@ class HomeViewController: UIViewController {
                     
                     deviceViewWidth = 2550
                     deviceViewHeight = 3182
-//                    if deviceModel.template == .captionAbove || deviceModel.template == .captionBelow || deviceModel.template == .rotateLeftCaptionAbove || deviceModel.template == .rotateLeftCaptionBelow || deviceModel.template == .rotateRightCaptionAbove || deviceModel.template == .rotateRightCaptionBelow {
-//                        deviceViewWidth = 2550
-//                        deviceViewHeight = 2300
-//                    } else {
-//
-//                    }
                 case .iPhone65:
                     // for full devices
                     appStoreViewWidth = 1242
@@ -127,7 +121,6 @@ class HomeViewController: UIViewController {
                 
                 NSLayoutConstraint.activate([
                     
-                    //transparentView.centerYAnchor.constraint(equalTo: scrollParent.centerYAnchor),
                     transparentView.leadingAnchor.constraint(equalTo: priorAnchor),
                     transparentView.bottomAnchor.constraint(equalTo: scrollParent.bottomAnchor),
                     transparentView.topAnchor.constraint(equalTo: scrollParent.topAnchor),
