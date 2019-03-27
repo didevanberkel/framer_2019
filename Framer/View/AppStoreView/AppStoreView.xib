@@ -16,49 +16,47 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dMx-ZP-EKw">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5x-eg-jWK" customClass="TopTextView" customModule="Framer" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
-                            <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="80" id="eup-D2-VfB"/>
-                            </constraints>
-                        </view>
-                        <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DZ-4j-qfm">
-                            <rect key="frame" x="0.0" y="80" width="375" height="507"/>
-                        </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsq-kd-eFS" customClass="BottomTextView" customModule="Framer" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="587" width="375" height="80"/>
-                            <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
-                            <constraints>
-                                <constraint firstAttribute="height" priority="250" constant="80" id="hok-NA-zMX"/>
-                            </constraints>
-                        </view>
-                    </subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5x-eg-jWK" customClass="TopTextView" customModule="Framer" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="20" width="375" height="0.0"/>
+                    <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
                     <constraints>
-                        <constraint firstItem="0DZ-4j-qfm" firstAttribute="top" secondItem="L5x-eg-jWK" secondAttribute="bottom" id="Cr8-79-I4C"/>
-                        <constraint firstItem="fsq-kd-eFS" firstAttribute="top" secondItem="0DZ-4j-qfm" secondAttribute="bottom" id="Jvf-8W-aSf"/>
-                        <constraint firstAttribute="width" secondItem="dMx-ZP-EKw" secondAttribute="height" multiplier="1242:2208" id="gQl-uF-Mp1"/>
-                        <constraint firstAttribute="width" priority="750" constant="1242" id="lLZ-gR-l8x"/>
+                        <constraint firstAttribute="height" id="eup-D2-VfB"/>
                     </constraints>
-                </stackView>
+                </view>
+                <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DZ-4j-qfm">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" red="0.76470588240000004" green="0.29803921570000003" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsq-kd-eFS" customClass="BottomTextView" customModule="Framer" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                    <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="hok-NA-zMX"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="dMx-ZP-EKw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="op8-HQ-U9n" secondAttribute="top" id="0aC-St-2HU"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dMx-ZP-EKw" secondAttribute="trailing" id="8OC-pY-Jiz"/>
-                <constraint firstItem="dMx-ZP-EKw" firstAttribute="centerY" secondItem="op8-HQ-U9n" secondAttribute="centerY" id="qur-T0-nXG"/>
-                <constraint firstItem="dMx-ZP-EKw" firstAttribute="centerX" secondItem="op8-HQ-U9n" secondAttribute="centerX" id="yhO-5H-tIw"/>
+                <constraint firstItem="fsq-kd-eFS" firstAttribute="leading" secondItem="op8-HQ-U9n" secondAttribute="leading" id="AiZ-Rt-k4k"/>
+                <constraint firstItem="0DZ-4j-qfm" firstAttribute="trailing" secondItem="zA4-P0-z4K" secondAttribute="trailing" id="EOZ-rD-S3Z"/>
+                <constraint firstItem="fsq-kd-eFS" firstAttribute="top" secondItem="0DZ-4j-qfm" secondAttribute="bottom" id="Iyl-i5-k3M"/>
+                <constraint firstAttribute="trailing" secondItem="fsq-kd-eFS" secondAttribute="trailing" id="Mkc-L5-PUs"/>
+                <constraint firstItem="0DZ-4j-qfm" firstAttribute="top" secondItem="L5x-eg-jWK" secondAttribute="bottom" id="Mrm-7m-t84"/>
+                <constraint firstAttribute="bottom" secondItem="fsq-kd-eFS" secondAttribute="bottom" id="Wy3-4J-0sQ"/>
+                <constraint firstItem="L5x-eg-jWK" firstAttribute="leading" secondItem="op8-HQ-U9n" secondAttribute="leading" id="dbk-Zt-c1s"/>
+                <constraint firstItem="L5x-eg-jWK" firstAttribute="top" secondItem="zA4-P0-z4K" secondAttribute="top" id="irN-28-VcM"/>
+                <constraint firstAttribute="trailing" secondItem="L5x-eg-jWK" secondAttribute="trailing" id="sg3-Hb-vRf"/>
+                <constraint firstItem="0DZ-4j-qfm" firstAttribute="leading" secondItem="zA4-P0-z4K" secondAttribute="leading" id="uHd-9O-o5U"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="zA4-P0-z4K"/>
             <connections>
                 <outlet property="bottomTextView" destination="fsq-kd-eFS" id="l8u-Mx-jNJ"/>
+                <outlet property="bottomTextViewHeightConstraint" destination="hok-NA-zMX" id="GBh-9h-MM2"/>
                 <outlet property="deviceView" destination="0DZ-4j-qfm" id="7Sf-41-Fme"/>
                 <outlet property="topTextView" destination="L5x-eg-jWK" id="il0-67-b5U"/>
+                <outlet property="topTextViewHeightConstraint" destination="eup-D2-VfB" id="fFg-4o-9Q5"/>
             </connections>
-            <point key="canvasLocation" x="121.59999999999999" y="151.12443778110946"/>
+            <point key="canvasLocation" x="120.8" y="150.67466266866569"/>
         </view>
     </objects>
 </document>

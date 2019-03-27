@@ -14,10 +14,8 @@ class AppStoreView: UIView {
     @IBOutlet weak var topTextView: TopTextView!
     @IBOutlet weak var bottomTextView: BottomTextView!
     
-    override func awakeFromNib() {
-        topTextView.isHidden = false
-        bottomTextView.isHidden = false
-    }
+    @IBOutlet weak var topTextViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var bottomTextViewHeightConstraint: NSLayoutConstraint!
     
     func setupBackgroundColors(colors: [UIColor]) {
         self.applyGradient(colors: colors)
@@ -25,8 +23,18 @@ class AppStoreView: UIView {
     
     func showTextAreas(hideTopText: Bool, hideBottomText: Bool) {
         
-        topTextView.isHidden = hideTopText
-        bottomTextView.isHidden = hideBottomText
+        if hideTopText {
+            topTextViewHeightConstraint.constant = 0
+        } else {
+            topTextViewHeightConstraint.constant = 80
+        }
+        if hideBottomText {
+            bottomTextViewHeightConstraint.constant = 0
+        } else {
+            bottomTextViewHeightConstraint.constant = 80
+        }
+//        topTextView.isHidden = hideTopText
+//        bottomTextView.isHidden = hideBottomText
     }
     
 }

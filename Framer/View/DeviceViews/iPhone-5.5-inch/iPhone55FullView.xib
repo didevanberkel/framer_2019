@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,19 +23,19 @@
                     <rect key="frame" x="0.0" y="0.0" width="2550" height="3182"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mN8-mn-Yyo">
-                            <rect key="frame" x="654" y="487" width="1242" height="2208"/>
+                            <rect key="frame" x="588" y="369.5" width="1374" height="2443"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-55-statusbar" translatesAutoresizingMaskIntoConstraints="NO" id="HDw-Pg-H5d">
-                            <rect key="frame" x="654" y="487" width="1242" height="90"/>
+                            <rect key="frame" x="588" y="369.5" width="1374" height="99.5"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="HDw-Pg-H5d" secondAttribute="height" multiplier="69:5" id="aer-0Y-Dfg"/>
                             </constraints>
                         </imageView>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="width" secondItem="cRP-wi-xoE" secondAttribute="width" multiplier="1242:2550" id="7iz-Id-Eci"/>
+                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="width" secondItem="cRP-wi-xoE" secondAttribute="width" multiplier="1374:2550" id="7iz-Id-Eci"/>
                         <constraint firstItem="HDw-Pg-H5d" firstAttribute="trailing" secondItem="mN8-mn-Yyo" secondAttribute="trailing" id="9Nh-50-WHk"/>
-                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="height" secondItem="cRP-wi-xoE" secondAttribute="height" multiplier="2208:3182" id="DhL-u7-IvR"/>
+                        <constraint firstItem="mN8-mn-Yyo" firstAttribute="height" secondItem="cRP-wi-xoE" secondAttribute="height" multiplier="2443:3182" id="DhL-u7-IvR"/>
                         <constraint firstItem="mN8-mn-Yyo" firstAttribute="centerY" secondItem="cRP-wi-xoE" secondAttribute="centerY" id="IZD-g9-zCY"/>
                         <constraint firstItem="HDw-Pg-H5d" firstAttribute="leading" secondItem="mN8-mn-Yyo" secondAttribute="leading" id="hQ9-Y5-gfZ"/>
                         <constraint firstItem="HDw-Pg-H5d" firstAttribute="top" secondItem="mN8-mn-Yyo" secondAttribute="top" id="nkf-BV-GEk"/>
@@ -43,6 +43,7 @@
                     </constraints>
                 </view>
             </subviews>
+            <color key="backgroundColor" red="0.4039215686" green="0.72549019609999998" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="cRP-wi-xoE" secondAttribute="trailing" id="0cY-bN-hzp"/>
                 <constraint firstAttribute="bottom" secondItem="cRP-wi-xoE" secondAttribute="bottom" id="2Br-ae-T5f"/>

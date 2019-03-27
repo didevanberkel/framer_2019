@@ -77,6 +77,10 @@ class HomeViewController: UIViewController {
                 
                 let deviceModel = deviceViews[i]
                 
+                let showTopText = (deviceModel.template == .captionAbove || deviceModel.template == .fullDeviceCaptionAbove || deviceModel.template == .rotateLeftCaptionAbove || deviceModel.template == .rotateRightCaptionAbove || deviceModel.template == .screenshotCaptionAbove)
+                let showBottomText = (deviceModel.template == .captionBelow || deviceModel.template == .fullDeviceCaptionBelow || deviceModel.template == .rotateLeftCaptionBelow || deviceModel.template == .rotateRightCaptionBelow || deviceModel.template == .screenshotCaptionBelow)
+                appStoreView.showTextAreas(hideTopText: !showTopText, hideBottomText: !showBottomText)
+                
                 // set the proper aspect ratio of the specific device.
                 var appStoreViewWidth: CGFloat = 0.0
                 var appStoreViewHeight: CGFloat = 0.0
